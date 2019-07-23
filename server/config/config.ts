@@ -48,10 +48,21 @@ export const config =
     : environments.development;
 
 export const applicationData = {
+  accountCreation: {
+    message:
+      "your account is created, please check your mail to set up new password.",
+    link: `http://localhost:4200/#/accountActivation/?token=`,
+    linkDescription: "Click here to set password",
+    subject: "Welcome to Indi-Invoice",
+    text1: "Welcome to Indi-Invoice! We are happy to have you on board.",
+    text2:
+      "Invoiced takes the work out of billing so you can get back to doing what you do best. By joining Indi-Invoice you have just made an important step towards taking control of your accounts receivable.",
+      text3:"Click on the below link to set a new password for your account."
+  },
   accountActivation: {
     message:
-      "your account is created please check your mail to activate account",
-    link: `http://localhost:3000/#/user/accountActivation/?token=`,
+      "your account is created, please check your mail to activate account",
+    link: `http://localhost:4200/#/user/accountActivation/?token=`,
     linkDescription: "Click here to activate your account",
     subject: "Account Activation",
     text1:

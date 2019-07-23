@@ -10,9 +10,6 @@ export class CompanyController {
     const newCompany = new Company(req.body);
     newCompany.save((err, company) => {
       if (!err && company) {
-        // const newUser = new User(company);
-        // newUser.company = company.id;
-        console.log(company);
         req.body.company = company.id;
         new UserController().addNewUser(req, res);
       } else {

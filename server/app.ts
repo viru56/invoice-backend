@@ -21,20 +21,6 @@ class App {
 
     //support application/x-www-form-urlencoded post data
     this.app.use(bodyParser.urlencoded({ extended: false }));
-
-    // support for html
-    const options = {
-      dotfiles: "ignore",
-      etag: false,
-      extensions: ["htm", "html"],
-      index: false,
-      maxAge: "1d",
-      redirect: false,
-      setHeaders: function(res, path, stat) {
-        res.set("x-timestamp", Date.now());
-      }
-    };
-    this.app.use(express.static("client", options));
   }
   private mongoSetup(): void {
     // mongoose.Promise = global.Promise;

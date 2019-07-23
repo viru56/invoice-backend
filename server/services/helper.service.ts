@@ -92,7 +92,7 @@ export const validateAdminToken = (
           .status(403)
           .json({ message: "Failed to authenticate token." });
       } else {
-        if (decoded.role !== "admin") {
+        if (decoded.role !== "admin" || decoded.role !== "developer") {
           return res
             .status(403)
             .json({ message: "Failed to authenticate token." });
@@ -130,7 +130,7 @@ export const validateEmployeeToken = (
           .status(403)
           .json({ message: "Failed to authenticate token." });
       } else {
-        if (decoded.role !== "employee" || decoded.role !== "admin") {
+        if (decoded.role !== "employee" || decoded.role !== "admin" || decoded.role !== "developer") {
           return res
             .status(403)
             .json({ message: "Failed to authenticate token." });

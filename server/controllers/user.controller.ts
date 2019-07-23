@@ -17,14 +17,16 @@ export class UserController {
       if (!err && user) {
         logger.log("new user added");
         res.status(200).json({
-          message: applicationData.accountActivation.message
+          message: req.body.company
+            ? applicationData.accountCreation.message
+            : applicationData.accountActivation.message
         });
         const token = jwtToken({
-          id: user._id,
+          id: user.id,
           type: "activation",
           email: user.email
         });
-        const mailOptions = {
+        let mailOptions = {
           userName: user.firstName,
           link: `${applicationData.accountActivation.link}${token}`,
           linkDescription: applicationData.accountActivation.linkDescription,
@@ -33,8 +35,19 @@ export class UserController {
           text1: applicationData.accountActivation.text1,
           text2: applicationData.accountActivation.text2
         };
+        if (req.body.company) {
+          mailOptions = {
+            userName: user.firstName,
+            link: `${applicationData.accountCreation.link}${token}`,
+            linkDescription: applicationData.accountCreation.linkDescription,
+            to: user.email,
+            subject: applicationData.accountCreation.subject,
+            text1: applicationData.accountCreation.text1,
+            text2: applicationData.accountCreation.text2
+          };
+          mailOptions["text3"] = applicationData.accountCreation.text3;
+        }
         mailService(mailOptions, info => logger.log("mail response", info));
-        logger.log("sending mail to user mailOptions", mailOptions);
       } else {
         res.status(400).json(err);
         logger.error("falied to create new user, reason:- ", err);
@@ -234,7 +247,7 @@ export class UserController {
     );
     User.updateOne(
       { _id: req.params.id, isDeleted: false },
-      { $set: { status: "Active" } },
+      { $set: { status: "active",password: req.body.password } },
       (err, updated) => {
         if (!err && updated) {
           res.status(200).json({ message: "your account is activated." });

@@ -15,7 +15,7 @@ const TokenSchema = new Schema({
 });
 
 TokenSchema.pre('validate', function () {
-    this.expirationTime = new Date().getTime() + (24 * 60 * 60 * 1000);
+    this.expirationTime = new Date().getTime() + 86400000; // one day valid token
 }
 );
 export const Token = mongoose.model('Token', TokenSchema);
