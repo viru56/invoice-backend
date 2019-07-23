@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "NODE_ENV=staging && ts-node ./server.ts",
-    "start": " NODE_ENV=production && node ./build/server.js",
-    "prod": "npm run build && npm run start"
+    "dev": "NODE_ENV=development  ts-node ./server/server.ts",
+    "start": "NODE_ENV=production node ./build/server.js",
+    "start_with_cluster": "START_WITH_CLUSTER=true  ts-node ./server/server.ts",
+    "prod": "NODE_ENV=production npm run build && npm run start"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/viru56/node-typescript.git"
+    "url": "https://viru56@bitbucket.org/teaminvoiceindia/invoice-server.git"
   },
   "keywords": [
     "node",
@@ -20,22 +21,23 @@
   "author": "virender nehra",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/viru56/node-typescript/issues"
+    "url": "https://bitbucket.org/teaminvoiceindia/invoice-server/issues"
   },
-  "homepage": "https://github.com/viru56/node-typescript#readme",
   "dependencies": {
+    "@types/node": "^12.6.8",
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.4.0",
     "mongoose": "^5.4.10",
     "nodemailer": "^5.1.1",
-    "nodemon": "^1.18.9",
+    "ts-node": "^8.3.0",
     "winston": "^3.2.1"
   },
   "devDependencies": {
     "@types/express": "^4.17.0",
     "@types/jsonwebtoken": "^8.3.0",
+    "nodemon": "^1.19.1",
     "tslint": "^5.18.0",
     "typescript": "^3.3.3"
   }

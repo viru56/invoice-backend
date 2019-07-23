@@ -13,8 +13,7 @@ class Routes {
             res.status(200).json({ 'message': 'server is running' });
         });
         app.route('/api/login').post(this.userController.userLogin);
-        app.route('/api/forgotPassword').post(this.userController.userForgotPassword);
-        app.route('/api/resetPassword/:id').put(this.userController.userResetPassword);
+        app.route('/api/forgotPassword').post(this.userController.sendForgotPasswordMail);
         app.route('/user', this.userRoutes.routes(app));
     }
 }

@@ -2,15 +2,15 @@
 // containter for all environments
 Object.defineProperty(exports, "__esModule", { value: true });
 const environments = {
-    staging: {},
+    development: {},
     production: {},
     testing: {}
 };
-// staging environment (default)
-environments.staging = {
+// development environment (default)
+environments.development = {
     httpPort: 3000,
     httpsPort: 3001,
-    envName: 'staging',
+    envName: 'development',
     secret: 'thisisasecret',
     mongoUrl: "mongodb://virendernehra:virendernehra@cluster0-shard-00-00-6sviv.mongodb.net:27017,cluster0-shard-00-01-6sviv.mongodb.net:27017,cluster0-shard-00-02-6sviv.mongodb.net:27017/yoga?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true"
 };
@@ -30,10 +30,9 @@ environments.testing = {
     secret: 'thisistestingsecret',
     mongoUrl: "mongodb://virendernehra:virendernehra@cluster0-shard-00-00-6sviv.mongodb.net:27017,cluster0-shard-00-01-6sviv.mongodb.net:27017,cluster0-shard-00-02-6sviv.mongodb.net:27017/yoga?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true"
 };
-console.log(process.env.NODE_ENV);
 // determine which environment was passed as a command-line argument
 const currentEnvironment = typeof (process.env.NODE_ENV) == 'string' ? process.env.NODE_ENV : '';
-//chech that the current environment is one of the environments above, if not, default to staging
+//chech that the current environment is one of the environments above, if not, default to development
 // export the module
-exports.config = typeof (environments[currentEnvironment]) == 'object' ? environments[currentEnvironment] : environments.staging;
+exports.config = typeof (environments[currentEnvironment]) == 'object' ? environments[currentEnvironment] : environments.development;
 //# sourceMappingURL=config.js.map

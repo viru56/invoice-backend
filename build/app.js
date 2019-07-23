@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const routes_1 = require("./routes");
 const config_1 = require("./config/config");
+const services_1 = require("./services");
 class App {
     constructor() {
         this.routes = new routes_1.Routes();
@@ -22,13 +23,13 @@ class App {
         this.app.use(bodyParser.urlencoded({ extended: false }));
     }
     mongoSetup() {
-        mongoose.Promise = global.Promise;
+        // mongoose.Promise = global.Promise;
         mongoose.connect(this.mongoUrl, { useNewUrlParser: true }, (err) => {
             if (err) {
-                console.log("\x1b[33m%s\x1b[0m", "failed to connect to server:- ", this.mongoUrl);
+                services_1.logger.error("failed to connect to mongodb", this.mongoUrl);
             }
             else {
-                console.log("\x1b[32m%s\x1b[0m", "connected to mongodb...:)");
+                services_1.logger.log("connected to mongodb...:)");
             }
         });
     }

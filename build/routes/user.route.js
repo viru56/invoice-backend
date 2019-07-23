@@ -18,7 +18,10 @@ class UserRoutes {
             .delete(services_1.validateToken, this.userController.deleteUser);
         app.route('/user/userdetails')
             //get specific user details
-            .get(services_1.validateToken, this.userController.getUserWithId);
+            .get(services_1.validateToken, this.userController.getUser);
+        app.route('/user/forgotPassword').put(services_1.validateForgotPasswordToken, this.userController.userForgotPassword);
+        app.route('/user/resetPassword').put(services_1.validateToken, this.userController.userResetPassword);
+        app.route('/user/accountActivation').put(services_1.validateActivationToken, this.userController.accountActivation);
     }
 }
 exports.UserRoutes = UserRoutes;
