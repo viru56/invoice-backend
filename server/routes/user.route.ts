@@ -15,8 +15,9 @@ export class UserRoutes {
         app.route('/user/userdetails')
             //get specific user details
             .get(validateToken, this.userController.getUser);
-        app.route('/user/forgotPassword').put(validateForgotPasswordToken,this.userController.userForgotPassword);
-        app.route('/user/resetPassword').put(validateToken,this.userController.userResetPassword);
-        app.route('/user/accountActivation').put(validateActivationToken,this.userController.accountActivation);
+        app.route('/user/sendforgotpasswordmail').post(this.userController.sendForgotPasswordMail);
+        app.route('/user/forgotpassword').put(validateForgotPasswordToken,this.userController.userForgotPassword);
+        app.route('/user/resetpassword').put(validateToken,this.userController.userResetPassword);
+        app.route('/user/accountactivation').put(validateActivationToken,this.userController.accountActivation);
     }
 };

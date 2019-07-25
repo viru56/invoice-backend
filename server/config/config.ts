@@ -49,35 +49,47 @@ export const config =
 
 export const applicationData = {
   accountCreation: {
-    message:
-      "your account is created, please check your mail to set up new password.",
-    link: `http://localhost:4200/#/accountActivation/?token=`,
+    link: `http://localhost:4200/#/accountactivation/?token=`,
     linkDescription: "Click here to set password",
     subject: "Welcome to Indi-Invoice",
     text1: "Welcome to Indi-Invoice! We are happy to have you on board.",
     text2:
       "Invoiced takes the work out of billing so you can get back to doing what you do best. By joining Indi-Invoice you have just made an important step towards taking control of your accounts receivable.",
-      text3:"Click on the below link to set a new password for your account."
+    text3: "Click on the below link to set a new password for your account."
   },
   accountActivation: {
-    message:
-      "your account is created, please check your mail to activate account",
-    link: `http://localhost:4200/#/user/accountActivation/?token=`,
+    link: `http://localhost:4200/#/accountactivation/?token=`,
     linkDescription: "Click here to activate your account",
     subject: "Account Activation",
     text1:
       "Welcome to indi-invoice, You have registered successfully in indi-invoice. Click here to confirm your registration.",
-    text2: "Once you confirm, Your account will be activated."
+    text2: "Once you confirm, Your account will be activated.",
+    text3: ""
   },
   forgotPassword: {
-    message:
-      "We have sent you a link for reset password,please check you mail inbox ",
-    link: "http://localhost:3000/user/forgotPassword/?token=",
+    link: "http://localhost:4200/#/resetpassword/?token=",
     linkDescription: "Click here to reset your password",
     subject: "Reset Password",
     text1:
       "We have received the request to reset your password associated with this e-mail address and have created the reset password link.",
     text2:
-      "If you have not requested for your password reset, you can safely ignore this email. Rest assured your customer account is safe."
+      "If you have not requested for your password reset, you can safely ignore this email. Rest assured your customer account is safe.",
+    text3: ""
+  },
+  responseMessages: {
+    accountCreation: {
+      message1:
+        "your account is created, please check your mail to set up new password."
+    },
+    accountActivation: {
+      message1:
+        "your account is created, please check your mail to activate account"
+    },
+    forgotPassword: {
+      mailSent:
+        "If the supplied email address is associated with a user account then a password reset email has been sent.",
+      passwordChanged:
+        "Your password is changed successfully. Now login with your new password."
+    }
   }
 };

@@ -18,8 +18,8 @@ export class UserController {
         logger.log("new user added");
         res.status(200).json({
           message: req.body.company
-            ? applicationData.accountCreation.message
-            : applicationData.accountActivation.message
+            ? applicationData.responseMessages.accountCreation.message1
+            : applicationData.responseMessages.accountActivation.message1
         });
         const token = jwtToken({
           id: user.id,
@@ -27,26 +27,28 @@ export class UserController {
           email: user.email
         });
         let mailOptions = {
-          userName: user.firstName,
+          userName: user.fullName,
           link: `${applicationData.accountActivation.link}${token}`,
           linkDescription: applicationData.accountActivation.linkDescription,
           to: user.email,
           subject: applicationData.accountActivation.subject,
           text1: applicationData.accountActivation.text1,
-          text2: applicationData.accountActivation.text2
+          text2: applicationData.accountActivation.text2,
+          text3: applicationData.accountActivation.text3
         };
         if (req.body.company) {
           mailOptions = {
-            userName: user.firstName,
+            userName: user.fullName,
             link: `${applicationData.accountCreation.link}${token}`,
             linkDescription: applicationData.accountCreation.linkDescription,
             to: user.email,
             subject: applicationData.accountCreation.subject,
             text1: applicationData.accountCreation.text1,
-            text2: applicationData.accountCreation.text2
+            text2: applicationData.accountCreation.text2,
+            text3: applicationData.accountCreation.text3
           };
-          mailOptions["text3"] = applicationData.accountCreation.text3;
         }
+        logger.log("account activation mail options", mailOptions);
         mailService(mailOptions, info => logger.log("mail response", info));
       } else {
         res.status(400).json(err);
@@ -181,7 +183,13 @@ export class UserController {
           user.status = "active";
           user.save((err, user) => {
             if (!err && user) {
-              res.status(200).json({ message: "password is updated" });
+              res
+                .status(200)
+                .json({
+                  message:
+                    applicationData.responseMessages.forgotPassword
+                      .passwordChanged
+                });
               logger.log("password updated");
             } else {
               res
@@ -201,6 +209,7 @@ export class UserController {
   }
 
   // required field - password, newPassword, id
+
   public userResetPassword(req: Request, res: Response) {
     logger.info(
       "/user/resetPassword",
@@ -247,7 +256,7 @@ export class UserController {
     );
     User.updateOne(
       { _id: req.params.id, isDeleted: false },
-      { $set: { status: "active",password: req.body.password } },
+      { $set: { status: "active", password: req.body.password } },
       (err, updated) => {
         if (!err && updated) {
           res.status(200).json({ message: "your account is activated." });
@@ -271,7 +280,7 @@ export class UserController {
       User.findOne({ email, isDeleted: false }, (err, user) => {
         if (!err && user) {
           res.status(200).json({
-            message: applicationData.forgotPassword.message
+            message: applicationData.responseMessages.forgotPassword.mailSent
           });
           const token = jwtToken({
             id: user._id,
@@ -279,13 +288,14 @@ export class UserController {
             email: user.email
           });
           const mailOptions = {
-            userName: user.firstName,
+            userName: user.fullName,
             link: `${applicationData.forgotPassword.link}${token}`,
             linkDescription: applicationData.forgotPassword.linkDescription,
             to: user.email,
             subject: applicationData.forgotPassword.subject,
             text1: applicationData.forgotPassword.text1,
-            text2: applicationData.forgotPassword.text2
+            text2: applicationData.forgotPassword.text2,
+            text3: applicationData.forgotPassword.text3
           };
           logger.log("forgot password mail options", mailOptions);
           mailService(mailOptions, info => logger.log("mail response", info));

@@ -42,7 +42,6 @@ export async function mailService(mailOptions, callback?) {
     mailOptions.html = compiled(mailOptions);
     let info = await transporter.sendMail(mailOptions);
     if (callback) {
-        logger.log('mail info',info);
       callback(info);
     }
     // console.log("Message sent: %s", info.messageId);
