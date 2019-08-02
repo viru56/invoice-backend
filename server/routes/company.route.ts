@@ -1,19 +1,18 @@
 import { CompanyController } from '../controllers';
 import { validateToken} from '../services';
 export class CompanyRoutes {
-    public companyController: CompanyController = new CompanyController();
-    public routes(app): void {
+    public static routes(app): void {
         app.route('/company')
             //get all companies
-            .get(validateToken, this.companyController.getAllCompanies)
+            .get(validateToken, CompanyController.getAllCompanies)
             //create new user
-            .post(this.companyController.addNewComapny)
+            .post(CompanyController.addNewComapny)
             // update a specific user
-            .put(validateToken, this.companyController.updateCompany)
+            .put(validateToken, CompanyController.updateCompany)
             // delete specific user
-            .delete(validateToken, this.companyController.deleteCompany);
+            .delete(validateToken, CompanyController.deleteCompany);
         app.route('/company/companydetails')
             //get specific user details
-            .get(validateToken, this.companyController.getCompany);
+            .get(validateToken, CompanyController.getCompany);
     }
 };

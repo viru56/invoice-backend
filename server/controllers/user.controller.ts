@@ -1,26 +1,16 @@
 import { User, Company } from "../models";
 import { Request, Response } from "express";
-import {
-  parseUser,
-  hashPassword,
-  jwtToken,
-  mailService,
-  logger
-} from "../services";
+import { hashPassword, jwtToken, mailService, logger } from "../services";
 import { applicationData } from "../config";
 export class UserController {
-  public addNewUser(req: Request, res: Response) {
+  public static addNewUser(req: Request, res: Response) {
     logger.info("/user", "post", "addNewUser", req.body.email);
     logger.log("body", req.body);
     const newUser = new User(req.body);
     newUser.save((err, user) => {
       if (!err && user) {
         logger.log("new user added");
-        res.status(200).json({
-          message: req.body.company
-            ? applicationData.responseMessages.accountCreation.message1
-            : applicationData.responseMessages.accountActivation.message1
-        });
+
         const token = jwtToken({
           id: user.id,
           type: "activation",
@@ -50,50 +40,54 @@ export class UserController {
         }
         logger.log("account activation mail options", mailOptions);
         mailService(mailOptions, info => logger.log("mail response", info));
+        return res.status(200).json({
+          message: req.body.company
+            ? applicationData.responseMessages.accountCreation.message1
+            : applicationData.responseMessages.accountActivation.message1
+        });
       } else {
-        res.status(400).json(err);
         logger.error("falied to create new user, reason:- ", err);
         logger.log("delete company - : ", req.body.companyName);
         Company.deleteOne({ _id: req.body.company }, (err, info) =>
           logger.log(`deleting company - ${req.body.company}`, { err, info })
         );
+        return res.status(400).json(err);
       }
     });
   }
 
-  public getUsers(req: Request, res: Response) {
+  public static getUsers(req: Request, res: Response) {
     logger.info("/user", "get", "getUsers", req.params.email);
-    User.find(
-      { isDeleted: false },
-      { firstName: 1, lastName: 1, phone: 1, email: 1 },
-      (err, users) => {
+    User.find({ isDeleted: false,company:req.params.company }, { fullName: 1, phone: 1, email: 1 })
+      .populate("company", ["name"])
+      .exec((err, users) => {
         if (!err && users) {
-          res.status(200).json(users);
           logger.error("users found");
+          return res.status(200).json(users);
         } else {
-          res.status(400).json(err);
           logger.error("err ", err);
+          return res.status(400).json(err);
         }
-      }
-    );
+      });
   }
-  public getUser(req: Request, res: Response) {
-    logger.info("/user/userdetail", "get", "getUser", req.params.email);
+  public static getUser(req: Request, res: Response) {
+    logger.info("/user/userdetails", "get", "getUser", req.params.email);
     User.findOne(
       { _id: req.params.id, isDeleted: false },
-      { firstName: 1, lastName: 1, phone: 1, email: 1 },
-      (err, user) => {
+      { fullName: 1, phone: 1, email: 1, role: 1 }
+    )
+      .populate("company")
+      .exec((err, user) => {
         if (!err && user) {
-          res.status(200).json(user);
           logger.log("user found");
+          return res.status(200).json(user);
         } else {
-          res.status(400).json(err);
           logger.error("err ", err);
+          return res.status(400).json(err);
         }
-      }
-    );
+      });
   }
-  public updateUser(req: Request, res: Response) {
+  public static updateUser(req: Request, res: Response) {
     logger.info("/user", "put", "updateUser", req.params.email);
     logger.log("req.body", req.body);
     User.findOne({ _id: req.params.id, isDeleted: false }, (err, user) => {
@@ -113,63 +107,77 @@ export class UserController {
         }
         user.save((err: any, user: any) => {
           if (!err && user) {
-            res.status(200).json(parseUser(user));
             logger.log("user updated");
+            return res.status(200).json({ message: "user details is updated" });
           } else {
-            res.status(400).json(err);
             logger.error("user.save - err ", err);
+            return res.status(400).json(err);
           }
         });
       } else {
-        res.status(400).json(err);
         logger.error("err ", err);
+        return res.status(400).json(err);
       }
     });
   }
-  public deleteUser(req: Request, res: Response) {
+  public static deleteUser(req: Request, res: Response) {
     logger.info("/user", "delete", "deleteUser", req.params.email);
     User.deleteOne({ _id: req.params.id }, (err, info) => {
       if (!err && info) {
-        res.status(200).json({ message: `user deleted - ${info.n}` });
         logger.log("delete user ", info);
+        return res.status(200).json({ message: `user deleted - ${info.n}` });
       } else {
-        res.status(400).json(err);
         logger.error("err ", err);
+        return res.status(400).json(err);
       }
     });
   }
-  public userLogin(req: Request, res: Response) {
+  public static userLogin(req: Request, res: Response) {
     logger.info("/api/login", "post", "userLogin", req.body.email);
     if (req.body.email && req.body.password) {
-      User.findOne({ email: req.body.email, isDeleted: false }, (err, user) => {
-        if (!err && user) {
-          logger.log("user exists");
-          if (user.status !== "Active") {
-            res.status(400).json({ message: "your account is not active" });
-            logger.error("user account inactive");
-          }
-          if (hashPassword(req.body.password) !== user.password) {
-            res.status(400).json({ message: "password did not match" });
-            logger.error("password did not match");
+      User.findOne(
+        { email: req.body.email, isDeleted: false },
+        { fullName: 1, phone: 1, email: 1, role: 1, password: 1, status: 1 }
+      )
+        .populate("company",['name','subscription','subscriptionEndDate'])
+        .exec((err, user) => {
+          if (!err && user) {
+            logger.log("user exists");
+            if (user.status !== "active") {
+              logger.error("user account inactive");
+              return res
+                .status(400)
+                .json({ message: "your account is not active" });
+            }
+            if (hashPassword(req.body.password) !== user.password) {
+              logger.error("password did not match");
+              return res.status(400).json({
+                message: applicationData.responseMessages.error.login
+              });
+            } else {
+              const token = jwtToken({
+                id: user.id,
+                org: user.company,
+                type: "login",
+                email: req.body.email,
+                role: user.role
+              });
+              logger.log("token generated");
+               user.password = null;
+              return res.status(200).json({ token, user });
+            }
           } else {
-            const token = jwtToken({
-              id: user._id,
-              type: "login",
-              email: user.email
-            });
-            res.status(200).json({ user: parseUser(user), token });
-            logger.log("token generated");
+            logger.error("user not exist");
+            return res
+              .status(400)
+              .json({ message: applicationData.responseMessages.error.login });
           }
-        } else {
-          res.status(400).json({ message: "user not exists" });
-          logger.error("user not exist");
-        }
-      });
+        });
     } else {
-      res.status(400).json({ message: "missing required fields" });
+      return res.status(400).json({ message: "missing required fields" });
     }
   }
-  public userForgotPassword(req: Request, res: Response) {
+  public static userForgotPassword(req: Request, res: Response) {
     logger.info(
       "/user/forgotPassword",
       "put",
@@ -183,13 +191,11 @@ export class UserController {
           user.status = "active";
           user.save((err, user) => {
             if (!err && user) {
-              res
-                .status(200)
-                .json({
-                  message:
-                    applicationData.responseMessages.forgotPassword
-                      .passwordChanged
-                });
+              res.status(200).json({
+                message:
+                  applicationData.responseMessages.forgotPassword
+                    .passwordChanged
+              });
               logger.log("password updated");
             } else {
               res
@@ -210,7 +216,7 @@ export class UserController {
 
   // required field - password, newPassword, id
 
-  public userResetPassword(req: Request, res: Response) {
+  public  static userResetPassword(req: Request, res: Response) {
     logger.info(
       "/user/resetPassword",
       "put",
@@ -247,7 +253,7 @@ export class UserController {
     }
   }
 
-  public accountActivation(req: Request, res: Response) {
+  public static accountActivation(req: Request, res: Response) {
     logger.info(
       "/user/accountActivation",
       "put",
@@ -268,7 +274,7 @@ export class UserController {
       }
     );
   }
-  public sendForgotPasswordMail(req: Request, res: Response) {
+  public static sendForgotPasswordMail(req: Request, res: Response) {
     logger.info(
       "/api/forgotPassword",
       "put",
@@ -300,7 +306,10 @@ export class UserController {
           logger.log("forgot password mail options", mailOptions);
           mailService(mailOptions, info => logger.log("mail response", info));
         } else {
-          res.status(400).json({ message: "no user found", err });
+          res.status(400).json({
+            message: applicationData.responseMessages.forgotPassword.mailSent,
+            err
+          });
           logger.error("no user found", err);
         }
       });

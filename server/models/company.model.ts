@@ -2,7 +2,7 @@ import * as mongoose from "mongoose";
 const Schema = mongoose.Schema;
 
 const CompanySchema = new Schema({
-  companyName: {
+  name: {
     type: String,
     required: [true, "Company name is required"],
     minlength: [4, "First Name can not less than 4 chars"],

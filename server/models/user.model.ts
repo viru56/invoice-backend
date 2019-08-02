@@ -24,7 +24,9 @@ const UserSchema = new Schema({
     lowercase: true,
     trim: true
   },
-  company: mongoose.Schema.Types.ObjectId,
+  company: {
+    type: Schema.ObjectId, ref: 'Company'
+  },
   password: String,
   isDeleted: {
     type: Boolean,

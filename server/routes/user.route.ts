@@ -2,22 +2,21 @@ import { UserController } from '../controllers';
 import { validateToken ,validateActivationToken,validateForgotPasswordToken} from '../services';
 export class UserRoutes {
     public userController: UserController = new UserController();
-    public routes(app): void {
+    public static routes(app): void {
         app.route('/user')
             //get all users
-            .get(validateToken, this.userController.getUsers)
+            .get(validateToken, UserController.getUsers)
             //create new user
-            .post(this.userController.addNewUser)
+            .post(UserController.addNewUser)
             // update a specific user
-            .put(validateToken, this.userController.updateUser)
+            .put(validateToken, UserController.updateUser)
             // delete specific user
-            .delete(validateToken, this.userController.deleteUser);
-        app.route('/user/userdetails')
+            .delete(validateToken, UserController.deleteUser);
+        app.route('/user/details')
             //get specific user details
-            .get(validateToken, this.userController.getUser);
-        app.route('/user/sendforgotpasswordmail').post(this.userController.sendForgotPasswordMail);
-        app.route('/user/forgotpassword').put(validateForgotPasswordToken,this.userController.userForgotPassword);
-        app.route('/user/resetpassword').put(validateToken,this.userController.userResetPassword);
-        app.route('/user/accountactivation').put(validateActivationToken,this.userController.accountActivation);
+            .get(validateToken, UserController.getUser);
+        app.route('/user/forgotpassword').put(validateForgotPasswordToken,UserController.userForgotPassword);
+        app.route('/user/resetpassword').put(validateToken,UserController.userResetPassword);
+        app.route('/user/accountactivation').put(validateActivationToken,UserController.accountActivation);
     }
 };

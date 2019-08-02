@@ -90,6 +90,9 @@ export const applicationData = {
         "If the supplied email address is associated with a user account then a password reset email has been sent.",
       passwordChanged:
         "Your password is changed successfully. Now login with your new password."
+    },
+    error:{
+      login:"invalid email or password"
     }
   }
 };
