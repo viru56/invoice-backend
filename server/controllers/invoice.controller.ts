@@ -152,7 +152,3 @@ export class InvoiceController {
     }
   }
 }
-
-const createPdf:PDFDocument = () =>{
-  
-}
