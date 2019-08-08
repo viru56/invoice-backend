@@ -24,7 +24,8 @@ export class UserController {
           subject: applicationData.accountActivation.subject,
           text1: applicationData.accountActivation.text1,
           text2: applicationData.accountActivation.text2,
-          text3: applicationData.accountActivation.text3
+          text3: applicationData.accountActivation.text3,
+          templete:applicationData.accountCreation.template
         };
         if (req.body.company) {
           mailOptions = {
@@ -35,7 +36,8 @@ export class UserController {
             subject: applicationData.accountCreation.subject,
             text1: applicationData.accountCreation.text1,
             text2: applicationData.accountCreation.text2,
-            text3: applicationData.accountCreation.text3
+            text3: applicationData.accountCreation.text3,
+            templete:applicationData.accountCreation.template
           };
         }
         logger.log("account activation mail options", mailOptions);
@@ -301,7 +303,8 @@ export class UserController {
             subject: applicationData.forgotPassword.subject,
             text1: applicationData.forgotPassword.text1,
             text2: applicationData.forgotPassword.text2,
-            text3: applicationData.forgotPassword.text3
+            text3: applicationData.forgotPassword.text3,
+            template: applicationData.forgotPassword.template
           };
           logger.log("forgot password mail options", mailOptions);
           mailService(mailOptions, info => logger.log("mail response", info));

@@ -6,8 +6,12 @@ const upload = multer({ storage: multer.memoryStorage() }).single("file");
 export class InvoiceRoutes {
   public static routes(app): void {
     app
-      .route("/invoice")
-      //create new invoice
-      .post(upload, InvoiceController.createInvocie);
+      .route("/invoice/mail")
+      //sent new invoice over mail
+      .post(upload, InvoiceController.sendInvocie);
+      app
+      .route("/invoice/download")
+      //download new invoice
+      .post(upload, InvoiceController.downloadInvoice);
   }
 }

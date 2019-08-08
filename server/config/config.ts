@@ -55,7 +55,8 @@ export const applicationData = {
     text1: "Welcome to Indi-Invoice! We are happy to have you on board.",
     text2:
       "Invoiced takes the work out of billing so you can get back to doing what you do best. By joining Indi-Invoice you have just made an important step towards taking control of your accounts receivable.",
-    text3: "Click on the below link to set a new password for your account."
+    text3: "Click on the below link to set a new password for your account.",
+    template:'general-mail.ejs'
   },
   accountActivation: {
     link: `http://localhost:4200/#/accountactivation/?token=`,
@@ -64,7 +65,8 @@ export const applicationData = {
     text1:
       "Welcome to indi-invoice, You have registered successfully in indi-invoice. Click here to confirm your registration.",
     text2: "Once you confirm, Your account will be activated.",
-    text3: ""
+    text3: "",
+    template:'general-mail.ejs'
   },
   forgotPassword: {
     link: "http://localhost:4200/#/resetpassword/?token=",
@@ -74,7 +76,17 @@ export const applicationData = {
       "We have received the request to reset your password associated with this e-mail address and have created the reset password link.",
     text2:
       "If you have not requested for your password reset, you can safely ignore this email. Rest assured your customer account is safe.",
-    text3: ""
+    text3: "",
+    template:'general-mail.ejs'
+  },
+  invoiceDemo:{
+    subject: "Invoice from ",
+    text1:
+      "A new invoice has been created on your account. You may find a PDF of your invoice attached.",
+    text2:
+      "Thank you for your business!",
+    text3: "This invoice was sent to ",
+    template:'general-mail.ejs'
   },
   responseMessages: {
     accountCreation: {
