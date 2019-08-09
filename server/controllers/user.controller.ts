@@ -60,7 +60,7 @@ export class UserController {
 
   public static getUsers(req: Request, res: Response) {
     logger.info("/user", "get", "getUsers", req.params.email);
-    User.find({ isDeleted: false,company:req.params.company }, { fullName: 1, phone: 1, email: 1 })
+    User.find({ isDeleted: false,company:req.params.companyId }, { fullName: 1, phone: 1, email: 1 })
       .populate("company", ["name"])
       .exec((err, users) => {
         if (!err && users) {
@@ -75,7 +75,7 @@ export class UserController {
   public static getUser(req: Request, res: Response) {
     logger.info("/user/userdetails", "get", "getUser", req.params.email);
     User.findOne(
-      { _id: req.params.id, isDeleted: false },
+      { _id: req.params.userId, isDeleted: false },
       { fullName: 1, phone: 1, email: 1, role: 1 }
     )
       .populate("company")
@@ -92,7 +92,7 @@ export class UserController {
   public static updateUser(req: Request, res: Response) {
     logger.info("/user", "put", "updateUser", req.params.email);
     logger.log("req.body", req.body);
-    User.findOne({ _id: req.params.id, isDeleted: false }, (err, user) => {
+    User.findOne({ _id: req.params.userId, isDeleted: false }, (err, user) => {
       if (!err && user) {
         logger.log("user found");
         if (req.body.firstName) {
@@ -124,7 +124,7 @@ export class UserController {
   }
   public static deleteUser(req: Request, res: Response) {
     logger.info("/user", "delete", "deleteUser", req.params.email);
-    User.deleteOne({ _id: req.params.id }, (err, info) => {
+    User.deleteOne({ _id: req.params.userId }, (err, info) => {
       if (!err && info) {
         logger.log("delete user ", info);
         return res.status(200).json({ message: `user deleted - ${info.n}` });
@@ -187,7 +187,7 @@ export class UserController {
       req.params.email
     );
     if (req.body.password) {
-      User.findOne({ _id: req.params.id, isDeleted: false }, (err, user) => {
+      User.findOne({ _id: req.params.userId, isDeleted: false }, (err, user) => {
         if (!err && user) {
           user.password = req.body.password;
           user.status = "active";
@@ -226,7 +226,7 @@ export class UserController {
       req.params.email
     );
     if (req.body.password && req.body.newPassword) {
-      User.findOne({ _id: req.params.id, isDeleted: false }, (err, user) => {
+      User.findOne({ _id: req.params.userId, isDeleted: false }, (err, user) => {
         if (!err && user) {
           if (hashPassword(req.body.password) !== user.password) {
             res.status(400).json({ message: "password did not match" });
@@ -263,7 +263,7 @@ export class UserController {
       req.params.email
     );
     User.updateOne(
-      { _id: req.params.id, isDeleted: false },
+      { _id: req.params.userId, isDeleted: false },
       { $set: { status: "active", password: req.body.password } },
       (err, updated) => {
         if (!err && updated) {

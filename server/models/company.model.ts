@@ -5,8 +5,8 @@ const CompanySchema = new Schema({
   name: {
     type: String,
     required: [true, "Company name is required"],
-    minlength: [4, "First Name can not less than 4 chars"],
-    maxlength: [250, "First name can not greater than 250 chars"],
+    minlength: [4, "Company Name can not less than 4 chars"],
+    maxlength: [250, "Company name can not greater than 250 chars"],
     lowercase: true,
     trim: true,
     unique:true

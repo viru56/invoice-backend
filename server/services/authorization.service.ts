@@ -38,9 +38,9 @@ export const jwtToken = payload => {
             return res.status(403).json({ message: "Not a valid token" });
           }
           // if everything is good, save to request for use in other routes
-          req.params.id = decoded.aud;
+          req.params.userId = decoded.aud;
           req.params.email = decoded.email;
-          req.params.company = decoded.org;
+          req.params.companyId = decoded.org;
           next();
         }
       });
@@ -77,7 +77,7 @@ export const jwtToken = payload => {
               .json({ message: "Failed to authenticate token." });
           }
           // if everything is good, save to request for use in other routes
-          req.params.id = decoded.aud;
+          req.params.userId = decoded.aud;
           req.params.email = decoded.email;
           next();
         }
@@ -115,7 +115,7 @@ export const jwtToken = payload => {
               .json({ message: "Failed to authenticate token." });
           }
           // if everything is good, save to request for use in other routes
-          req.params.id = decoded.aud;
+          req.params.userId = decoded.aud;
           req.params.email = decoded.email;
           next();
         }
@@ -152,7 +152,7 @@ export const jwtToken = payload => {
             return res.status(403).json({ message: "not a valid token" });
           }
           // if everything is good, save to request for use in other routes
-          req.params.id = decoded.aud;
+          req.params.userId = decoded.aud;
           req.params.email = decoded.email;
           next();
         }
@@ -188,7 +188,7 @@ export const jwtToken = payload => {
             return res.status(403).json({ message: "not a valid token" });
           }
           // if everything is good, save to request for use in other routes
-          req.params.id = decoded.aud;
+          req.params.userId = decoded.aud;
           req.params.email = decoded.email;
           next();
         }

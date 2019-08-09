@@ -14,26 +14,21 @@ export class CompanyController {
         req.body.company = company.id;
         UserController.addNewUser(req, res);
       } else {
-        res.status(400).json(err);
         logger.error("falied to create new company, reason:- ", err);
+        return res.status(400).json(err);
       }
     });
   }
   public static getCompany(req: Request, res: Response) {
-    logger.info(
-      "/company/companydetail",
-      "get",
-      "getCompany",
-      req.params.email
-    );
+    logger.info("/company/:id", "get", "getCompany", req.params.email);
   }
   public static getAllCompanies(req: Request, res: Response) {
-    logger.info("/company", "get", "getAllCompanies", req.params.id);
+    logger.info("/company", "get", "getAllCompanies", req.params.userId);
   }
   public static updateCompany(req: Request, res: Response) {
-    logger.info("/company", "put", "updateCompany", req.params.id);
+    logger.info("/company", "put", "updateCompany", req.params.userId);
   }
   public static deleteCompany(req: Request, res: Response) {
-    logger.info("/company", "delete", "deleteCompany", req.params.id);
+    logger.info("/company", "delete", "deleteCompany", req.params.userId);
   }
 }

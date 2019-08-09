@@ -5,14 +5,14 @@ export class CompanyRoutes {
         app.route('/company')
             //get all companies
             .get(validateToken, CompanyController.getAllCompanies)
-            //create new user
+            //create new company
             .post(CompanyController.addNewComapny)
-            // update a specific user
+            // update a specific company
             .put(validateToken, CompanyController.updateCompany)
-            // delete specific user
+            // delete specific company
             .delete(validateToken, CompanyController.deleteCompany);
-        app.route('/company/companydetails')
-            //get specific user details
+        app.route('/company/:id')
+            //get specific company details
             .get(validateToken, CompanyController.getCompany);
     }
 };

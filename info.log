@@ -243,3 +243,667 @@
 {"message":"connected to mongodb...:)- Thu Aug 08 2019 10:26:00 GMT+0530 (India Standard Time)","level":"info"}
 {"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 10:26:25 GMT+0530 (India Standard Time)","level":"info"}
 {"message":"connected to mongodb...:)- Thu Aug 08 2019 10:26:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:26:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:26:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/api/login, post, userLogin, nehra.virender@gmail.com,Thu Aug 08 2019 12:28:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user exists- Thu Aug 08 2019 12:28:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"token generated- Thu Aug 08 2019 12:28:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:29:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:29:17 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:29:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:29:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:30:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:30:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:31:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:31:06 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:31:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:31:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:31:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:31:22 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:31:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:31:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:32:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:32:03 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:32:05 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:35:37 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:35:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:35:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:35:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:36:22 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:36:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:36:29 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:36:31 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:38:22 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:38:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:38:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:38:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:39:17 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:39:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:39:21 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:39:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:39:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:39:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:39:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:40:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:40:29 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:41:06 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:41:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:41:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:41:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:41:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:41:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:42:21 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:42:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:43:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:43:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:45:06 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:45:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:46:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:46:29 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:46:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:46:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:47:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:47:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:47:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:47:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:48:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:48:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:49:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:49:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:49:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:49:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:50:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:50:06 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:50:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:50:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:50:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:50:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:51:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:51:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:51:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:51:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:51:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:51:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:54:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:54:37 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:54:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:54:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:58:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:58:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:59:22 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:59:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 12:59:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 12:59:29 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 13:15:58 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 13:16:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 13:16:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 13:16:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/api/login, post, userLogin, nehra.virender@gmail.com,Thu Aug 08 2019 13:17:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user exists- Thu Aug 08 2019 13:17:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"token generated- Thu Aug 08 2019 13:17:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/api/login, post, userLogin, nehra.virender@gmail.com,Thu Aug 08 2019 13:17:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user exists- Thu Aug 08 2019 13:17:58 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"token generated- Thu Aug 08 2019 13:17:58 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 13:18:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 13:18:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 13:18:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 13:18:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, first item,Thu Aug 08 2019 13:19:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 13:21:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 13:21:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 13:21:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 13:21:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 13:22:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 13:22:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 13:26:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 13:26:29 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 13:31:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 13:31:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 13:31:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 13:37:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 13:37:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 13:37:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 13:37:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 13:37:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 13:37:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 13:38:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 13:39:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 13:39:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 13:39:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 13:39:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 13:40:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 13:40:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:02:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:02:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:03:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:03:02 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 14:03:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:04:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:04:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:09:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:09:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:10:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:10:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 14:10:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:11:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:11:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 14:11:03 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:12:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:12:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:13:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:13:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 14:13:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:16:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:16:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:16:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:16:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 14:16:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:18:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:18:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 14:18:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:19:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:19:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 14:19:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:19:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:19:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:20:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:20:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 14:20:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:21:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:21:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:24:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:24:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:24:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:24:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:25:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:25:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:26:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:26:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 14:26:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:26:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:26:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 14:26:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:27:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:27:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 14:27:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:29:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:29:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:29:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:29:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:29:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:29:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 14:29:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:30:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:30:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 14:30:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:31:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:31:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:31:05 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:31:05 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:31:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:31:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 14:47:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 14:49:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 14:49:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 14:49:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 14:49:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 14:49:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:22:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:22:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:22:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:22:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:23:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:23:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:23:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:23:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:24:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:24:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:25:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:25:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:25:16 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:25:16 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:25:17 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:25:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:25:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:25:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:26:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:26:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:26:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:27:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:27:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:27:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:27:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:27:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:28:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:28:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:28:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:28:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:28:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:28:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:28:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:28:49 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:28:49 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:28:49 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:28:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:28:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:29:06 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:29:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:29:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:29:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:29:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:29:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:29:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:29:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:30:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:30:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:30:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:30:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:30:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:30:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:30:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:35:49 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:35:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:36:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:36:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:36:03 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:36:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:36:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:36:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:36:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:36:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:36:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:36:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:36:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:36:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:36:58 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:37:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:37:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:37:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:37:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:37:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:38:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:38:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:40:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:40:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:40:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:42:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:42:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:48:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:48:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:48:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:48:37 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:48:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:48:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:48:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4bd408e35d29314a6dddcd,Thu Aug 08 2019 15:48:58 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to update item, reason:- ","Date":"2019-08-08T10:18:58.876Z","err":{"driver":true,"name":"MongoError","index":0,"code":11000,"errmsg":"E11000 duplicate key error collection: test.items index: name_1 dup key: { : \"first item\" }"},"level":"error"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:50:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:50:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4bd408e35d29314a6dddcd,Thu Aug 08 2019 15:50:17 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to update item, reason:- ","Date":"2019-08-08T10:20:17.311Z","err":{"driver":true,"name":"MongoError","index":0,"code":11000,"errmsg":"E11000 duplicate key error collection: test.items index: name_1 dup key: { : \"first item\" }"},"level":"error"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:51:21 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:51:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4bd408e35d29314a6dddcd,Thu Aug 08 2019 15:51:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to update item, reason:- ","Date":"2019-08-08T10:21:26.019Z","err":{"message":"Parameter \"filter\" to updateOne() must be an object, got 5d4bd408e35d29314a6dddcd","name":"ObjectParameterError"},"level":"error"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:52:29 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:52:31 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4bd408e35d29314a6dddcd,Thu Aug 08 2019 15:52:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:53:21 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:53:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:53:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:53:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:55:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:55:17 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:56:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:56:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:56:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:57:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:57:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:57:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:57:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:57:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:57:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:57:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:57:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:57:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:57:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:57:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:57:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:58:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:58:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:58:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4bd408e35d29314a6dddcd,Thu Aug 08 2019 15:58:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 15:58:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 15:58:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 15:58:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 15:59:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 15:59:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4bd408e35d29314a6dddcd,Thu Aug 08 2019 15:59:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:00:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:00:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4bd408e35d29314a6dddcd,Thu Aug 08 2019 16:00:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4bd408e35d29314a6dddcd,Thu Aug 08 2019 16:01:31 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:04:21 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:04:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:06:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:06:02 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4bd408e35d29314a6dddcd,Thu Aug 08 2019 16:06:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to update item, reason:- ","Date":"2019-08-08T10:36:13.513Z","err":{},"level":"error"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:06:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4bd408e35d29314a6dddcd,Thu Aug 08 2019 16:06:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:06:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to update item, reason:- ","Date":"2019-08-08T10:36:56.228Z","err":{},"level":"error"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:07:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:07:21 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4bd408e35d29314a6dddcd,Thu Aug 08 2019 16:07:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to update item, reason:- ","Date":"2019-08-08T10:37:25.750Z","err":{},"level":"error"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:07:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:07:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4bd408e35d29314a6dddcd,Thu Aug 08 2019 16:07:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:25:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:25:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:25:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:26:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:26:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:26:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:26:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:26:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:26:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:26:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:26:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:26:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:27:06 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:27:06 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:27:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:27:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:27:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:27:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:27:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:27:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:27:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, first Item,Thu Aug 08 2019 16:27:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:28:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:28:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:28:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:28:49 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:28:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:29:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:29:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:29:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:29:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:29:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4c003134e19d377d7722b0,Thu Aug 08 2019 16:29:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:30:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:30:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:30:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:31:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:31:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:31:16 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4c003134e19d377d7722b0,Thu Aug 08 2019 16:31:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:31:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:31:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:31:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4c003134e19d377d7722b0,Thu Aug 08 2019 16:32:03 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:33:17 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:33:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4c003134e19d377d7722b0,Thu Aug 08 2019 16:33:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:33:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:33:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:33:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:34:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:34:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:36:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:36:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4c003134e19d377d7722b0,Thu Aug 08 2019 16:36:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:37:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:37:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:37:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:37:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:37:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:37:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4c003134e19d377d7722b0,Thu Aug 08 2019 16:37:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to update item, reason:- ","Date":"2019-08-08T11:07:55.140Z","err":{"driver":true,"name":"MongoError","index":0,"code":66,"errmsg":"Performing an update on the path '_id' would modify the immutable field '_id'"},"level":"error"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:38:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:38:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:38:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4c003134e19d377d7722b0,Thu Aug 08 2019 16:38:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to update item, reason:- ","Date":"2019-08-08T11:08:32.963Z","err":{"driver":true,"name":"MongoError","index":0,"code":66,"errmsg":"Performing an update on the path '_id' would modify the immutable field '_id'"},"level":"error"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:40:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:40:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:41:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:41:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:41:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:41:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:41:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:41:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:43:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:43:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:43:16 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:43:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:43:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:43:37 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:43:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:43:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4c003134e19d377d7722b0,Thu Aug 08 2019 16:44:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to update item, reason:- ","Date":"2019-08-08T11:14:01.010Z","err":{"driver":true,"name":"MongoError","index":0,"code":66,"errmsg":"Performing an update on the path '_id' would modify the immutable field '_id'"},"level":"error"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:44:31 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:44:31 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:44:31 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4c003134e19d377d7722b0,Thu Aug 08 2019 16:44:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to update item, reason:- ","Date":"2019-08-08T11:14:34.311Z","err":{"driver":true,"name":"MongoError","index":0,"code":66,"errmsg":"Performing an update on the path '_id' would modify the immutable field '_id'"},"level":"error"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:44:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:44:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:45:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:45:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, first item,Thu Aug 08 2019 16:45:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:47:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:47:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:47:49 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:47:49 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:47:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:48:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:48:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:48:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:50:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:50:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:50:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:51:29 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:51:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:51:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:52:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:52:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:52:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:52:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:52:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:52:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Thu Aug 08 2019 16:52:37 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Thu Aug 08 2019 16:52:37 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Thu Aug 08 2019 16:52:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:53:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:53:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:53:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:53:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Aug 08 2019 16:53:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Aug 08 2019 16:53:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 08:30:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 08:30:49 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 08:31:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 08:31:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 08:34:05 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 08:34:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 08:34:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 08:34:16 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 08:34:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 08:34:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 08:34:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 08:34:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:34:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 08:34:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 08:34:58 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, first Item,Fri Aug 09 2019 08:35:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4ce2e7474a573cdb381780,Fri Aug 09 2019 08:35:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4ce2e7474a573cdb381780,Fri Aug 09 2019 08:36:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 08:37:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 08:37:22 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4ce2e7474a573cdb381780,Fri Aug 09 2019 08:37:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to update item, reason:- ","Date":"2019-08-09T03:07:27.426Z","err":{"message":"Cast to date failed for value \"[Function: now]\" at path \"updatedAt\"","name":"CastError","stringValue":"\"[Function: now]\"","kind":"date","path":"updatedAt"},"level":"error"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 08:37:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 08:37:49 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4ce2e7474a573cdb381780,Fri Aug 09 2019 08:37:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 08:38:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 08:38:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4ce2e7474a573cdb381780,Fri Aug 09 2019 08:38:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 08:39:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 08:39:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:39:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 08:39:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 08:39:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, first item,Fri Aug 09 2019 08:39:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 08:39:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 08:40:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4ce3f44c99a33d7633d666,Fri Aug 09 2019 08:40:06 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 08:40:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 08:40:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 08:40:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 08:40:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 08:42:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 08:42:22 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 08:42:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 08:42:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:43:16 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 08:43:16 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 08:43:17 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, second item,Fri Aug 09 2019 08:43:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:43:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:44:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 08:44:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 08:44:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, 2,Fri Aug 09 2019 08:45:06 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to create new item, reason:- ","Date":"2019-08-09T03:15:06.713Z","err":{"errors":{"name":{"message":"Item Name can not less than 2 chars","name":"ValidatorError","properties":{"message":"Item Name can not less than 2 chars","type":"minlength","minlength":2,"path":"name","value":"2"},"kind":"minlength","path":"name","value":"2"}},"_message":"Item validation failed","message":"Item validation failed: name: Item Name can not less than 2 chars","name":"ValidationError"},"level":"error"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:47:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 08:47:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 08:47:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, 2,Fri Aug 09 2019 08:47:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to create new item, reason:- ","Date":"2019-08-09T03:17:41.128Z","err":{"errors":{"name":{"message":"Item Name can not less than 2 chars","name":"ValidatorError","properties":{"message":"Item Name can not less than 2 chars","type":"minlength","minlength":2,"path":"name","value":"2"},"kind":"minlength","path":"name","value":"2"}},"_message":"Item validation failed","message":"Item validation failed: name: Item Name can not less than 2 chars","name":"ValidationError"},"level":"error"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:48:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 08:48:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 08:48:02 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, 2,Fri Aug 09 2019 08:48:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to create new item, reason:- ","Date":"2019-08-09T03:18:08.654Z","err":{"errors":{"name":{"message":"Item Name can not less than 2 chars","name":"ValidatorError","properties":{"message":"Item Name can not less than 2 chars","type":"minlength","minlength":2,"path":"name","value":"2"},"kind":"minlength","path":"name","value":"2"}},"_message":"Item validation failed","message":"Item validation failed: name: Item Name can not less than 2 chars","name":"ValidationError"},"level":"error"}
+{"message":"/item, post, addItem, 02,Fri Aug 09 2019 08:48:17 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, 03,Fri Aug 09 2019 08:48:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:48:31 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:49:37 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 08:49:37 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 08:49:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:49:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 08:49:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 08:49:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:50:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 08:50:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 08:50:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:50:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 08:50:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 08:50:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:50:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 08:50:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 08:51:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:51:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 08:51:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 08:51:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:51:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 08:51:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 08:51:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:51:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:52:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 08:52:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 08:52:16 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:52:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 08:52:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 08:52:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:52:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to update item, reason:- ","Date":"2019-08-09T03:22:43.552Z","err":{"message":"Cast to ObjectId failed for value \"asdfa\" at path \"_id\" for model \"Item\"","name":"CastError","stringValue":"\"asdfa\"","kind":"ObjectId","value":"asdfa","path":"_id"},"level":"error"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:53:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 08:53:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 08:53:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:53:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 08:53:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 08:53:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:53:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to update item, reason:- ","Date":"2019-08-09T03:23:43.727Z","err":{"message":"Cast to ObjectId failed for value \"5d4ce4e4bd73d23dbd32c87r\" at path \"_id\" for model \"Item\"","name":"CastError","stringValue":"\"5d4ce4e4bd73d23dbd32c87r\"","kind":"ObjectId","value":"5d4ce4e4bd73d23dbd32c87r","path":"_id"},"level":"error"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:54:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 08:54:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 08:54:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:54:29 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 08:54:29 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 08:54:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:54:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:55:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 08:55:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 08:55:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 08:56:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 08:56:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 08:56:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, first Item,Fri Aug 09 2019 08:57:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 09:06:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 09:06:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 09:07:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 09:07:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 09:07:17 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 09:07:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 09:07:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 09:07:31 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 09:07:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 09:07:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 09:07:49 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 09:12:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 09:12:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 09:12:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 09:13:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 09:13:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 09:13:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 09:14:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 09:14:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 09:14:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 09:15:21 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 09:15:21 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 09:15:22 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 09:16:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 09:16:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 09:16:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 09:17:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 09:17:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 09:17:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 09:17:37 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 09:17:37 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 09:17:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 09:19:58 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 09:19:58 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 09:19:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 09:20:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 09:20:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 09:20:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/api/login, post, userLogin, nehra.virender@gmail.com,Fri Aug 09 2019 09:27:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user exists- Fri Aug 09 2019 09:27:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"token generated- Fri Aug 09 2019 09:27:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 09:27:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 09:29:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 09:29:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 09:29:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 09:34:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 09:34:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 09:34:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 09:35:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 09:35:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 09:35:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 09:36:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 09:36:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 09:36:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4ce4e4bd73d23dbd32c88b,Fri Aug 09 2019 09:36:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 09:36:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 09:39:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 09:39:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 09:39:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 09:40:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 09:40:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 09:40:47 GMT+0530 (India Standard Time)","level":"info"}
