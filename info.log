@@ -907,3 +907,609 @@
 {"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 09:40:46 GMT+0530 (India Standard Time)","level":"info"}
 {"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 09:40:46 GMT+0530 (India Standard Time)","level":"info"}
 {"message":"user found- Fri Aug 09 2019 09:40:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:08:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:08:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:08:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:10:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:10:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:10:49 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:11:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:11:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:11:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4ce4e4bd73d23dbd32c88b,Fri Aug 09 2019 10:11:16 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:11:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:11:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:11:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4ce4e4bd73d23dbd32c88b,Fri Aug 09 2019 10:11:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:12:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:12:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:12:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4ce4e4bd73d23dbd32c88b,Fri Aug 09 2019 10:12:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:13:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:13:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:13:02 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4ce4e4bd73d23dbd32c88b,Fri Aug 09 2019 10:13:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:13:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:13:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:13:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:14:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:14:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:14:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4ce4e4bd73d23dbd32c88b,Fri Aug 09 2019 10:14:37 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:15:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:15:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:15:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:16:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:16:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:16:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:16:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:16:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:16:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, sdf2444,Fri Aug 09 2019 10:16:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to update item, reason:- ","Date":"2019-08-09T04:46:30.757Z","err":{"message":"Cast to ObjectId failed for value \"sdf2444\" at path \"_id\" for model \"Item\"","name":"CastError","stringValue":"\"sdf2444\"","kind":"ObjectId","value":"sdf2444","path":"_id"},"level":"error"}
+{"message":"/item, put, updateItem, sdf2444,Fri Aug 09 2019 10:17:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to update item, reason:- ","Date":"2019-08-09T04:47:13.003Z","err":{"message":"Cast to ObjectId failed for value \"sdf2444\" at path \"_id\" for model \"Item\"","name":"CastError","stringValue":"\"sdf2444\"","kind":"ObjectId","value":"sdf2444","path":"_id"},"level":"error"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:17:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:17:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:17:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4ce4e4bd73d23dbd32c88b,Fri Aug 09 2019 10:17:29 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 10:19:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 10:19:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4ce4e4bd73d23dbd32c88b,Fri Aug 09 2019 10:20:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to update item, reason:- ","Date":"2019-08-09T04:50:01.943Z","err":{"errors":{"name":{"message":"Item Name can not less than 2 chars","name":"ValidatorError","properties":{"message":"Item Name can not less than 2 chars","type":"minlength","minlength":2,"path":"name","value":"1"},"kind":"minlength","path":"name","value":"1"}},"_message":"Validation failed","message":"Validation failed: name: Item Name can not less than 2 chars","name":"ValidationError"},"level":"error"}
+{"message":"/item, put, updateItem, 5d4ce4e4bd73d23dbd32c88b,Fri Aug 09 2019 10:20:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:20:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:20:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:20:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:26:31 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:26:31 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:26:31 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:29:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:29:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:29:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, 2nd item,Fri Aug 09 2019 10:29:21 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:30:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:30:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:30:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4cfda9b16d4b4270f7b55b,Fri Aug 09 2019 10:30:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, 4th item,Fri Aug 09 2019 10:30:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:31:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:31:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:31:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:34:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:34:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:34:58 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:35:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:35:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:35:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:35:49 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:36:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:36:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:36:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:36:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:36:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:36:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:37:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:37:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:37:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, 1st item,Fri Aug 09 2019 10:37:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, put, updateItem, 5d4cffa0b16d4b4270f7b55d,Fri Aug 09 2019 10:37:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:37:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:37:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:37:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:37:58 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:37:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:38:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:38:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:38:05 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:38:05 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:38:05 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, 5st item,Fri Aug 09 2019 10:38:22 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:40:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:40:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:40:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, asdf,Fri Aug 09 2019 10:40:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, dsgfasdgf,Fri Aug 09 2019 10:40:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, dfgadsf,Fri Aug 09 2019 10:40:37 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, dsgfsdfgqdsfg,Fri Aug 09 2019 10:40:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, sdfkgjslkdgfj,Fri Aug 09 2019 10:40:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, 453,Fri Aug 09 2019 10:41:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:43:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:43:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:43:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:44:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:44:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:44:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:46:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:46:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:46:31 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:48:06 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:48:06 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:48:06 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:48:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:48:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:48:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:49:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:49:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:49:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:49:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:49:31 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:49:31 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:49:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:49:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:49:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:49:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:49:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:49:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:49:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:49:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:50:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:50:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:50:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:53:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:53:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:53:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:54:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:54:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:54:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:55:16 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:55:16 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:55:17 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:56:03 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:56:03 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:56:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:56:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:56:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:56:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:57:05 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:57:05 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:57:06 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:57:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:57:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:57:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:57:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:57:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:57:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 10:59:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 10:59:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 10:59:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:06:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:06:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:06:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:07:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:07:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:07:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:07:58 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:07:58 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:07:58 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:09:05 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:09:05 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:09:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:10:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:10:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:10:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:10:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:10:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:10:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:11:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:11:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:11:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:14:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:14:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:14:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:14:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:14:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:14:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:14:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:14:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:14:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:15:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:15:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:15:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:16:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:16:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:16:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:18:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:18:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:18:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:18:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:18:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:21:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:21:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:21:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:22:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:22:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:22:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:25:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:25:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:25:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:25:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:25:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:25:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:28:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:28:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:28:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:30:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:30:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:30:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:31:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:31:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:31:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:31:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:31:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:31:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:32:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:32:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:32:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:33:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:33:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:33:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:34:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:34:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:34:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:37:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:37:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:37:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:38:17 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:38:17 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:38:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:38:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:38:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:38:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, first item,Fri Aug 09 2019 11:38:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:39:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:39:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:39:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, product 1,Fri Aug 09 2019 11:39:22 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, service,Fri Aug 09 2019 11:39:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, shipping,Fri Aug 09 2019 11:39:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:40:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:40:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:40:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:40:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:40:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:40:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:43:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:43:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:43:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:43:22 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:43:22 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:43:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:43:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:43:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:43:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:44:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:44:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:44:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, shipping 2,Fri Aug 09 2019 11:44:22 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, service 2,Fri Aug 09 2019 11:44:37 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, product 1,Fri Aug 09 2019 11:44:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, product 43,Fri Aug 09 2019 11:45:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, service 54,Fri Aug 09 2019 11:45:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, shipping 43,Fri Aug 09 2019 11:45:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, shipping 42,Fri Aug 09 2019 11:45:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, shipping 40,Fri Aug 09 2019 11:46:02 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, shipping 4,Fri Aug 09 2019 11:46:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:46:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:46:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:46:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:47:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:47:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:47:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:48:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:48:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:48:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 11:48:29 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 11:48:29 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 11:48:29 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 12:33:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 12:33:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 12:34:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 12:34:05 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 12:35:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 12:35:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 12:37:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 12:37:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 12:38:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 12:38:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 12:39:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 12:39:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 12:41:02 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 12:41:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 12:43:31 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 12:43:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 12:43:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 12:43:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 12:53:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 12:53:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 12:53:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 12:53:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 12:53:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 12:53:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 12:57:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 12:57:22 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 13:00:06 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 13:00:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 13:00:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 13:00:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 13:00:17 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 13:00:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 13:00:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 13:00:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 13:01:49 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 13:01:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 13:02:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 13:02:02 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 13:02:22 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 13:02:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 13:02:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 13:02:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 13:03:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 13:03:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 13:04:29 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 13:04:31 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:05:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:05:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:09:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:09:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:09:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:09:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:10:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:10:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:11:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:11:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:11:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:11:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:11:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:11:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:14:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:14:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:16:58 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:16:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:17:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:17:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:17:21 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:17:22 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:17:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:17:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:18:37 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:18:37 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:19:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:19:16 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:22:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:22:02 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:22:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:22:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:23:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:23:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:24:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:24:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 13:24:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 13:25:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:25:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:25:02 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 13:25:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:25:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:25:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 13:25:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:25:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:25:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Fri Aug 09 2019 13:28:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Fri Aug 09 2019 13:28:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 13:28:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 13:28:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 13:28:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:03:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:03:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:05:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:05:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:05:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:05:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:11:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:11:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:11:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:12:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:12:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:12:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:12:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:12:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:12:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:12:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:12:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:12:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:17:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:17:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:17:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:17:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:17:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:17:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:18:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:18:21 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:18:21 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:18:58 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:18:58 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:18:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:19:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:19:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:19:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:19:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, post, addTaxItem, C GST,Fri Aug 09 2019 14:20:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:25:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:25:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:25:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, post, addTaxItem, S gst,Fri Aug 09 2019 14:25:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:26:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:26:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:26:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:26:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:26:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:26:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:28:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:28:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:28:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:29:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:29:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:29:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:30:16 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:30:16 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:30:17 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:30:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:30:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:30:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:31:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:31:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:31:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:31:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:31:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:31:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:32:49 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:32:49 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:32:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:33:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:33:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:33:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:33:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:33:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:33:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:35:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:35:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:35:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, post, addTaxItem, service tax,Fri Aug 09 2019 14:35:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:36:03 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:36:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:36:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:36:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, post, addTaxItem, tax1,Fri Aug 09 2019 14:37:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:37:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:37:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:37:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:37:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:37:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:37:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:37:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:37:16 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:37:17 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, shipping 123,Fri Aug 09 2019 14:37:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:38:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:38:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:38:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:38:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:40:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:40:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:40:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:40:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:40:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:40:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:41:02 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:41:02 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:41:03 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, post, addTaxItem, tax2,Fri Aug 09 2019 14:41:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:41:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:41:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:41:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:42:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:42:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:42:16 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:42:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:42:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:42:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:42:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:42:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:42:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:42:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to update tax item, reason:- ","Date":"2019-08-09T09:12:53.334Z","err":{"message":"Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Tax\"","name":"CastError","stringValue":"\"undefined\"","kind":"ObjectId","value":"undefined","path":"_id"},"level":"error"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:43:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:43:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:43:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:43:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, put, updateTaxItem, 5d4d37b89ffa0e4b55c34f56,Fri Aug 09 2019 14:43:58 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, post, addTaxItem, tax4,Fri Aug 09 2019 14:44:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:44:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:44:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:44:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:45:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:45:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:45:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, post, addTaxItem, tax3,Fri Aug 09 2019 14:45:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:46:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:46:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:46:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:48:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:48:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:48:02 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:48:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:48:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:48:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, post, addTaxItem, tax5,Fri Aug 09 2019 14:48:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:49:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:49:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:49:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, post, addTaxItem, tax8,Fri Aug 09 2019 14:49:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:50:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:50:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:50:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:50:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:50:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:50:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:50:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, post, addItem, new item,Fri Aug 09 2019 14:51:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:51:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:51:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:51:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:52:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:52:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:52:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:52:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, put, updateTaxItem, 5d4d3a969ffa0e4b55c34f5c,Fri Aug 09 2019 14:52:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, put, updateTaxItem, 5d4d3a969ffa0e4b55c34f5c,Fri Aug 09 2019 14:52:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, put, updateTaxItem, 5d4d3a969ffa0e4b55c34f5c,Fri Aug 09 2019 14:52:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, put, updateTaxItem, 5d4d3a969ffa0e4b55c34f5c,Fri Aug 09 2019 14:52:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, put, updateTaxItem, 5d4d3a969ffa0e4b55c34f5c,Fri Aug 09 2019 14:52:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:54:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:54:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:54:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, put, updateTaxItem, 5d4d3a969ffa0e4b55c34f5c,Fri Aug 09 2019 14:54:16 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, put, updateTaxItem, 5d4d3a969ffa0e4b55c34f5c,Fri Aug 09 2019 14:54:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:54:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:54:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, delete, deleteItem, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:54:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, put, updateTaxItem, 5d4d39669ffa0e4b55c34f59,Fri Aug 09 2019 14:54:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, post, addTaxItem, new Tax,Fri Aug 09 2019 14:54:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, post, addTaxItem, 1,Fri Aug 09 2019 14:55:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to create new tax item, reason:- ","Date":"2019-08-09T09:25:50.053Z","err":{"errors":{"name":{"message":"Item Name can not less than 2 chars","name":"ValidatorError","properties":{"message":"Item Name can not less than 2 chars","type":"minlength","minlength":2,"path":"name","value":"1"},"kind":"minlength","path":"name","value":"1"}},"_message":"Tax validation failed","message":"Tax validation failed: name: Item Name can not less than 2 chars","name":"ValidationError"},"level":"error"}
+{"message":"/tax, post, addTaxItem, 1,Fri Aug 09 2019 14:56:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to create new tax item, reason:- ","Date":"2019-08-09T09:26:32.932Z","err":{"errors":{"name":{"message":"Item Name can not less than 2 chars","name":"ValidatorError","properties":{"message":"Item Name can not less than 2 chars","type":"minlength","minlength":2,"path":"name","value":"1"},"kind":"minlength","path":"name","value":"1"}},"_message":"Tax validation failed","message":"Tax validation failed: name: Item Name can not less than 2 chars","name":"ValidationError"},"level":"error"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:56:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:56:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:56:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, put, updateTaxItem, 5d4d3bdf9ffa0e4b55c34f5e,Fri Aug 09 2019 14:56:58 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to update tax item, reason:- ","Date":"2019-08-09T09:26:58.933Z","err":{"errors":{"name":{"message":"Item Name can not less than 2 chars","name":"ValidatorError","properties":{"message":"Item Name can not less than 2 chars","type":"minlength","minlength":2,"path":"name","value":"1"},"kind":"minlength","path":"name","value":"1"}},"_message":"Validation failed","message":"Validation failed: name: Item Name can not less than 2 chars","name":"ValidationError"},"level":"error"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:57:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:57:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:57:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, put, updateTaxItem, 5d4d33c59ffa0e4b55c34f53,Fri Aug 09 2019 14:57:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to update tax item, reason:- ","Date":"2019-08-09T09:27:53.652Z","err":{"errors":{"name":{"message":"Item Name can not less than 2 chars","name":"ValidatorError","properties":{"message":"Item Name can not less than 2 chars","type":"minlength","minlength":2,"path":"name","value":"1"},"kind":"minlength","path":"name","value":"1"}},"_message":"Validation failed","message":"Validation failed: name: Item Name can not less than 2 chars","name":"ValidationError"},"level":"error"}
+{"message":"/tax, post, addTaxItem, new tax 12,Fri Aug 09 2019 14:58:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, post, addTaxItem, new tax 534,Fri Aug 09 2019 14:58:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:58:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:58:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:58:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, post, addTaxItem, tax76,Fri Aug 09 2019 14:59:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, post, addTaxItem, tax66,Fri Aug 09 2019 14:59:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 14:59:37 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 14:59:37 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 14:59:37 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, post, addTaxItem, tax54,Fri Aug 09 2019 14:59:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 15:00:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 15:00:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 15:00:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 15:00:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 15:00:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 15:00:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 15:01:02 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 15:01:02 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 15:01:02 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, post, addTaxItem, bre,Fri Aug 09 2019 15:01:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 09 2019 15:01:21 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/userdetails, get, getUser, nehra.virender@gmail.com,Fri Aug 09 2019 15:01:21 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"user found- Fri Aug 09 2019 15:01:22 GMT+0530 (India Standard Time)","level":"info"}

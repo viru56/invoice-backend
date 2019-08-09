@@ -3,3 +3,4 @@ export * from './routes';
 export * from './company.route';
 export * from './invoice.route';
 export * from './item.route';
+export * from './tax.route';

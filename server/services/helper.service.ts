@@ -29,3 +29,12 @@ export const parseItem = (item: any) => {
     unitCost: item.unitCost
   };
 };
+
+export const parseTax = (tax: any) => {
+  return {
+    id: tax.id,
+    name: tax.name,
+    taxMode: tax.taxMode,
+    amount: tax.amount
+  };
+};
