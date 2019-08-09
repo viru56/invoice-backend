@@ -36,7 +36,7 @@ export class ItemController {
       logger.info("/item", "put", "updateItem", req.body.id);
       req.body.updatedBy = req.params.userId;
       req.body.updatedAt = new Date();
-      const result = await Item.updateOne({ _id: req.body.id }, req.body);
+      const result = await Item.updateOne({ _id: req.body.id }, req.body,{ runValidators: true });
       return res.status(200).json(result);
     } catch (error) {
       logger.error("falied to update item, reason:- ", error);
