@@ -19,7 +19,7 @@ export async function mailService(mailOptions, callback?) {
       __dirname,
       "../",
       "views",
-      mailOptions.template
+      mailOptions.template || "general-mail.ejs"
     );
     const compiled = ejs.compile(fs.readFileSync(ejsFilePath, "utf8"));
     // send mail with defined transport object
@@ -34,8 +34,9 @@ export async function mailService(mailOptions, callback?) {
     }
     const info = await transporter.sendMail(mailOptions);
     if (callback) callback(info);
+    else logger.error("mail info", info);
   } catch (error) {
-    logger.error("mail error", error);
-    callback(error);
+    if (callback) callback(error);
+    else logger.error("mail error", error);
   }
 }

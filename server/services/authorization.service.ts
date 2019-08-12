@@ -28,14 +28,14 @@ export const jwtToken = payload => {
       jwt.verify(token, config.secret, function(err, decoded) {
         if (err) {
           if ((err.name = "TokenExpiredError")) {
-            return res.status(403).json({ message: "Token is expired" });
+            return res.status(401).json({ message: "Token is expired" });
           }
           return res
-            .status(403)
+            .status(401)
             .json({ message: "Failed to authenticate token." });
         } else {
           if (decoded.type !== "login") {
-            return res.status(403).json({ message: "Not a valid token" });
+            return res.status(401).json({ message: "Not a valid token" });
           }
           // if everything is good, save to request for use in other routes
           req.params.userId = decoded.aud;
@@ -47,7 +47,7 @@ export const jwtToken = payload => {
     } else {
       // if there is no token
       // return an error
-      return res.status(403).send({
+      return res.status(401).send({
         message: "No token provided."
       });
     }
@@ -64,28 +64,31 @@ export const jwtToken = payload => {
       // verifies secret and checks exp
       jwt.verify(token, config.secret, function(err, decoded) {
         if (err) {
+          console.log(err);
           if ((err.name = "TokenExpiredError")) {
-            return res.status(403).json({ message: "Token is expired" });
+            return res.status(401).json({ message: "Token is expired" });
           }
           return res
-            .status(403)
+            .status(401)
             .json({ message: "Failed to authenticate token." });
         } else {
-          if (decoded.role !== "admin" || decoded.role !== "developer") {
+          const validRole = (decoded.role !== "admin" || decoded.role !== "developer");
+          if (!validRole) {
             return res
-              .status(403)
+              .status(401)
               .json({ message: "Failed to authenticate token." });
           }
           // if everything is good, save to request for use in other routes
           req.params.userId = decoded.aud;
           req.params.email = decoded.email;
+          req.params.companyId = decoded.org;
           next();
         }
       });
     } else {
       // if there is no token
       // return an error
-      return res.status(403).send({
+      return res.status(401).send({
         message: "No token provided."
       });
     }
@@ -103,27 +106,29 @@ export const jwtToken = payload => {
       jwt.verify(token, config.secret, function(err, decoded) {
         if (err) {
           if ((err.name = "TokenExpiredError")) {
-            return res.status(403).json({ message: "Token is expired" });
+            return res.status(401).json({ message: "Token is expired" });
           }
           return res
-            .status(403)
+            .status(401)
             .json({ message: "Failed to authenticate token." });
         } else {
-          if (decoded.role !== "employee" || decoded.role !== "admin" || decoded.role !== "developer") {
+          const validRole = (decoded.role !== "employee" || decoded.role !== "admin" || decoded.role !== "developer");
+          if (!validRole) {
             return res
-              .status(403)
+              .status(401)
               .json({ message: "Failed to authenticate token." });
           }
           // if everything is good, save to request for use in other routes
           req.params.userId = decoded.aud;
           req.params.email = decoded.email;
+          req.params.companyId = decoded.org;
           next();
         }
       });
     } else {
       // if there is no token
       // return an error
-      return res.status(403).send({
+      return res.status(401).send({
         message: "No token provided."
       });
     }
@@ -142,25 +147,23 @@ export const jwtToken = payload => {
       jwt.verify(token, config.secret, function(err, decoded) {
         if (err) {
           if ((err.name = "TokenExpiredError")) {
-            return res.status(403).json({ message: "Token is expired" });
+            return res.status(401).json({ message: "Token is expired" });
           }
           return res
-            .status(403)
+            .status(401)
             .json({ message: "Failed to authenticate token." });
         } else {
           if (decoded.type !== "activation") {
-            return res.status(403).json({ message: "not a valid token" });
+            return res.status(401).json({ message: "not a valid token" });
           }
           // if everything is good, save to request for use in other routes
-          req.params.userId = decoded.aud;
-          req.params.email = decoded.email;
           next();
         }
       });
     } else {
       // if there is no token
       // return an error
-      return res.status(403).send({
+      return res.status(401).send({
         message: "No token provided."
       });
     }
@@ -178,25 +181,23 @@ export const jwtToken = payload => {
       jwt.verify(token, config.secret, function(err, decoded) {
         if (err) {
           if ((err.name = "TokenExpiredError")) {
-            return res.status(403).json({ message: "Token is expired" });
+            return res.status(401).json({ message: "Token is expired" });
           }
           return res
-            .status(403)
+            .status(401)
             .json({ message: "Failed to authenticate token." });
         } else {
           if (decoded.type !== "forgot") {
-            return res.status(403).json({ message: "not a valid token" });
+            return res.status(401).json({ message: "not a valid token" });
           }
           // if everything is good, save to request for use in other routes
-          req.params.userId = decoded.aud;
-          req.params.email = decoded.email;
           next();
         }
       });
     } else {
       // if there is no token
       // return an error
-      return res.status(403).send({
+      return res.status(401).send({
         message: "No token provided."
       });
     }

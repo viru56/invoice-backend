@@ -16,7 +16,9 @@ export const parseUser = (user: any) => {
     id: user.id,
     fullName: user.fullName,
     phone: user.phone,
-    email: user.email
+    email: user.email,
+    status: user.status,
+    role: user.role
   };
 };
 

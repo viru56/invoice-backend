@@ -63,8 +63,8 @@ export const applicationData = {
     linkDescription: "Click here to activate your account",
     subject: "Account Activation",
     text1:
-      "Welcome to indi-invoice, You have registered successfully in indi-invoice. Click here to confirm your registration.",
-    text2: "Once you confirm, Your account will be activated.",
+      "Welcome to indi-invoice, You account is created as a team member for indi-invoice.",
+    text2: "Click on the below link to set a new password for your account.",
     text3: "",
     template:'general-mail.ejs'
   },
@@ -95,7 +95,7 @@ export const applicationData = {
     },
     accountActivation: {
       message1:
-        "your account is created, please check your mail to activate account"
+        "user account is created and send a mail to set password"
     },
     forgotPassword: {
       mailSent:
