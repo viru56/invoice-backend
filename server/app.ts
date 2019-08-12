@@ -34,16 +34,18 @@ class App {
     };
     this.app.use(express.static("client", options));
   }
-  private mongoSetup(): void {
-    // mongoose.Promise = global.Promise;
-    mongoose.connect(this.mongoUrl, { useNewUrlParser: true }, err => {
-      if (err) {
-        logger.error("failed to connect to mongodb", this.mongoUrl);
-      } else {
-        logger.log("connected to mongodb...:)");
-      }
-    });
+  private async mongoSetup(): Promise<void> {
+    try {
+      // mongoose.Promise = global.Promise;
+      await mongoose.connect(this.mongoUrl, {
+        useNewUrlParser: true
+      });
+      logger.log("connected to mongodb...:)");
+    } catch (error) {
+      logger.error("mongo connection error, reason:- ", error.toString());
+    }
   }
+    
 }
 
 export default new App().app;

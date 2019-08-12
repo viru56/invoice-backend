@@ -40,7 +40,12 @@ const TaxSchema = new Schema(
     updatedBy: {
       type: Schema.ObjectId,
       ref: "User"
-    }
+    },
+    company: {
+      type: Schema.ObjectId,
+      ref: "Company",
+      required: [true, "Company is required"]
+    },
   },
   {
     toJSON: {

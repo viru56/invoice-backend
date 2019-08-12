@@ -6,6 +6,7 @@ export class TaxController {
     try {
       logger.info("/tax", "post", "addTaxItem", req.body.name);
       req.body.createdBy = req.params.userId;
+      req.body.company = req.params.companyId;
       const item = new Tax(req.body);
       const newItem = await item.save();
       return res.status(200).json(parseTax(newItem));
@@ -31,7 +32,7 @@ export class TaxController {
     try {
       logger.info("/item", "get", "getTaxAllItems", req.params.userId);
       const items = await Tax.find(
-        { isDeleted: false },
+        { isDeleted: false,company:req.params.companyId },
         { name: 1, description: 1, taxMode: 1, amount: 1 }
       );
       return res.status(200).json(items);

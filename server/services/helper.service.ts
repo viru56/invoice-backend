@@ -40,3 +40,22 @@ export const parseTax = (tax: any) => {
     amount: tax.amount
   };
 };
+
+export const parseCustomer = (customer: any) => {
+  return {
+    id: customer.id,
+    fullName: customer.fullName,
+    phone: customer.phone,
+    email: customer.email,
+    taxId: customer.taxId,
+    accountId: customer.accountId,
+    notes: customer.notes,
+    attentionTo: customer.attentionTo,
+    address_1: customer.address_1,
+    address_2: customer.address_2,
+    city: customer.city,
+    state: customer.state,
+    postalCode: customer.postalCode,
+    country: customer.country
+  };
+};

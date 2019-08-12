@@ -6,6 +6,7 @@ export class ItemController {
     try {
       logger.info("/item", "post", "addItem", req.body.name);
       req.body.createdBy = req.params.userId;
+      req.body.company = req.params.companyId;
       const item = new Item(req.body);
       const newItem = await item.save();
       return res.status(200).json(parseItem(newItem));
@@ -31,7 +32,7 @@ export class ItemController {
     try {
       logger.info("/item", "get", "getAllItems", req.params.userId);
       const items = await Item.find(
-        { isDeleted: false },
+        { isDeleted: false,company:req.params.companyId },
         { name: 1, description: 1, taxable: 1, unitCost: 1 }
       );
       return res.status(200).json(items);
