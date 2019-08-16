@@ -5,7 +5,7 @@ const expiresIn: number = 60 * 60 * 1000 * 24;
 
 export const jwtToken = payload => {
     var data = {
-      aud: payload.id,
+      aud: payload.aud,
       org:payload.org,
       role: payload.role || "readOnly",
       iss: "http:localhost:3000",
@@ -156,6 +156,8 @@ export const jwtToken = payload => {
           if (decoded.type !== "activation") {
             return res.status(401).json({ message: "not a valid token" });
           }
+          req.params.userId = decoded.aud;
+          req.params.email = decoded.email;
           // if everything is good, save to request for use in other routes
           next();
         }
@@ -191,6 +193,8 @@ export const jwtToken = payload => {
             return res.status(401).json({ message: "not a valid token" });
           }
           // if everything is good, save to request for use in other routes
+          req.params.userId = decoded.aud;
+          req.params.email = decoded.email;
           next();
         }
       });

@@ -19,7 +19,7 @@ export class UserController {
       const user = await newUser.save();
       logger.log("new user added");
       const token = jwtToken({
-        id: user.id,
+        aud: user.id,
         type: "activation",
         email: user.email
       });
@@ -67,7 +67,7 @@ export class UserController {
 
   public static async getUsers(req: Request, res: Response) {
     try {
-      logger.info("/user", "get", "getUsers", req.params.email);
+      logger.info("/user/all", "get", "getUsers", req.params.userId);
       const users = await User.find(
         { isDeleted: false, company: req.params.companyId },
         { fullName: 1, phone: 1, email: 1, status: 1, role: 1 }
@@ -80,12 +80,25 @@ export class UserController {
   }
   public static async getUser(req: Request, res: Response) {
     try {
-      logger.info("/user/userdetails", "get", "getUser", req.params.email);
+      logger.info("/user", "get", "getUser", req.params.userId);
       const user = await User.findOne(
         { _id: req.params.userId, isDeleted: false },
         { fullName: 1, phone: 1, email: 1, role: 1 }
       )
-        .populate("company")
+        .populate("company", [
+          "name",
+          "subscription",
+          "subscriptionEndDate",
+          "email",
+          "logoUrl",
+          "postalCode",
+          "sendTo",
+          "state",
+          "city",
+          "subscriptionStartDate",
+          "taxId",
+          "address"
+        ])
         .exec();
 
       return res.status(200).json(user);
@@ -96,7 +109,7 @@ export class UserController {
   }
   public static async updateUser(req: Request, res: Response) {
     try {
-      logger.info("/user", "put", "updateUser", req.params.email);
+      logger.info("/user", "put", "updateUser", req.params.userId);
       logger.log("req.body", req.body);
       delete req.body.role;
       req.body.updatedBy = req.params.id;
@@ -115,7 +128,7 @@ export class UserController {
   }
   public static async userRoleUpdate(req: Request, res: Response) {
     try {
-      logger.info("/user/role", "put", "userRoleUpdate", req.params.email);
+      logger.info("/user/role", "put", "userRoleUpdate", req.params.userId);
       req.body.updatedBy = req.params.id;
       const result = await User.updateOne(
         { _id: req.body.id, isDeleted: false },
@@ -132,7 +145,7 @@ export class UserController {
   }
   public static async deleteUser(req: Request, res: Response) {
     try {
-      logger.info("/user", "delete", "deleteUser", req.params.email);
+      logger.info("/user", "delete", "deleteUser", req.params.userId);
       const result = await User.updateOne(
         { _id: req.params.id },
         { isDeleted: true, updatedBy: req.params.userId }
@@ -150,7 +163,20 @@ export class UserController {
         { email: req.body.email, isDeleted: false },
         { fullName: 1, phone: 1, email: 1, role: 1, password: 1, status: 1 }
       )
-        .populate("company", ["name", "subscription", "subscriptionEndDate"])
+        .populate("company", [
+          "name",
+          "subscription",
+          "subscriptionEndDate",
+          "email",
+          "logoUrl",
+          "postalCode",
+          "sendTo",
+          "state",
+          "city",
+          "subscriptionStartDate",
+          "taxId",
+          "address"
+        ])
         .exec();
       if (user.status !== "active") {
         logger.error("user account inactive");
@@ -163,7 +189,7 @@ export class UserController {
         });
       } else {
         const token = jwtToken({
-          id: user.id,
+          aud: user.id,
           org: user.company.id,
           type: "login",
           email: req.body.email,
@@ -186,7 +212,7 @@ export class UserController {
         "/user/forgotPassword",
         "put",
         "userForgotPassword",
-        req.params.email
+        req.params.userId
       );
       if (req.body.password) {
         const user = await User.findOne({
@@ -224,7 +250,7 @@ export class UserController {
         "/user/resetPassword",
         "put",
         "userResetPassword",
-        req.params.email
+        req.params.userId
       );
       if (req.body.password && req.body.newPassword) {
         const user = await User.findOne({
@@ -256,7 +282,7 @@ export class UserController {
         "/user/accountActivation",
         "put",
         "accountActivation",
-        req.params.email
+        req.params.userId
       );
       const result = await User.updateOne(
         { _id: req.params.userId, isDeleted: false },
@@ -283,7 +309,7 @@ export class UserController {
       if (email) {
         const user = await User.findOne({ email, isDeleted: false });
         const token = jwtToken({
-          id: user._id,
+          aud: user.id,
           type: "forgot",
           email: user.email
         });

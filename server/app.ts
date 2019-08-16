@@ -1,6 +1,7 @@
 import * as express from "express";
 import * as bodyParser from "body-parser";
 import * as mongoose from "mongoose";
+import * as path from "path";
 import { Routes } from "./routes";
 import { config } from "./config";
 import { logger } from "./services";
@@ -24,7 +25,7 @@ class App {
     const options = {
       dotfiles: "ignore",
       etag: false,
-      extensions: ["htm", "html", "css"],
+      extensions: ["htm", "html", "css", "png", "jpg"],
       index: false,
       maxAge: "1d",
       redirect: false,
@@ -32,7 +33,13 @@ class App {
         res.set("x-timestamp", Date.now());
       }
     };
-    this.app.use(express.static("client", options));
+    // for css files
+    this.app.use(express.static(path.join(__dirname, "../client"), options));
+    // for images
+    this.app.use(
+      "/uploads",
+      express.static(path.join(__dirname, "../uploads"))
+    );
   }
   private async mongoSetup(): Promise<void> {
     try {
@@ -45,7 +52,6 @@ class App {
       logger.error("mongo connection error, reason:- ", error.toString());
     }
   }
-    
 }
 
 export default new App().app;

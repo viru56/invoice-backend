@@ -4,13 +4,54 @@ import * as fs from "fs";
 import * as path from "path";
 import * as moment from "moment";
 import { applicationData } from "../config";
-import { mailService } from "../services";
+import { mailService, logger } from "../services";
 export class InvoiceController {
   public static sendInvocie(req: Request, res: Response) {
     createInvoce(req, res, "mail");
   }
   public static downloadInvoice(req: Request, res: Response) {
     createInvoce(req, res, "download");
+  }
+  public static async addInvoice(req: Request, res: Response) {
+    try {
+      logger.info("/invoice", "post", "addInvoice", req.body.name);
+      
+    } catch (error) {
+      logger.error("falied to create new invoice, reason:- ", error);
+      return res.status(400).json(error);
+    }
+  }
+  public static getInvoice(req: Request, res: Response) {
+    try {
+      logger.info("/invoice/:id", "get", "getInvoice", req.params.userId);
+    } catch (error) {
+      logger.error("falied to get invoice, reason:- ", error);
+      return res.status(400).json(error);
+    }
+  }
+  public static getAllInvoices(req: Request, res: Response) {
+    try {
+      logger.info("/invoice", "get", "getAllInvoices", req.params.userId);
+    } catch (error) {
+      logger.error("falied to get all invoices, reason:- ", error);
+      return res.status(400).json(error);
+    }
+  }
+  public static updateInvoice(req: Request, res: Response) {
+    try {
+      logger.info("/invoice", "put", "updateInvoice", req.params.userId);
+    } catch (error) {
+      logger.error("falied to update invoice, reason:- ", error);
+      return res.status(400).json(error);
+    }
+  }
+  public static deleteInvoice(req: Request, res: Response) {
+    try {
+      logger.info("/invoice", "delete", "deleteInvoice", req.params.userId);
+    } catch (error) {
+      logger.error("falied to delete invoice, reason:- ", error);
+      return res.status(400).json(error);
+    }
   }
 }
 

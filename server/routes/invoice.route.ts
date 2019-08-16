@@ -1,17 +1,29 @@
 import * as multer from "multer";
 import { InvoiceController } from "../controllers";
-//import { validateToken ,validateActivationToken,validateForgotPasswordToken} from '../services';
+import { validateToken } from "../services";
 
 const upload = multer({ storage: multer.memoryStorage() }).single("file");
 export class InvoiceRoutes {
   public static routes(app): void {
     app
-      .route("/invoice/mail")
-      //sent new invoice over mail
-      .post(upload, InvoiceController.sendInvocie);
-      app
+      .route("/invoice")
+      // get all invoices
+      .get(validateToken, InvoiceController.getAllInvoices)
+      //create new invoice
+      .post(validateToken, InvoiceController.addInvoice)
+      // update a specific invoice
+      .put(validateToken, InvoiceController.updateInvoice);
+    //get specific invoice details
+    app.route("/item/:id").get(validateToken, InvoiceController.getInvoice);
+    // delete specific invoice
+    app
+      .route("/item/:id")
+      .delete(validateToken, InvoiceController.deleteInvoice);
+    //sent new invoice over mail
+    app.route("/invoice/mail").post(upload, InvoiceController.sendInvocie);
+    //download new invoice
+    app
       .route("/invoice/download")
-      //download new invoice
       .post(upload, InvoiceController.downloadInvoice);
   }
 }

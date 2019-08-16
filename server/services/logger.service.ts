@@ -13,7 +13,7 @@ if (process.env.NODE_ENV !== 'production') {
   }));
 }
 export const logger = {
-  info: (path: string, method: string, controllerName: string, email: string) => loggerWinston.info(`${path}, ${method}, ${controllerName}, ${email},${new Date()}`),
+  info: (path: string, method: string, controllerName: string, id: string) => loggerWinston.info(`${path}, ${method}, ${controllerName}, ${id},${new Date()}`),
   log: (message: string, data?: any) => {
     if(data){
       loggerWinston.info({ message, data, Date: new Date() });

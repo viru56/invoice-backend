@@ -11,13 +11,13 @@ export class UserRoutes {
     app
       .route("/user")
       //get all users
-      .get(validateToken, UserController.getUsers)
+      .get(validateToken, UserController.getUser)
       //create new user
       .post(validateToken, UserController.addNewUser)
       // update a specific user
       .put(validateToken, UserController.updateUser);
     //get specific user details
-    app.route("/user/details").get(validateToken, UserController.getUser);
+    app.route("/user/all").get(validateToken, UserController.getUsers)
     app
       .route("/user/forgotpassword")
       .put(validateForgotPasswordToken, UserController.userForgotPassword);
