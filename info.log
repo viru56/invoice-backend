@@ -1,604 +1,446 @@
-{"message":"/user/userdetails, get, getUser, 5d398472f4800b0d76529dd4,Tue Aug 13 2019 11:42:45 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Tue Aug 13 2019 11:43:21 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Tue Aug 13 2019 11:43:23 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Tue Aug 13 2019 11:45:18 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Tue Aug 13 2019 11:45:20 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user/userdetails, get, getUser, 5d398472f4800b0d76529dd4,Tue Aug 13 2019 12:01:32 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Tue Aug 13 2019 12:44:18 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Tue Aug 13 2019 12:44:21 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Tue Aug 13 2019 12:44:27 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Tue Aug 13 2019 12:44:29 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Tue Aug 13 2019 12:44:48 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Tue Aug 13 2019 12:44:49 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Tue Aug 13 2019 13:06:29 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Wed Aug 14 2019 12:05:23 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Wed Aug 14 2019 12:05:27 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/api/login, post, userLogin, nehra.virender@gmail.com,Wed Aug 14 2019 12:05:33 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"token generated- Wed Aug 14 2019 12:05:34 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getTaxAllItems, undefined,Wed Aug 14 2019 12:06:06 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getAllItems, undefined,Wed Aug 14 2019 12:06:06 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/customer, get, getAllCustomer, undefined,Wed Aug 14 2019 12:06:06 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 09:21:36 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 09:21:38 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 09:23:48 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 09:23:50 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user/userdetails, get, getUser, undefined,Fri Aug 16 2019 09:23:54 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/api/login, post, userLogin, nehra.virender@gmail.com,Fri Aug 16 2019 09:23:56 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"token generated- Fri Aug 16 2019 09:23:57 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user/userdetails, get, getUser, undefined,Fri Aug 16 2019 09:27:40 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/api/login, post, userLogin, nehra.virender@gmail.com,Fri Aug 16 2019 09:39:46 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"token generated- Fri Aug 16 2019 09:39:46 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user/userdetails, get, getUser, undefined,Fri Aug 16 2019 09:40:21 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 09:42:24 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 09:42:26 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 09:43:30 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 09:43:32 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/api/login, post, userLogin, nehra.virender@gmail.com,Fri Aug 16 2019 10:42:00 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"token generated- Fri Aug 16 2019 10:42:00 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 10:43:11 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 10:43:12 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 10:43:25 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 10:43:26 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 10:45:36 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 10:45:38 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 10:47:54 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 10:47:56 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 10:48:23 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 10:48:24 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, undefined,Fri Aug 16 2019 10:49:12 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 10:52:20 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 10:52:21 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 10:54:00 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 10:54:02 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 10:54:24 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 10:54:25 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 10:55:37 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 10:55:38 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 10:58:14 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 10:58:15 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 10:58:45 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 10:58:47 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:00:13 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:00:14 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:00:49 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:00:50 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:00:55 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:00:57 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:01:06 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:01:07 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:01:13 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:01:14 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:01:23 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:01:25 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:01:33 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:01:35 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:02:17 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:02:19 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:05:00 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:05:01 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:05:04 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:05:06 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:06:00 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:06:01 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:06:32 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:06:34 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:06:42 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:06:44 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:07:16 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:07:18 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:07:22 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:07:23 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:07:26 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:07:28 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:07:44 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:07:45 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:18:39 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:18:40 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:19:07 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:19:08 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/api/login, post, userLogin, nehra.virender@gmail.com,Fri Aug 16 2019 11:26:15 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"token generated- Fri Aug 16 2019 11:26:16 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, undefined,Fri Aug 16 2019 11:27:29 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, undefined,Fri Aug 16 2019 11:27:29 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/api/login, post, userLogin, nehra.virender@gmail.com,Fri Aug 16 2019 11:27:31 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"token generated- Fri Aug 16 2019 11:27:32 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, undefined,Fri Aug 16 2019 11:28:20 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, undefined,Fri Aug 16 2019 11:28:20 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/api/login, post, userLogin, nehra.virender@gmail.com,Fri Aug 16 2019 11:28:22 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"token generated- Fri Aug 16 2019 11:28:23 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:29:11 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:29:13 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:29:18 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:29:20 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:29:31 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:29:32 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, undefined,Fri Aug 16 2019 11:29:44 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, undefined,Fri Aug 16 2019 11:29:45 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/api/login, post, userLogin, nehra.virender@gmail.com,Fri Aug 16 2019 11:30:49 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"token generated- Fri Aug 16 2019 11:30:50 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, undefined,Fri Aug 16 2019 11:30:53 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/api/login, post, userLogin, nehra.virender@gmail.com,Fri Aug 16 2019 11:31:50 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"token generated- Fri Aug 16 2019 11:31:51 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, undefined,Fri Aug 16 2019 11:31:54 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/api/login, post, userLogin, nehra.virender@gmail.com,Fri Aug 16 2019 11:34:14 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"token generated- Fri Aug 16 2019 11:34:15 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, undefined,Fri Aug 16 2019 11:34:18 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:35:09 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:35:10 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, undefined,Fri Aug 16 2019 11:35:15 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:37:33 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:37:35 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, undefined,Fri Aug 16 2019 11:37:42 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/api/login, post, userLogin, nehra.virender@gmail.com,Fri Aug 16 2019 11:37:46 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"token generated- Fri Aug 16 2019 11:37:46 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 11:39:00 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 11:39:02 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, undefined,Fri Aug 16 2019 11:39:15 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/api/login, post, userLogin, nehra.virender@gmail.com,Fri Aug 16 2019 11:39:29 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"token generated- Fri Aug 16 2019 11:39:29 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:39:32 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:39:51 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:39:56 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:40:24 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:40:57 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:40:57 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:41:35 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:41:50 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:41:51 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:43:36 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:43:36 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:43:59 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:44:23 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:44:24 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:44:29 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:44:29 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:44:37 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:44:37 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:45:33 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:45:33 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:46:35 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:46:35 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:47:02 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:47:03 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:48:28 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:48:29 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:50:06 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:50:07 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:50:49 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:50:50 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:51:01 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:51:02 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:53:13 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:53:14 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:59:09 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:59:09 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:59:33 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:59:33 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:59:45 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 11:59:45 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:01:13 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:01:13 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:01:20 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:01:21 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:02:29 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:02:30 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:02:34 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:02:35 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:03:26 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:03:26 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:03:46 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:03:46 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:03:59 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:04:00 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:04:21 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:04:22 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:04:32 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:04:32 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:04:45 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:04:46 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:06:00 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:06:00 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:09:27 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:09:27 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:12:03 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:12:03 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:15:16 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:15:16 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:15:43 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:15:44 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:18:48 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:18:48 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:18:59 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:19:00 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:19:13 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:19:14 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:19:37 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:19:38 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:20:01 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:20:01 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:20:28 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:20:28 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:20:40 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:20:40 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:21:02 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:21:02 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:21:19 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:21:19 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:21:19 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:21:53 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:21:53 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:21:53 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:21:53 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:21:54 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:22:23 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:22:23 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:22:23 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:22:23 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:22:23 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:22:37 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:22:37 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:22:37 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:22:37 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:22:38 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:22:47 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:22:47 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:22:47 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:22:47 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:22:47 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:23:09 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:23:09 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:23:09 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:23:09 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:23:10 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:23:35 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:23:35 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:23:35 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:23:35 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:23:36 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:25:01 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:25:01 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:25:01 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:25:01 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:25:03 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:26:27 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:26:27 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:26:27 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:26:27 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:26:27 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:26:32 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:26:32 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:26:32 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:26:32 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:26:33 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:29:42 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:29:42 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:29:42 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:29:42 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:29:43 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:31:28 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:31:28 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:32:02 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:32:02 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:32:02 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:32:11 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:32:11 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:32:11 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:32:11 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:32:11 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:47:38 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 12:47:38 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:21:43 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:22:03 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:22:14 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:22:25 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:22:37 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:22:57 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:23:22 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:23:42 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:23:53 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:24:13 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:24:16 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:24:36 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:25:12 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:25:24 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 13:25:46 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 13:25:48 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/api/login, post, userLogin, nehra.virender@gmail.com,Fri Aug 16 2019 13:25:55 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"token generated- Fri Aug 16 2019 13:25:56 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:26:03 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:26:03 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:26:58 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:26:58 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:27:14 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:27:15 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:27:20 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:27:20 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:29:31 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:29:32 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:34:28 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:34:29 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:37:57 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:37:57 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:41:06 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:41:21 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:41:22 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 13:42:46 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 13:42:48 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 13:42:56 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 13:42:58 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 13:43:28 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 13:43:29 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 13:43:37 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 13:43:38 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:43:44 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 13:44:20 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 13:44:22 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:44:28 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 13:44:45 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 13:44:47 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:44:50 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:45:19 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:45:20 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:45:59 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:46:00 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:46:25 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:46:25 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 13:46:52 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 13:46:54 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 13:47:02 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 13:47:03 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:47:16 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:47:16 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:47:30 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:47:31 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:51:04 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:51:04 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:51:17 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:51:17 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:57:19 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:57:47 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:58:44 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:58:45 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:59:13 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 13:59:13 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 13:59:51 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 13:59:54 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 13:59:56 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:00:13 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:00:14 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:00:26 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:00:27 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:00:54 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:00:55 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:01:05 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:01:05 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:01:51 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:01:52 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:01:59 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:02:00 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:02:03 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:02:04 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:03:12 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:03:12 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:03:51 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:03:51 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:07:04 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:07:04 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:07:20 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:07:20 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:07:28 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:07:28 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:07:57 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:07:58 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:08:29 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:08:29 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:08:45 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:08:45 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:09:01 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:09:02 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:10:50 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:10:51 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:12:52 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:12:52 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:14:27 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:14:27 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:14:39 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:14:40 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:16:07 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:16:07 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:16:19 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:16:19 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:16:31 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:16:32 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 14:18:19 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 14:18:21 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 14:18:32 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 14:18:34 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 14:20:22 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 14:20:23 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 14:22:04 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 14:22:06 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:39:20 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:39:21 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:42:50 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:42:51 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:42:59 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:42:59 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:44:46 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:44:46 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:45:03 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:45:03 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:45:12 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:45:12 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:46:07 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:46:07 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:46:19 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:46:19 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:46:46 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:46:46 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:48:43 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:48:43 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 14:49:12 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 14:49:13 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:49:45 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:49:45 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:51:19 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:51:19 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:51:27 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:53:27 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:55:14 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:55:14 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:55:24 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:55:24 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:55:35 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:56:11 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:56:11 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:56:36 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:56:36 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 14:57:30 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 14:57:32 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:57:43 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:58:24 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:58:24 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 14:58:36 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 14:58:38 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 14:59:29 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 14:59:31 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 14:59:42 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:01:42 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:05:22 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:05:24 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:06:31 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:06:32 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:10:25 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:10:27 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:10:50 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"falied to update company, reason:- ","Date":"2019-08-16T09:40:50.829Z","err":{},"level":"error"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:11:15 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:11:16 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:11:34 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:11:35 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:12:04 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:12:06 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:12:09 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"falied to update company, reason:- ","Date":"2019-08-16T09:42:09.216Z","err":{},"level":"error"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:13:17 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:13:19 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:13:21 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:13:47 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:13:49 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:14:03 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:14:03 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:14:48 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:14:49 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:14:58 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:15:00 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:15:14 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:15:16 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:15:18 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:15:20 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:15:41 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:15:43 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:16:16 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:16:18 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:17:15 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:17:17 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:17:27 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:17:29 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:24:15 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:24:17 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:24:36 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:25:16 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:25:18 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:25:28 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:26:21 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:26:23 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:27:13 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:27:14 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:27:16 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:29:17 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:29:19 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:29:31 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:30:15 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:30:17 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:30:19 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:30:21 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:30:36 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:31:25 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:31:26 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:31:37 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:33:05 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:33:11 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:34:22 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:34:25 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:34:32 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:36:53 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:36:55 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:37:50 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:37:52 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:38:12 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:38:14 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:38:37 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:38:37 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:38:44 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:39:32 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:39:33 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:39:48 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:39:50 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:39:57 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:39:59 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/api/login, post, userLogin, nehra.virender@gmail.com,Fri Aug 16 2019 15:40:07 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"token generated- Fri Aug 16 2019 15:40:07 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:41:28 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:41:29 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:43:00 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:43:01 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:43:21 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:43:21 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:44:10 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:44:11 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:44:39 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:44:39 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:46:38 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:46:40 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:47:25 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:47:27 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:47:41 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:47:42 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:47:44 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:47:45 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:48:49 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:48:51 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:49:56 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:49:58 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:50:04 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:50:05 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:50:39 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:50:40 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:50:40 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:50:43 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:50:53 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:50:55 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:50:56 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:50:58 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:51:00 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:51:56 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:51:58 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:52:03 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:52:04 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:52:08 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:52:10 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:52:35 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:52:58 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:53:24 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:53:39 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:53:39 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:53:52 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:53:52 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:55:26 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:55:26 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:55:35 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"falied to update company, reason:- ","Date":"2019-08-16T10:25:35.256Z","err":{},"level":"error"}
-{"message":"The HTTP server is running on port 3000 - development- Fri Aug 16 2019 15:57:15 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"connected to mongodb...:)- Fri Aug 16 2019 15:57:17 GMT+0530 (India Standard Time)","level":"info"}
-{"message":"/company, put, updateCompany, 5d398472f4800b0d76529dd4,Fri Aug 16 2019 15:57:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, delete, deleteItem, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:16:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"tax item deleted","data":"5d4d33c59ffa0e4b55c34f53","Date":"2019-08-19T07:46:47.112Z","level":"info"}
+{"message":"/tax, post, addTaxItem, g gst,Mon Aug 19 2019 13:16:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/tax, post, addTaxItem, s gst,Mon Aug 19 2019 13:17:05 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:17:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:17:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:24:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:24:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:24:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:24:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:24:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:25:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:25:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:25:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:25:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:25:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:26:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:26:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:26:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:26:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:26:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:29:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:29:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:29:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:29:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:29:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:31:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:31:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:31:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:31:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:31:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:32:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:32:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:32:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:32:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:32:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:33:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:33:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:33:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:33:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:33:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:35:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:35:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:35:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:35:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:35:02 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:35:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:35:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:35:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:35:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:35:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:36:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:36:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:36:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:36:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:36:26 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:37:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:37:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:37:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:37:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:37:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:37:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:37:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:37:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:37:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:37:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Mon Aug 19 2019 13:43:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Mon Aug 19 2019 13:43:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:45:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:45:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:45:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:45:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:45:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Mon Aug 19 2019 13:48:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Mon Aug 19 2019 13:48:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Mon Aug 19 2019 13:49:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Mon Aug 19 2019 13:49:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:49:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:49:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:49:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:49:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:49:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Mon Aug 19 2019 13:49:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Mon Aug 19 2019 13:49:58 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, post, addInvoice, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:50:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Mon Aug 19 2019 13:53:02 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Mon Aug 19 2019 13:53:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Mon Aug 19 2019 13:53:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Mon Aug 19 2019 13:53:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Mon Aug 19 2019 13:54:17 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Mon Aug 19 2019 13:54:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, post, addInvoice, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:54:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to create new invoice, reason:- ","Date":"2019-08-19T08:24:35.735Z","err":{"errors":{"customer":{"message":"Customer is required","name":"ValidatorError","properties":{"message":"Customer is required","type":"required","path":"customer"},"kind":"required","path":"customer"},"company":{"message":"Company is required","name":"ValidatorError","properties":{"message":"Company is required","type":"required","path":"company"},"kind":"required","path":"company"},"dueDate":{"message":"Due date is required","name":"ValidatorError","properties":{"message":"Due date is required","type":"required","path":"dueDate"},"kind":"required","path":"dueDate"},"date":{"message":"Date is required","name":"ValidatorError","properties":{"message":"Date is required","type":"required","path":"date"},"kind":"required","path":"date"},"number":{"message":"Invoice number is required","name":"ValidatorError","properties":{"message":"Invoice number is required","type":"required","path":"number"},"kind":"required","path":"number"},"name":{"message":"Invoice name is required","name":"ValidatorError","properties":{"message":"Invoice name is required","type":"required","path":"name"},"kind":"required","path":"name"}},"_message":"Invoice validation failed","message":"Invoice validation failed: customer: Customer is required, company: Company is required, dueDate: Due date is required, date: Date is required, number: Invoice number is required, name: Invoice name is required","name":"ValidationError"},"level":"error"}
+{"message":"The HTTP server is running on port 3000 - development- Mon Aug 19 2019 13:56:29 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Mon Aug 19 2019 13:56:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Mon Aug 19 2019 13:57:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Mon Aug 19 2019 13:57:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, post, addInvoice, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:57:17 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to create new invoice, reason:- ","Date":"2019-08-19T08:27:17.917Z","err":{"errors":{"company":{"message":"Company is required","name":"ValidatorError","properties":{"message":"Company is required","type":"required","path":"company"},"kind":"required","path":"company"}},"_message":"Invoice validation failed","message":"Invoice validation failed: company: Company is required","name":"ValidationError"},"level":"error"}
+{"message":"The HTTP server is running on port 3000 - development- Mon Aug 19 2019 13:58:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Mon Aug 19 2019 13:58:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Mon Aug 19 2019 13:58:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Mon Aug 19 2019 13:58:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, post, addInvoice, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 13:59:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Mon Aug 19 2019 14:02:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Mon Aug 19 2019 14:02:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:03:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:03:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:03:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:03:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:03:34 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:05:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:05:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:05:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:05:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:05:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:05:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:05:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:05:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:05:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:05:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:05:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:05:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:05:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:05:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:05:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:07:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:07:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:07:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:07:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:07:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:07:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:07:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:07:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:07:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:07:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, post, addInvoice, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:08:27 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:09:22 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:09:22 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:09:22 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:09:22 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:09:22 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Mon Aug 19 2019 14:09:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Mon Aug 19 2019 14:09:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, post, addInvoice, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:10:08 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to create new invoice, reason:- ","Date":"2019-08-19T08:40:08.244Z","err":{"errors":{"customer":{"message":"Customer is required","name":"ValidatorError","properties":{"message":"Customer is required","type":"required","path":"customer"},"kind":"required","path":"customer"}},"_message":"Invoice validation failed","message":"Invoice validation failed: customer: Customer is required","name":"ValidationError"},"level":"error"}
+{"message":"/invoice, post, addInvoice, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:10:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:11:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:11:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:11:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:11:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:11:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:12:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:12:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:12:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:12:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:12:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:13:03 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:13:03 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:13:03 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:13:03 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:13:03 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:13:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:13:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:13:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:13:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:13:16 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:13:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:13:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:13:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:13:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:13:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:13:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:13:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:13:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:13:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:13:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:14:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:14:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:14:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:14:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:14:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:15:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:15:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:15:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:15:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:15:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:15:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:15:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:15:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:15:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:15:21 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:15:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:15:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:15:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:15:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:15:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:16:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:16:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:16:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:16:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:16:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:16:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:16:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:16:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:16:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:16:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:17:29 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:17:29 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:17:29 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:17:29 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:17:29 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:17:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:17:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:17:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:17:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:17:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:18:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:18:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:18:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:18:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:18:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:18:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:18:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:18:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:18:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:18:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:21:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:21:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:21:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:21:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:21:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:23:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:23:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:23:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:23:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:23:57 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:24:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:25:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:25:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:25:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:25:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:25:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:25:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:25:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:25:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, post, addInvoice, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:26:05 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to create new invoice, reason:- ","Date":"2019-08-19T08:56:05.652Z","err":{"errors":{"customer":{"message":"Customer is required","name":"ValidatorError","properties":{"message":"Customer is required","type":"required","path":"customer"},"kind":"required","path":"customer"},"number":{"message":"Invoice number is required","name":"ValidatorError","properties":{"message":"Invoice number is required","type":"required","path":"number","value":null},"kind":"required","path":"number","value":null}},"_message":"Invoice validation failed","message":"Invoice validation failed: customer: Customer is required, number: Invoice number is required","name":"ValidationError"},"level":"error"}
+{"message":"/invoice, post, addInvoice, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:26:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to create new invoice, reason:- ","Date":"2019-08-19T08:56:15.790Z","err":{"errors":{"customer":{"message":"Customer is required","name":"ValidatorError","properties":{"message":"Customer is required","type":"required","path":"customer"},"kind":"required","path":"customer"},"number":{"message":"Invoice number is required","name":"ValidatorError","properties":{"message":"Invoice number is required","type":"required","path":"number","value":null},"kind":"required","path":"number","value":null}},"_message":"Invoice validation failed","message":"Invoice validation failed: customer: Customer is required, number: Invoice number is required","name":"ValidationError"},"level":"error"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:26:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:26:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:26:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:26:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:26:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, post, addInvoice, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:26:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to create new invoice, reason:- ","Date":"2019-08-19T08:56:44.219Z","err":{"errors":{"customer":{"message":"Customer is required","name":"ValidatorError","properties":{"message":"Customer is required","type":"required","path":"customer"},"kind":"required","path":"customer"},"number":{"message":"Invoice number is required","name":"ValidatorError","properties":{"message":"Invoice number is required","type":"required","path":"number","value":null},"kind":"required","path":"number","value":null}},"_message":"Invoice validation failed","message":"Invoice validation failed: customer: Customer is required, number: Invoice number is required","name":"ValidationError"},"level":"error"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:27:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:27:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:27:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:27:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:27:02 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, post, addInvoice, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:27:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to create new invoice, reason:- ","Date":"2019-08-19T08:57:28.216Z","err":{"errors":{"customer":{"message":"Customer is required","name":"ValidatorError","properties":{"message":"Customer is required","type":"required","path":"customer"},"kind":"required","path":"customer"},"number":{"message":"Invoice number is required","name":"ValidatorError","properties":{"message":"Invoice number is required","type":"required","path":"number","value":null},"kind":"required","path":"number","value":null}},"_message":"Invoice validation failed","message":"Invoice validation failed: customer: Customer is required, number: Invoice number is required","name":"ValidationError"},"level":"error"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:27:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:27:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:27:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:27:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:27:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:27:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:27:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:27:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:27:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:27:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:28:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:28:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:28:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:28:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:28:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, post, addInvoice, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:28:21 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"falied to create new invoice, reason:- ","Date":"2019-08-19T08:58:21.505Z","err":{"errors":{"customer":{"message":"Customer is required","name":"ValidatorError","properties":{"message":"Customer is required","type":"required","path":"customer"},"kind":"required","path":"customer"}},"_message":"Invoice validation failed","message":"Invoice validation failed: customer: Customer is required","name":"ValidationError"},"level":"error"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:29:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:29:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:29:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:29:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:29:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:29:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:29:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:29:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:29:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:29:12 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:31:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Mon Aug 19 2019 14:34:07 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Mon Aug 19 2019 14:34:09 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Mon Aug 19 2019 14:37:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Mon Aug 19 2019 14:37:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:53:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:57:05 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:58:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 14:58:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:00:39 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:01:22 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:03:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:03:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:04:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:04:42 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:05:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:05:24 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:06:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:06:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:07:02 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:07:03 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Mon Aug 19 2019 15:07:41 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Mon Aug 19 2019 15:07:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:07:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:07:45 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:08:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:08:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:10:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:10:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:11:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:11:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:11:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:11:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:12:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:12:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:12:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:12:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:12:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:12:38 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:16:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:16:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:16:36 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:17:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:17:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:18:37 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:18:37 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:18:37 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, post, addInvoice, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:18:58 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:20:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:20:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:20:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:20:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:20:00 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, post, addInvoice, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:20:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:21:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:21:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:21:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:21:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:21:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:21:32 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:22:49 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:22:49 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:22:49 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:22:49 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:22:49 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:23:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:23:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:23:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:23:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:23:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:23:23 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, post, addInvoice, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:23:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:24:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:24:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:25:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:25:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:25:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:25:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:25:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:25:40 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:26:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:26:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/all, get, getUsers, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:26:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:26:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:26:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:26:20 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, post, addInvoice, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:26:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:27:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:27:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:28:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, post, addCustomer, undefined,Mon Aug 19 2019 15:29:01 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, post, addCustomer, undefined,Mon Aug 19 2019 15:29:59 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:30:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:30:25 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:30:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Mon Aug 19 2019 15:37:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Mon Aug 19 2019 15:37:54 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:44:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:44:46 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:50:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:50:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:50:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:50:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:50:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:50:53 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:51:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:51:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:51:10 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:51:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:51:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:51:19 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:51:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:51:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:51:28 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:51:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:51:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:51:52 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:52:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:52:47 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:52:48 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:52:55 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:52:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:52:56 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:53:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:53:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:53:33 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:53:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:53:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:53:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:54:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:54:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:54:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:54:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:54:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:54:11 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:54:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:54:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:54:15 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/all, get, getUsers, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:54:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:54:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:55:04 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:56:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:56:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/item, get, getTaxAllItems, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:56:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:56:43 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:56:44 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, post, addInvoice, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:58:05 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:58:05 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user/all, get, getUsers, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:58:18 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, post, addInvoice, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 15:58:50 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 16:01:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 16:01:13 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Mon Aug 19 2019 16:01:14 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Mon Aug 19 2019 16:02:30 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Mon Aug 19 2019 16:02:32 GMT+0530 (India Standard Time)","level":"info"}

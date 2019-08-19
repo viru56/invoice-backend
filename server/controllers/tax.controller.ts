@@ -58,12 +58,8 @@ export class TaxController {
   public static async deleteTaxItem(req: Request, res: Response) {
     try {
       logger.info("/tax", "delete", "deleteItem", req.params.userId);
-      const item = {
-        isDeleted: true,
-        updatedBy: req.params.userId,
-        updatedAt: new Date()
-      };
-      const result = await Tax.updateOne({ _id: req.params.id }, item);
+      const result = await Tax.deleteOne({ _id: req.params.id });
+      logger.log('tax item deleted',req.params.id);
       return res.status(200).json(result);
     } catch (error) {
       logger.error("falied to update tax item, reason:- ", error);

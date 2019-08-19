@@ -20,7 +20,7 @@ const InvoiceSchema = new Schema(
       enum: ["flat", "percentage"]
     },
     discountValue: Number,
-    taxes: Array,
+    taxItems: Array,
     amountPaid: { type: Number, default: 0 },
     subtotal: Number,
     total: Number,
@@ -41,7 +41,8 @@ const InvoiceSchema = new Schema(
     },
     createdBy: {
       type: Schema.ObjectId,
-      ref: "User"
+      ref: "User",
+      required: [true, "CreatedBy is required"]
     },
     updatedBy: {
       type: Schema.ObjectId,
@@ -51,6 +52,16 @@ const InvoiceSchema = new Schema(
       type: Schema.ObjectId,
       ref: "Company",
       required: [true, "Company is required"]
+    },
+    customer: {
+      type: Schema.ObjectId,
+      ref: "Customer",
+      required: [true, "Customer is required"]
+    },
+    status:{
+      type:String,
+      enum:["Draft", "Sent", "Paid", "Outstanding"],
+      default:"Draft"
     }
   },
   {

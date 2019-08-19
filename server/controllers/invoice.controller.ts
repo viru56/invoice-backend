@@ -5,6 +5,7 @@ import * as path from "path";
 import * as moment from "moment";
 import { applicationData } from "../config";
 import { mailService, logger } from "../services";
+import { Invoice } from "../models";
 export class InvoiceController {
   public static sendInvocie(req: Request, res: Response) {
     createInvoce(req, res, "mail");
@@ -14,8 +15,45 @@ export class InvoiceController {
   }
   public static async addInvoice(req: Request, res: Response) {
     try {
-      logger.info("/invoice", "post", "addInvoice", req.body.name);
-      
+      logger.info("/invoice", "post", "addInvoice", req.params.userId);
+      let taxableAmount = 0;
+      let nonTaxableAmount = 0;
+      req.body.subtotal = 0;
+      req.body.total = 0;
+      let exclusiveTax = 0;
+      for (let item of req.body.lineItems) {
+        if (item.taxable) {
+          taxableAmount += item.amount;
+        } else {
+          nonTaxableAmount += item.amount;
+        }
+      }
+      req.body.subtotal = taxableAmount + nonTaxableAmount;
+      if (req.body.taxItems && req.body.taxItems.length > 0) {
+        for (let tax of req.body.taxItems) {
+          if (tax.taxMode === "Exclusive") {
+            exclusiveTax += Number(
+              ((taxableAmount * tax.amount) / 100).toFixed(2)
+            );
+          }
+        }
+      }
+      req.body.total = req.body.subtotal + exclusiveTax;
+      if (req.body.discountType === "percentage") {
+        req.body.total =
+          req.body.total - (req.body.total * req.body.discountValue) / 100;
+      } else if (req.body.discountType === "flat") {
+        req.body.total = Number(
+          (req.body.total - req.body.discountValue).toFixed(2)
+        );
+      }
+      req.body.balanceDue = Number(
+        (req.body.total - req.body.amountPaid).toFixed(2)
+      );
+      req.body.company = req.params.companyId;
+      req.body.createdBy = req.params.userId;
+      const invoice = await new Invoice(req.body).save();
+      return res.status(200).json(invoice);
     } catch (error) {
       logger.error("falied to create new invoice, reason:- ", error);
       return res.status(400).json(error);
@@ -29,15 +67,17 @@ export class InvoiceController {
       return res.status(400).json(error);
     }
   }
-  public static getAllInvoices(req: Request, res: Response) {
+  public static async getAllInvoices(req: Request, res: Response) {
     try {
       logger.info("/invoice", "get", "getAllInvoices", req.params.userId);
+      const invoices = await Invoice.find({ isDeleted: false });
+      return res.status(200).json(invoices);
     } catch (error) {
       logger.error("falied to get all invoices, reason:- ", error);
       return res.status(400).json(error);
     }
   }
-  public static updateInvoice(req: Request, res: Response) {
+  public static async updateInvoice(req: Request, res: Response) {
     try {
       logger.info("/invoice", "put", "updateInvoice", req.params.userId);
     } catch (error) {
@@ -63,18 +103,9 @@ const createInvoce = async (
   try {
     const invoice = JSON.parse(req.body.invoice);
     // console.log(invoice);
-    const normalFont = path.join(
-      __dirname,
-      "../",
-      "fonts",
-      "XeroxSansSerifWide.ttf"
-    );
-    const boldFont = path.join(
-      __dirname,
-      "../",
-      "fonts",
-      "XeroxSansSerifWideBold.ttf"
-    );
+    const basePath = path.join(__dirname, "../");
+    const normalFont = `${basePath}/fonts/XeroxSansSerifWide.ttf`;
+    const boldFont = `${basePath}/fonts/XeroxSansSerifWideBold.ttf`;
     const lightColor = "#6D6D6D";
     const darkColor = "#212121";
     let lheight = 100;
@@ -87,16 +118,17 @@ const createInvoce = async (
     // Add an image
     // font - 'Helvetica' | 'Helvetica-Bold' | 'Helvetica-Oblique' | 'Helvetica-BoldOblique'
     doc.fontSize(10).font(boldFont);
-    doc
-      .image(req["file"].buffer, ml30, 15, {
+    const file = req["file"].buffer || invoice.logoUrl;
+    if (file) {
+      doc.image(file, ml30, 15, {
         width: 150,
         height: lheight,
         align: "left",
         valign: "top"
-      })
-      // name of company and address
-      .fillColor(darkColor)
-      .text(invoice.sender, ml30, lheight + 25);
+      });
+    }
+    // name of company and address
+    doc.fillColor(darkColor).text(invoice.sender, ml30, lheight + 25);
     lheight += 40;
     // doc.font(normalFont).fontSize(8).text("#203/hoorian arcade, kempana main road", ml30, lheight, {
     //   align: "left"
@@ -111,7 +143,7 @@ const createInvoce = async (
     doc
       .fontSize(32)
       .font(boldFont)
-      .text(invoice.invoiceName, 0, rheight, {
+      .text(invoice.name, 0, rheight, {
         align: "right"
       });
     // invoice number
@@ -120,7 +152,7 @@ const createInvoce = async (
       .fontSize(10)
       .font(normalFont)
       .fillColor(lightColor)
-      .text(invoice.invoiceNumber, 0, rheight, { align: "right" });
+      .text(invoice.number, 0, rheight, { align: "right" });
     rheight += 60;
     // date
     doc.fontSize(12).text(invoice.label.date, ml350, rheight);
@@ -300,11 +332,13 @@ const createInvoce = async (
           userName: invoice.receiver,
           to: invoice.mail.receiver,
           subject: `${applicationData.invoiceDemo.subject} ${invoice.sender} ${
-            invoice.invoiceNumber
+            invoice.number
           }`,
           text1: invoice.mail.message || applicationData.invoiceDemo.text1,
           text2: applicationData.invoiceDemo.text2,
-          text3: `${applicationData.invoiceDemo.text3} ${invoice.mail.sender} via indi-invoice.com`,
+          text3: `${applicationData.invoiceDemo.text3} ${
+            invoice.mail.sender
+          } via indi-invoice.com`,
           template: applicationData.invoiceDemo.template,
           link: null,
           linkDescription: null,
