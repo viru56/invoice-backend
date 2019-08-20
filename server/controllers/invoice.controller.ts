@@ -85,9 +85,13 @@ export class InvoiceController {
       return res.status(400).json(error);
     }
   }
-  public static deleteInvoice(req: Request, res: Response) {
+  public static async deleteInvoice(req: Request, res: Response) {
     try {
       logger.info("/invoice", "delete", "deleteInvoice", req.params.userId);
+      const result = await Invoice.deleteOne({ _id: req.params.id });
+      logger.log('invoice is deleted',req.params.id);
+      return res.status(200).json(result);
+
     } catch (error) {
       logger.error("falied to delete invoice, reason:- ", error);
       return res.status(400).json(error);

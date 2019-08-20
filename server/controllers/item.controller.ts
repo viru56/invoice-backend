@@ -58,12 +58,8 @@ export class ItemController {
   public static async deleteItem(req: Request, res: Response) {
     try {
       logger.info("/item", "delete", "deleteItem", req.params.userId);
-      const item = {
-        isDeleted: true,
-        updatedBy: req.params.userId,
-        updatedAt: new Date()
-      };
-      const result = await Item.updateOne({ _id: req.params.id }, item);
+      const result = await Item.deleteOne({ _id: req.params.id });
+      logger.log('Item is deleted',req.params.id);
       return res.status(200).json(result);
     } catch (error) {
       logger.error("falied to update item, reason:- ", error);

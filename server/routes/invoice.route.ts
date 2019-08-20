@@ -14,10 +14,10 @@ export class InvoiceRoutes {
       // update a specific invoice
       .put(validateToken, InvoiceController.updateInvoice);
     //get specific invoice details
-    app.route("/item/:id").get(validateToken, InvoiceController.getInvoice);
+    app.route("/invoice/:id").get(validateToken, InvoiceController.getInvoice);
     // delete specific invoice
     app
-      .route("/item/:id")
+      .route("/invoice/:id")
       .delete(validateToken, InvoiceController.deleteInvoice);
     //sent new invoice over mail
     app.route("/invoice/mail").post(upload, InvoiceController.sendInvocie);
