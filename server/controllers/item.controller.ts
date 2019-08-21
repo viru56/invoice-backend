@@ -20,7 +20,7 @@ export class ItemController {
       logger.info("/item/:id", "get", "getItem", req.params.id);
       const item = Item.findOne(
         { _id: req.params.id, isDeleted: false },
-        { name: 1, description: 1, taxable: 1, unitCost: 1 }
+        { name: 1, description: 1, taxable: 1, unitCost: 1,quantity:1 }
       );
       return res.status(200).json(item);
     } catch (error) {
@@ -33,7 +33,7 @@ export class ItemController {
       logger.info("/item", "get", "getAllItems", req.params.userId);
       const items = await Item.find(
         { isDeleted: false,company:req.params.companyId },
-        { name: 1, description: 1, taxable: 1, unitCost: 1 }
+        { name: 1, description: 1, taxable: 1, unitCost: 1,quantity:1 }
       );
       return res.status(200).json(items);
     } catch (error) {

@@ -80,6 +80,47 @@ export class InvoiceController {
   public static async updateInvoice(req: Request, res: Response) {
     try {
       logger.info("/invoice", "put", "updateInvoice", req.params.userId);
+      let taxableAmount = 0;
+      let nonTaxableAmount = 0;
+      req.body.subtotal = 0;
+      req.body.total = 0;
+      let exclusiveTax = 0;
+      for (let item of req.body.lineItems) {
+        if (item.taxable) {
+          taxableAmount += item.amount;
+        } else {
+          nonTaxableAmount += item.amount;
+        }
+      }
+      req.body.subtotal = taxableAmount + nonTaxableAmount;
+      if (req.body.taxItems && req.body.taxItems.length > 0) {
+        for (let tax of req.body.taxItems) {
+          if (tax.taxMode === "Exclusive") {
+            exclusiveTax += Number(
+              ((taxableAmount * tax.amount) / 100).toFixed(2)
+            );
+          }
+        }
+      }
+      req.body.total = req.body.subtotal + exclusiveTax;
+      if (req.body.discountType === "percentage") {
+        req.body.total =
+          req.body.total - (req.body.total * req.body.discountValue) / 100;
+      } else if (req.body.discountType === "flat") {
+        req.body.total = Number(
+          (req.body.total - req.body.discountValue).toFixed(2)
+        );
+      }
+      req.body.balanceDue = Number(
+        (req.body.total - req.body.amountPaid).toFixed(2)
+      );
+      req.body.company = req.params.companyId;
+      req.body.updatedBy = req.params.userId;
+      req.body.updatedAt = new Date();
+      const result = await Invoice.updateOne({ _id: req.body.id }, req.body, {
+        runValidators: true
+      });
+      return res.status(200).json(result);
     } catch (error) {
       logger.error("falied to update invoice, reason:- ", error);
       return res.status(400).json(error);
@@ -89,9 +130,8 @@ export class InvoiceController {
     try {
       logger.info("/invoice", "delete", "deleteInvoice", req.params.userId);
       const result = await Invoice.deleteOne({ _id: req.params.id });
-      logger.log('invoice is deleted',req.params.id);
+      logger.log("invoice is deleted", req.params.id);
       return res.status(200).json(result);
-
     } catch (error) {
       logger.error("falied to delete invoice, reason:- ", error);
       return res.status(400).json(error);

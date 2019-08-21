@@ -28,7 +28,8 @@ export const parseItem = (item: any) => {
     name: item.name,
     description: item.description,
     taxable: item.taxable,
-    unitCost: item.unitCost
+    unitCost: item.unitCost,
+    quantity:item.quantity
   };
 };
 
