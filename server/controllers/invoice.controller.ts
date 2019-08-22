@@ -7,11 +7,43 @@ import { applicationData } from "../config";
 import { mailService, logger } from "../services";
 import { Invoice } from "../models";
 export class InvoiceController {
-  public static sendInvocie(req: Request, res: Response) {
-    createInvoce(req, res, "mail");
+  public static async sendInvocie(req: Request, res: Response) {
+    try {
+      // authorized user
+      if (req.body.id) {
+        const invoice = await Invoice.findOne({ _id: req.body.id })
+          .populate("customer")
+          .populate("company");
+        // send mail to customer
+        invoice.mail = req.body;
+        return createInvoce(req, res, invoice, "mail");
+      } // unauthorized user
+      else {
+        return createInvoce(req, res, JSON.parse(req.body.invoice), "mail");
+      }
+    } catch (error) {
+      logger.error("falied to send invoice, reason:- ", error);
+      return res.status(400).json(error);
+    }
   }
-  public static downloadInvoice(req: Request, res: Response) {
-    createInvoce(req, res, "download");
+  public static async downloadInvoice(req: Request, res: Response) {
+    try {
+      // authorized user
+      if (req.params.id) {
+        const invoice = await Invoice.findOne({ _id: req.params.id })
+          .populate("customer")
+          .populate("company");
+        // send invoice to customer
+        return createInvoce(req, res, invoice, "download");
+      } // unauthorized user
+      else {
+        return createInvoce(req, res, JSON.parse(req.body.invoice), "download");
+      }
+    } catch (error) {
+      console.log(error);
+      logger.error("falied to download invoice, reason:- ", error);
+      return res.status(400).json(error);
+    }
   }
   public static async addInvoice(req: Request, res: Response) {
     try {
@@ -21,6 +53,7 @@ export class InvoiceController {
       req.body.subtotal = 0;
       req.body.total = 0;
       let exclusiveTax = 0;
+      let inclusiveTax = 0;
       for (let item of req.body.lineItems) {
         if (item.taxable) {
           taxableAmount += item.amount;
@@ -35,9 +68,17 @@ export class InvoiceController {
             exclusiveTax += Number(
               ((taxableAmount * tax.amount) / 100).toFixed(2)
             );
+          } else if (tax.taxMode === "Inclusive") {
+            inclusiveTax += Number(
+              (
+                (100 / (taxableAmount + (taxableAmount * tax.amount) / 100)) *
+                taxableAmount
+              ).toFixed(2)
+            );
           }
         }
       }
+      req.body.subtotal -= inclusiveTax;
       req.body.total = req.body.subtotal + exclusiveTax;
       if (req.body.discountType === "percentage") {
         req.body.total =
@@ -85,6 +126,7 @@ export class InvoiceController {
       req.body.subtotal = 0;
       req.body.total = 0;
       let exclusiveTax = 0;
+      let inclusiveTax = 0;
       for (let item of req.body.lineItems) {
         if (item.taxable) {
           taxableAmount += item.amount;
@@ -99,10 +141,18 @@ export class InvoiceController {
             exclusiveTax += Number(
               ((taxableAmount * tax.amount) / 100).toFixed(2)
             );
+          } else if (tax.taxMode === "Inclusive") {
+            inclusiveTax += Number(
+              (
+                (100 / (taxableAmount + (taxableAmount * tax.amount) / 100)) *
+                taxableAmount
+              ).toFixed(2)
+            );
           }
         }
       }
       req.body.total = req.body.subtotal + exclusiveTax;
+      req.body.subtotal -= inclusiveTax;
       if (req.body.discountType === "percentage") {
         req.body.total =
           req.body.total - (req.body.total * req.body.discountValue) / 100;
@@ -142,28 +192,34 @@ export class InvoiceController {
 const createInvoce = async (
   req: Request,
   res: Response,
+  invoice: any,
   invoiceType: string
 ) => {
   try {
-    const invoice = JSON.parse(req.body.invoice);
-    // console.log(invoice);
     const basePath = path.join(__dirname, "../");
     const normalFont = `${basePath}/fonts/XeroxSansSerifWide.ttf`;
     const boldFont = `${basePath}/fonts/XeroxSansSerifWideBold.ttf`;
     const lightColor = "#6D6D6D";
     const darkColor = "#212121";
-    let lheight = 100;
+    let lheight = 30;
     let rheight = 30;
     const ml30 = 30;
     const mr10 = 10;
-    const ml350 = 350;
+    const ml330 = 330;
+    let taxableAmount = 0;
     // Create a document
     const doc: PDFDocument = new PDFDocument();
     // Add an image
     // font - 'Helvetica' | 'Helvetica-Bold' | 'Helvetica-Oblique' | 'Helvetica-BoldOblique'
     doc.fontSize(10).font(boldFont);
-    const file = req["file"].buffer || invoice.logoUrl;
+    let file = null;
+    if (req["file"]) {
+      file = req["file"].buffer;
+    } else if (invoice.company && invoice.company.logoUrl) {
+      file = `${basePath}../${invoice.company.logoUrl}`;
+    }
     if (file) {
+      lheight += 70;
       doc.image(file, ml30, 15, {
         width: 150,
         height: lheight,
@@ -172,17 +228,42 @@ const createInvoce = async (
       });
     }
     // name of company and address
-    doc.fillColor(darkColor).text(invoice.sender, ml30, lheight + 25);
-    lheight += 40;
-    // doc.font(normalFont).fontSize(8).text("#203/hoorian arcade, kempana main road", ml30, lheight, {
-    //   align: "left"
-    // });
-    // lheight += 10;
-    // doc.text("vignana nagar, malleshpalya", ml30, lheight, { align: "left" });
-    // lheight += 10;
-    // doc.text("Bengaluru, Karnataka 560075", ml30, lheight, { align: "left" });
-    // lheight += 10;
-    // doc.text("GSTIN: 45345345", ml30, lheight, { align: "left" });
+    if (invoice.company) {
+      doc.fillColor(darkColor).text(invoice.company.name, ml30, lheight + 25);
+      lheight += 40;
+      if (invoice.company.address) {
+        doc
+          .font(normalFont)
+          .fontSize(8)
+          .text(invoice.company.address, ml30, lheight, {
+            align: "left"
+          });
+      }
+      if (
+        invoice.company.city &&
+        invoice.company.state &&
+        invoice.company.postalCode
+      ) {
+        lheight += 10;
+        doc.text(
+          `${invoice.company.city}, ${invoice.company.state} ${
+            invoice.company.postalCode
+          }`,
+          ml30,
+          lheight,
+          { align: "left" }
+        );
+      }
+      if (invoice.company.taxId) {
+        lheight += 10;
+        doc.text(`GSTIN: ${invoice.company.taxId}`, ml30, lheight, {
+          align: "left"
+        });
+      }
+    } else if (invoice.sender) {
+      doc.fillColor(darkColor).text(invoice.sender, ml30, lheight + 25);
+      lheight += 40;
+    }
     //invoice name
     doc
       .fontSize(32)
@@ -199,7 +280,9 @@ const createInvoce = async (
       .text(invoice.number, 0, rheight, { align: "right" });
     rheight += 60;
     // date
-    doc.fontSize(12).text(invoice.label.date, ml350, rheight);
+    doc
+      .fontSize(12)
+      .text(invoice.label ? invoice.label.date : "Date", ml330, rheight);
     doc
       .fillColor(darkColor)
       .text(moment(invoice.date).format("ll"), mr10, rheight, {
@@ -207,7 +290,9 @@ const createInvoce = async (
       });
     rheight += 25;
     // due date
-    doc.fillColor(lightColor).text(invoice.label.dueDate, ml350, rheight);
+    doc
+      .fillColor(lightColor)
+      .text(invoice.label ? invoice.label.dueDate : "Due Date", ml330, rheight);
     doc
       .fillColor(darkColor)
       .text(moment(invoice.dueDate).format("ll"), mr10, rheight, {
@@ -218,43 +303,92 @@ const createInvoce = async (
     doc
       .fillColor(lightColor)
       .text("Bill To:", ml30, lheight, { align: "left" });
-    lheight += 20;
-    // doc
-    //   .fontSize(8)
-    //   .fillColor(darkColor)
-    //   .text("ATTN: virender", ml30, lheight, { align: "left" });
-    lheight += 10;
-    doc.font(boldFont).text(invoice.receiver, ml30, lheight, { align: "left" });
-    //   lheight += 10;
-    // doc
-    //   .font(normalFont)
-    //   .text("#203/hoorian arcade, kempana main road", ml30, lheight, {
-    //     align: "left"
-    //   });
-    //   lheight += 10;
-    // doc.text("vignana nagar, malleshpalya", ml30, lheight, { align: "left" });
-    // lheight += 10;
-    // doc.text("Bengaluru, Karnataka 560075", ml30, lheight, { align: "left" });
-    // lheight += 10;
-    // doc.text("GSTIN: 45345345", 30, lheight, { align: "left" });
+    if (invoice.customer) {
+      if (invoice.customer.attentionTo) {
+        lheight += 20;
+        doc
+          .fontSize(8)
+          .fillColor(darkColor)
+          .text(`ATTN: ${invoice.attentionTo}`, ml30, lheight, {
+            align: "left"
+          });
+      }
+      if (invoice.customer.address_1) {
+        lheight += 10;
+        doc.font(normalFont).text(invoice.customer.address_1, ml30, lheight, {
+          align: "left"
+        });
+      }
+      if (invoice.customer.address_2) {
+        lheight += 10;
+        doc.text(invoice.customer.address_2, ml30, lheight, { align: "left" });
+      }
+      if (
+        invoice.customer.city &&
+        invoice.customer.state &&
+        invoice.customer.postalCode
+      ) {
+        lheight += 10;
+        doc.text(
+          `${invoice.customer.city}, ${invoice.customer.state} ${
+            invoice.customer.postalCode
+          }`,
+          ml30,
+          lheight,
+          { align: "left" }
+        );
+      }
+      if (invoice.customer.taxId) {
+        lheight += 10;
+        doc.text(`GSTIN: ${invoice.customer.taxId}`, 30, lheight, {
+          align: "left"
+        });
+      }
+    } else if (invoice.receiver) {
+      lheight += 20;
+      doc
+        .fontSize(8)
+        .fillColor(darkColor)
+        .text(`${invoice.receiver}`, ml30, lheight, {
+          align: "left"
+        });
+    }
     lheight += 30;
     // line items header
     doc
       .fillColor("#000")
       .fontSize(10)
-      .text(invoice.label.lineItemName, ml30, lheight);
-    doc.fontSize(10).text(invoice.label.lineItemQuantity, ml30 + 250, lheight);
-    doc.fontSize(10).text(invoice.label.lineItemRate, ml30 + 350, lheight);
-    doc.fontSize(10).text(invoice.label.lineItemAmount, ml30 + 450, lheight);
+      .text(invoice.label ? invoice.label.lineItemName : "Item", ml30, lheight);
+    doc
+      .fontSize(10)
+      .text(
+        invoice.label ? invoice.label.lineItemQuantity : "Quantity",
+        ml30 + 250,
+        lheight
+      );
+    doc
+      .fontSize(10)
+      .text(
+        invoice.label ? invoice.label.lineItemRate : "Rate",
+        ml30 + 350,
+        lheight
+      );
+    doc
+      .fontSize(10)
+      .text(
+        invoice.label ? invoice.label.lineItemAmount : "Amount",
+        ml30 + 450,
+        lheight
+      );
     doc
       .rect(20, lheight - 5, 550, 20)
       .fillOpacity("0.1")
       .fillAndStroke(darkColor, lightColor);
 
-    // line Data -1
+    // line Data
     lheight += 30;
 
-    for (let item of invoice.lineItem) {
+    for (let item of invoice.lineItems) {
       if (item) {
         doc
           .fillOpacity("1")
@@ -265,9 +399,12 @@ const createInvoce = async (
           .fillColor(lightColor)
           .fontSize(10)
           .text(item.quantity, ml30 + 250, lheight);
-        doc.fontSize(10).text(`Rs ${item.rate}`, ml30 + 350, lheight);
+        doc.fontSize(10).text(`Rs ${item.unitCost}`, ml30 + 350, lheight);
         doc.fontSize(10).text(`Rs ${item.amount}`, ml30 + 450, lheight);
         lheight += 20;
+        if (item.taxable) {
+          taxableAmount += item.amount;
+        }
       }
     }
 
@@ -276,66 +413,106 @@ const createInvoce = async (
     doc
       .fontSize(12)
       .fillColor(lightColor)
-      .text(`${invoice.label.subtotal}:`, ml350, rheight);
+      .text(
+        invoice.label ? invoice.label.subtotal : "Subtotal",
+        ml330,
+        rheight
+      );
     doc
       .fillColor(darkColor)
       .text(`Rs ${invoice.subtotal}`, mr10, rheight, { align: "right" });
     rheight += 25;
 
     // Discount
+    const discountText = invoice.label ? invoice.label.discount : "Discount";
     doc
       .fillColor(lightColor)
       .text(
-        invoice.discount.type == "flat"
-          ? invoice.label.discount
-          : `${invoice.label.discount}(${invoice.discount.value}%):`,
-        ml350,
+        invoice.discountType === "flat"
+          ? discountText
+          : `${discountText}(${invoice.discountValue}%)`,
+        ml330,
         rheight
       );
     doc
       .fillColor(darkColor)
       .text(
-        invoice.discount.type == "flat"
-          ? `Rs ${invoice.discount.value}`
-          : (invoice.subtotal * invoice.discount.value) / 100,
+        invoice.discountType === "flat"
+          ? `Rs ${invoice.discountValue}`
+          : (invoice.subtotal * invoice.discountValue) / 100,
         mr10,
         rheight,
         { align: "right" }
       );
-    rheight += 25;
     // tax
-    doc
-      .fillColor(lightColor)
-      .text(`${invoice.label.tax}(${invoice.tax[0].amount}%)`, ml350, rheight);
-    doc
-      .fillColor(darkColor)
-      .text(
-        "Rs " + (invoice.tax[0].amount * invoice.subtotal) / 100,
-        mr10,
-        rheight,
-        { align: "right" }
-      );
+    for (let tax of invoice.taxItems) {
+      if (tax) {
+        rheight += 25;
+        doc
+          .fillColor(lightColor)
+          .text(`${tax.name}(${tax.amount}%) ${tax.taxMode}`, ml330, rheight);
+        if (tax.taxMode === "Exclusive") {
+          doc
+            .fillColor(darkColor)
+            .text(
+              "Rs " + ((tax.amount * taxableAmount) / 100).toFixed(2),
+              mr10,
+              rheight,
+              {
+                align: "right"
+              }
+            );
+        } else {
+          doc
+            .fillColor(darkColor)
+            .text(
+              "Rs " +
+                (
+                  (100 / (taxableAmount + (taxableAmount * tax.amount) / 100)) *
+                  taxableAmount
+                ).toFixed(2),
+              mr10,
+              rheight,
+              {
+                align: "right"
+              }
+            );
+        }
+      }
+    }
     rheight += 25;
 
     // shipping
-    doc
-      .fillColor(lightColor)
-      .text(`${invoice.label.shipping}:`, ml350, rheight);
-    doc
-      .fillColor(darkColor)
-      .text(`Rs ${invoice.shipping}`, mr10, rheight, { align: "right" });
-    rheight += 25;
+    if (invoice.shipping) {
+      doc
+        .fillColor(lightColor)
+        .text(
+          invoice.label ? invoice.label.shipping : "Shipping",
+          ml330,
+          rheight
+        );
+      doc
+        .fillColor(darkColor)
+        .text(`Rs ${invoice.shipping}`, mr10, rheight, { align: "right" });
+      rheight += 25;
+    }
 
     // amount paid
     doc
       .fillColor(lightColor)
-      .text(`${invoice.label.amountPaid}:`, ml350, rheight);
+      .text(
+        invoice.label ? invoice.label.amountPaid : "Amount Paid",
+        ml330,
+        rheight
+      );
     doc
       .fillColor(darkColor)
       .text(`Rs ${invoice.amountPaid}`, mr10, rheight, { align: "right" });
     rheight += 25;
     // total
-    doc.fillColor(lightColor).text(`${invoice.label.total}:`, ml350, rheight);
+    doc
+      .fillColor(lightColor)
+      .text(invoice.label ? invoice.label.total : "Total", ml330, rheight);
     doc
       .fillColor(darkColor)
       .text(`Rs ${invoice.total}`, mr10, rheight, { align: "right" });
@@ -344,28 +521,38 @@ const createInvoce = async (
     doc
       .font(boldFont)
       .fillColor(darkColor)
-      .text(`${invoice.label.balanceDue}:`, ml350, rheight);
+      .text(
+        invoice.label ? invoice.label.balanceDue : "Balance Due",
+        ml330,
+        rheight
+      );
     doc
       .fillColor(darkColor)
       .text(`Rs ${invoice.balanceDue}`, mr10, rheight, { align: "right" });
     doc
-      .rect(345, rheight - 5, 200, 20)
+      .rect(325, rheight - 5, 220, 20)
       .fillOpacity("0.1")
       .fillAndStroke(darkColor, "#999");
     lheight = rheight + 50;
     //Notes
-    doc
-      .font(normalFont)
-      .fillOpacity("1")
-      .fillColor(lightColor)
-      .text(`${invoice.label.notes}:`, ml30, lheight);
-    lheight += 20;
-    doc.fillColor(darkColor).text(invoice.notes, ml30, lheight);
-    lheight += 30;
+    if (invoice.notes) {
+      doc
+        .font(normalFont)
+        .fillOpacity("1")
+        .fillColor(lightColor)
+        .text(invoice.label ? invoice.label.notes : "Notes", ml30, lheight);
+      lheight += 20;
+      doc.fillColor(darkColor).text(invoice.notes, ml30, lheight);
+      lheight += 30;
+    }
     //Terms
-    doc.fillColor(lightColor).text(`${invoice.label.terms}:`, ml30, lheight);
-    lheight += 20;
-    doc.fillColor(darkColor).text(invoice.terms, ml30, lheight);
+    if (invoice.terms) {
+      doc
+        .fillColor(lightColor)
+        .text(invoice.label ? invoice.label.terms : "Terms", ml30, lheight);
+      lheight += 20;
+      doc.fillColor(darkColor).text(invoice.terms, ml30, lheight);
+    }
 
     // Pipe its output somewhere, like to a file or HTTP response
     if (invoiceType === "mail") {
@@ -373,15 +560,17 @@ const createInvoce = async (
       const docStream = doc.pipe(fs.createWriteStream("invoice.pdf"));
       docStream.on("finish", () => {
         const mailOptions = {
-          userName: invoice.receiver,
-          to: invoice.mail.receiver,
-          subject: `${applicationData.invoiceDemo.subject} ${invoice.sender} ${
-            invoice.number
-          }`,
+          userName: invoice.mail.userName,
+          to: invoice.mail.to,
+          bcc: invoice.mail.bcc,
+          subject:
+            invoice.mail.subject ||
+            `${applicationData.invoiceDemo.subject} ${invoice.sender ||
+              invoice.company.name} ${invoice.number}`,
           text1: invoice.mail.message || applicationData.invoiceDemo.text1,
           text2: applicationData.invoiceDemo.text2,
           text3: `${applicationData.invoiceDemo.text3} ${
-            invoice.mail.sender
+            invoice.company ? invoice.company.name : invoice.mail.from
           } via indi-invoice.com`,
           template: applicationData.invoiceDemo.template,
           link: null,
@@ -397,10 +586,10 @@ const createInvoce = async (
       res.setHeader("Content-type", "application/pdf");
       doc.pipe(res);
     }
-
     // Finalize PDF file
     doc.end();
   } catch (err) {
     console.log(err);
+    return res.status(400).json(err);
   }
 };

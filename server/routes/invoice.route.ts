@@ -25,5 +25,9 @@ export class InvoiceRoutes {
     app
       .route("/invoice/download")
       .post(upload, InvoiceController.downloadInvoice);
+    // send invoice 
+    app.route("/invoice/mail").put(validateToken, InvoiceController.sendInvocie);
+    //download invoice
+    app.route("/invoice/download/:id").get(validateToken, InvoiceController.downloadInvoice);
   }
 }
