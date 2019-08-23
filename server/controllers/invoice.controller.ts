@@ -15,6 +15,7 @@ export class InvoiceController {
           .populate("customer")
           .populate("company");
         // send mail to customer
+        await Invoice.updateOne({ _id: req.body.id }, { status: "Sent" });
         invoice.mail = req.body;
         return createInvoce(req, res, invoice, "mail");
       } // unauthorized user
@@ -88,9 +89,8 @@ export class InvoiceController {
           (req.body.total - req.body.discountValue).toFixed(2)
         );
       }
-      req.body.balanceDue = Number(
-        (req.body.total - req.body.amountPaid).toFixed(2)
-      );
+      req.body.balanceDue = req.body.total - req.body.amountPaid;
+      if (req.body.balanceDue === 0) req.body.status = "Paid";
       req.body.company = req.params.companyId;
       req.body.createdBy = req.params.userId;
       const invoice = await new Invoice(req.body).save();
@@ -161,11 +161,11 @@ export class InvoiceController {
           (req.body.total - req.body.discountValue).toFixed(2)
         );
       }
-      req.body.balanceDue = Number(
-        (req.body.total - req.body.amountPaid).toFixed(2)
-      );
+      req.body.balanceDue = req.body.total - req.body.amountPaid;
+      if (req.body.balanceDue === 0) req.body.status = "Paid";
       req.body.company = req.params.companyId;
       req.body.updatedBy = req.params.userId;
+      req.body.status = "Draft";
       req.body.updatedAt = new Date();
       const result = await Invoice.updateOne({ _id: req.body.id }, req.body, {
         runValidators: true

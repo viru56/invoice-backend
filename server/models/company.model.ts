@@ -57,7 +57,8 @@ const CompanySchema = new Schema(
       default: Date.now
     },
     updatedAt: {
-      type: Date
+      type: Date,
+      default: Date.now
     },
     updatedBy: {
       type: Schema.ObjectId,
