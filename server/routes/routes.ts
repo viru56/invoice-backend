@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-import { UserRoutes, CompanyRoutes, InvoiceRoutes, ItemRoutes,TaxRoutes, CustomerRoutes } from "./";
+import { UserRoutes, CompanyRoutes, InvoiceRoutes, ItemRoutes,TaxRoutes, CustomerRoutes,PaymentRoutes } from "./";
 import { UserController } from "../controllers";
  import * as cors from 'cors';
 import * as path from "path";
@@ -27,5 +27,6 @@ export class Routes {
     app.route("/item", ItemRoutes.routes(app));
     app.route("/tax", TaxRoutes.routes(app));
     app.route("/customer", CustomerRoutes.routes(app));
+    app.route("/payment", PaymentRoutes.routes(app));
   }
 }

@@ -5,3 +5,4 @@ export * from './invoice.route';
 export * from './item.route';
 export * from './tax.route';
 export * from './customer.route';
+export * from './payment.route';
