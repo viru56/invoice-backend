@@ -112,7 +112,10 @@ export class UserController {
       logger.info("/user", "put", "updateUser", req.params.userId);
       logger.log("req.body", req.body);
       delete req.body.role;
-      req.body.updatedBy = req.params.id;
+      req.body.updatedBy = req.params.userId;
+      if (req.body.password) {
+        req.body.password = hashPassword(req.body.password);
+      }
       const result = await User.updateOne(
         { _id: req.body.id, isDeleted: false },
         req.body,
@@ -129,7 +132,7 @@ export class UserController {
   public static async userRoleUpdate(req: Request, res: Response) {
     try {
       logger.info("/user/role", "put", "userRoleUpdate", req.params.userId);
-      req.body.updatedBy = req.params.id;
+      req.body.updatedBy = req.params.userId;
       const result = await User.updateOne(
         { _id: req.body.id, isDeleted: false },
         req.body,
@@ -147,7 +150,7 @@ export class UserController {
     try {
       logger.info("/user", "delete", "deleteUser", req.params.userId);
       const result = await User.updateOne(
-        { _id: req.params.id },
+        { _id: req.params.userId },
         { isDeleted: true, updatedBy: req.params.userId }
       );
       return res.status(200).json(result);
