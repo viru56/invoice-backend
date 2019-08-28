@@ -23,6 +23,10 @@ const PaymentSchema = new Schema(
       type: Schema.ObjectId,
       ref: "User"
     },
+    receiveDate:{
+      type:Date,
+      default: Date.now
+    },
     updatedBy: {
       type: Schema.ObjectId,
       ref: "User"
@@ -53,7 +57,7 @@ const PaymentSchema = new Schema(
       enum: ["subscription", "invoice"],
       default: "subscription"
     },
-    description: String
+    notes: String
   },
   {
     toJSON: {

@@ -63,7 +63,7 @@ export class InvoiceController {
         }
       }
       req.body.subtotal = taxableAmount + nonTaxableAmount;
-      if (req.body.taxItems && req.body.taxItems.length > 0) {
+      if (taxableAmount && req.body.taxItems && req.body.taxItems.length > 0) {
         for (let tax of req.body.taxItems) {
           if (tax.taxMode === "Exclusive") {
             exclusiveTax += Number(
@@ -127,15 +127,17 @@ export class InvoiceController {
       req.body.total = 0;
       let exclusiveTax = 0;
       let inclusiveTax = 0;
-      for (let item of req.body.lineItems) {
-        if (item.taxable) {
-          taxableAmount += item.amount;
-        } else {
-          nonTaxableAmount += item.amount;
+      if (req.body.lineItems && req.body.lineItems.length > 0) {
+        for (let item of req.body.lineItems) {
+          if (item.taxable) {
+            taxableAmount += item.amount;
+          } else {
+            nonTaxableAmount += item.amount;
+          }
         }
+        req.body.subtotal = taxableAmount + nonTaxableAmount;
       }
-      req.body.subtotal = taxableAmount + nonTaxableAmount;
-      if (req.body.taxItems && req.body.taxItems.length > 0) {
+      if (taxableAmount && req.body.taxItems && req.body.taxItems.length > 0) {
         for (let tax of req.body.taxItems) {
           if (tax.taxMode === "Exclusive") {
             exclusiveTax += Number(
@@ -165,7 +167,6 @@ export class InvoiceController {
       if (req.body.balanceDue === 0) req.body.status = "Paid";
       req.body.company = req.params.companyId;
       req.body.updatedBy = req.params.userId;
-      req.body.status = "Draft";
       req.body.updatedAt = new Date();
       const result = await Invoice.updateOne({ _id: req.body.id }, req.body, {
         runValidators: true
@@ -246,9 +247,7 @@ const createInvoce = async (
       ) {
         lheight += 10;
         doc.text(
-          `${invoice.company.city}, ${invoice.company.state} ${
-            invoice.company.postalCode
-          }`,
+          `${invoice.company.city}, ${invoice.company.state} ${invoice.company.postalCode}`,
           ml30,
           lheight,
           { align: "left" }
@@ -330,9 +329,7 @@ const createInvoce = async (
       ) {
         lheight += 10;
         doc.text(
-          `${invoice.customer.city}, ${invoice.customer.state} ${
-            invoice.customer.postalCode
-          }`,
+          `${invoice.customer.city}, ${invoice.customer.state} ${invoice.customer.postalCode}`,
           ml30,
           lheight,
           { align: "left" }
@@ -445,38 +442,44 @@ const createInvoce = async (
         { align: "right" }
       );
     // tax
-    for (let tax of invoice.taxItems) {
-      if (tax) {
-        rheight += 25;
-        doc
-          .fillColor(lightColor)
-          .text(`${tax.name}(${tax.amount}%) ${tax.taxMode}`, ml330, rheight);
-        if (tax.taxMode === "Exclusive") {
+    if (invoice.taxItems && invoice.taxItems.length > 0) {
+      for (let tax of invoice.taxItems) {
+        if (tax) {
+          rheight += 25;
           doc
-            .fillColor(darkColor)
-            .text(
-              "Rs " + ((tax.amount * taxableAmount) / 100).toFixed(2),
-              mr10,
-              rheight,
-              {
-                align: "right"
-              }
-            );
-        } else {
-          doc
-            .fillColor(darkColor)
-            .text(
-              "Rs " +
-                (
-                  (100 / (taxableAmount + (taxableAmount * tax.amount) / 100)) *
-                  taxableAmount
-                ).toFixed(2),
-              mr10,
-              rheight,
-              {
-                align: "right"
-              }
-            );
+            .fillColor(lightColor)
+            .text(`${tax.name}(${tax.amount}%) ${tax.taxMode}`, ml330, rheight);
+          if (tax.taxMode === "Exclusive") {
+            doc
+              .fillColor(darkColor)
+              .text(
+                "Rs " + taxableAmount
+                  ? ((tax.amount * taxableAmount) / 100).toFixed(2)
+                  : 0,
+                mr10,
+                rheight,
+                {
+                  align: "right"
+                }
+              );
+          } else {
+            doc
+              .fillColor(darkColor)
+              .text(
+                "Rs " + taxableAmount
+                  ? (
+                      (100 /
+                        (taxableAmount + (taxableAmount * tax.amount) / 100)) *
+                      taxableAmount
+                    ).toFixed(2)
+                  : 0,
+                mr10,
+                rheight,
+                {
+                  align: "right"
+                }
+              );
+          }
         }
       }
     }
