@@ -13,7 +13,11 @@ environments.development = {
   envName: "development",
   secret: "thisisasecret",
   mongoUrl:
-    "mongodb+srv://viru:viru@cluster0-gqhiq.mongodb.net/test?retryWrites=true&w=majority"
+    "mongodb+srv://viru:viru@cluster0-gqhiq.mongodb.net/test?retryWrites=true&w=majority",
+  merchantId: "7s2bnfjgqrdggdcx",
+  publicKey: "p76jxg6vjhq6d3zc",
+  privateKey: "cfb3d3b5fa010dbadac8f07f7d53ffb1",
+  tokenizationKeys:'sandbox_zjwttp83_7s2bnfjgqrdggdcx'
 };
 
 // production environment
@@ -23,7 +27,11 @@ environments.production = {
   envName: "production",
   secret: "thisisasecret",
   mongoUrl:
-    "mongodb+srv://viru:viru@cluster0-gqhiq.mongodb.net/test?retryWrites=true&w=majority"
+    "mongodb+srv://viru:viru@cluster0-gqhiq.mongodb.net/test?retryWrites=true&w=majority",
+  merchantId: "7s2bnfjgqrdggdcx",
+  publicKey: "p76jxg6vjhq6d3zc",
+  privateKey: "cfb3d3b5fa010dbadac8f07f7d53ffb1",
+  tokenizationKeys:'sandbox_zjwttp83_7s2bnfjgqrdggdcx'
 };
 
 // testing environment
@@ -33,7 +41,11 @@ environments.testing = {
   envName: "testing",
   secret: "thisistestingsecret",
   mongoUrl:
-    "mongodb+srv://viru:viru@cluster0-gqhiq.mongodb.net/test?retryWrites=true&w=majority"
+    "mongodb+srv://viru:viru@cluster0-gqhiq.mongodb.net/test?retryWrites=true&w=majority",
+  merchantId: "7s2bnfjgqrdggdcx",
+  publicKey: "p76jxg6vjhq6d3zc",
+  privateKey: "cfb3d3b5fa010dbadac8f07f7d53ffb1",
+  tokenizationKeys:'sandbox_zjwttp83_7s2bnfjgqrdggdcx'
 };
 
 // determine which environment was passed as a command-line argument
@@ -56,7 +68,7 @@ export const applicationData = {
     text2:
       "Invoiced takes the work out of billing so you can get back to doing what you do best. By joining Indi-Invoice you have just made an important step towards taking control of your accounts receivable.",
     text3: "Click on the below link to set a new password for your account.",
-    template:'general-mail.ejs'
+    template: "general-mail.ejs"
   },
   accountActivation: {
     link: `http://localhost:4200/#/accountactivation/?token=`,
@@ -66,7 +78,7 @@ export const applicationData = {
       "Welcome to indi-invoice, You account is created as a team member for indi-invoice.",
     text2: "Click on the below link to set a new password for your account.",
     text3: "",
-    template:'general-mail.ejs'
+    template: "general-mail.ejs"
   },
   forgotPassword: {
     link: "http://localhost:4200/#/resetpassword/?token=",
@@ -77,16 +89,15 @@ export const applicationData = {
     text2:
       "If you have not requested for your password reset, you can safely ignore this email. Rest assured your customer account is safe.",
     text3: "",
-    template:'general-mail.ejs'
+    template: "general-mail.ejs"
   },
-  invoiceDemo:{
+  invoiceDemo: {
     subject: "Invoice from ",
     text1:
       "A new invoice has been created on your account. You may find a PDF of your invoice attached.",
-    text2:
-      "Thank you for your business!",
+    text2: "Thank you for your business!",
     text3: "This invoice was sent to ",
-    template:'general-mail.ejs'
+    template: "general-mail.ejs"
   },
   responseMessages: {
     accountCreation: {
@@ -94,8 +105,7 @@ export const applicationData = {
         "your account is created, please check your mail to set up new password."
     },
     accountActivation: {
-      message1:
-        "user account is created and send a mail to set password"
+      message1: "user account is created and send a mail to set password"
     },
     forgotPassword: {
       mailSent:
@@ -103,8 +113,8 @@ export const applicationData = {
       passwordChanged:
         "Your password is changed successfully. Now login with your new password."
     },
-    error:{
-      login:"invalid email or password"
+    error: {
+      login: "invalid email or password"
     }
   }
 };

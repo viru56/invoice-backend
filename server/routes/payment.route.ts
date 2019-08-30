@@ -10,8 +10,14 @@ export class PaymentRoutes {
       .post(validateToken, PaymentController.addPayment)
       // update a specific item
       .put(validateToken, PaymentController.upadatePayment);
+    app
+      .route("/payment/token")
+      .get(validateToken, PaymentController.paymentToken);
     //get specific item details
     app.route("/payment/:id").get(validateToken, PaymentController.getPayment);
-    app.route("/payment/company/:id").get(validateToken, PaymentController.getAllCompanyPayments);
+    app.route("/payment/checkout").post(validateToken, PaymentController.checkout);
+    app
+      .route("/payment/company/:id")
+      .get(validateToken, PaymentController.getAllCompanyPayments);
   }
 }
