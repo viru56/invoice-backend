@@ -1,12 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const crypto = require("crypto");
-const config_1 = require("../config/config");
-const jwt = require("jsonwebtoken");
-const expiresIn = 60 * 60 * 1000 * 24;
+const config_1 = require("../config");
+const braintree = require("braintree");
 exports.hashPassword = (password) => {
-    if (password && password.match(/^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/)) {
-        return crypto.createHmac('sha256', config_1.config.secret).update(password).digest('hex');
+    if (password && password.match(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/)) {
+        return crypto
+            .createHmac("sha256", config_1.config.secret)
+            .update(password)
+            .digest("hex");
     }
     else {
         return false;
@@ -14,149 +16,54 @@ exports.hashPassword = (password) => {
 };
 exports.parseUser = (user) => {
     return {
-        _id: user._id,
-        firstName: user.firstName,
-        lastName: user.lastName,
+        id: user.id,
+        fullName: user.fullName,
         phone: user.phone,
-        email: user.email
+        email: user.email,
+        status: user.status,
+        role: user.role
     };
 };
-exports.jwtToken = (payload) => {
-    var data = {
-        aud: payload.id,
-        role: payload.role || 'user',
-        iss: 'www.onestopyoga.com',
-        type: payload.type || 'login',
-        email: payload.email || 'Unknown'
+exports.parseItem = (item) => {
+    return {
+        id: item.id,
+        name: item.name,
+        description: item.description,
+        taxable: item.taxable,
+        unitCost: item.unitCost,
+        quantity: item.quantity
     };
-    return jwt.sign(data, config_1.config.secret, { expiresIn });
 };
-exports.validateToken = (req, res, next) => {
-    // check header or url parameters or post parameters for token
-    var token = req.body.token || req.query.token || req.headers['token'];
-    // decode token
-    if (token) {
-        // verifies secret and checks exp
-        jwt.verify(token, config_1.config.secret, function (err, decoded) {
-            if (err) {
-                if (err.name = 'TokenExpiredError') {
-                    return res.status(403).json({ message: 'Token is expired' });
-                }
-                return res.status(403).json({ message: 'Failed to authenticate token.' });
-            }
-            else {
-                if (decoded.type !== 'login') {
-                    return res.status(403).json({ message: 'Not a valid token' });
-                }
-                // if everything is good, save to request for use in other routes
-                req.params.id = decoded.aud;
-                req.params.email = decoded.email;
-                next();
-            }
-        });
-    }
-    else {
-        // if there is no token
-        // return an error
-        return res.status(403).send({
-            message: 'No token provided.'
-        });
-    }
+exports.parseTax = (tax) => {
+    return {
+        id: tax.id,
+        name: tax.name,
+        taxMode: tax.taxMode,
+        amount: tax.amount
+    };
 };
-exports.validateAdminToken = (req, res, next) => {
-    // check header or url parameters or post parameters for token
-    var token = req.body.token || req.query.token || req.headers['token'];
-    // decode token
-    if (token) {
-        // verifies secret and checks exp
-        jwt.verify(token, config_1.config.secret, function (err, decoded) {
-            if (err) {
-                if (err.name = 'TokenExpiredError') {
-                    return res.status(403).json({ message: 'Token is expired' });
-                }
-                return res.status(403).json({ message: 'Failed to authenticate token.' });
-            }
-            else {
-                if (decoded.role !== 'admin') {
-                    return res.status(403).json({ message: 'Failed to authenticate token.' });
-                }
-                // if everything is good, save to request for use in other routes
-                req.params.id = decoded.aud;
-                req.params.email = decoded.email;
-                next();
-            }
-        });
-    }
-    else {
-        // if there is no token
-        // return an error
-        return res.status(403).send({
-            message: 'No token provided.'
-        });
-    }
+exports.parseCustomer = (customer) => {
+    return {
+        id: customer.id,
+        fullName: customer.fullName,
+        phone: customer.phone,
+        email: customer.email,
+        taxId: customer.taxId,
+        accountId: customer.accountId,
+        notes: customer.notes,
+        attentionTo: customer.attentionTo,
+        address_1: customer.address_1,
+        address_2: customer.address_2,
+        city: customer.city,
+        state: customer.state,
+        postalCode: customer.postalCode,
+        country: customer.country
+    };
 };
-exports.validateActivationToken = (req, res, next) => {
-    // check header or url parameters or post parameters for token
-    var token = req.body.token || req.query.token || req.headers['token'];
-    // decode token
-    if (token) {
-        // verifies secret and checks exp
-        jwt.verify(token, config_1.config.secret, function (err, decoded) {
-            if (err) {
-                if (err.name = 'TokenExpiredError') {
-                    return res.status(403).json({ message: 'Token is expired' });
-                }
-                return res.status(403).json({ message: 'Failed to authenticate token.' });
-            }
-            else {
-                if (decoded.type !== 'activation') {
-                    return res.status(403).json({ message: 'not a valid token' });
-                }
-                // if everything is good, save to request for use in other routes
-                req.params.id = decoded.aud;
-                req.params.email = decoded.email;
-                next();
-            }
-        });
-    }
-    else {
-        // if there is no token
-        // return an error
-        return res.status(403).send({
-            message: 'No token provided.'
-        });
-    }
-};
-exports.validateForgotPasswordToken = (req, res, next) => {
-    // check header or url parameters or post parameters for token
-    var token = req.body.token || req.query.token || req.headers['token'];
-    // decode token
-    if (token) {
-        // verifies secret and checks exp
-        jwt.verify(token, config_1.config.secret, function (err, decoded) {
-            if (err) {
-                if (err.name = 'TokenExpiredError') {
-                    return res.status(403).json({ message: 'Token is expired' });
-                }
-                return res.status(403).json({ message: 'Failed to authenticate token.' });
-            }
-            else {
-                if (decoded.type !== 'forgot') {
-                    return res.status(403).json({ message: 'not a valid token' });
-                }
-                // if everything is good, save to request for use in other routes
-                req.params.id = decoded.aud;
-                req.params.email = decoded.email;
-                next();
-            }
-        });
-    }
-    else {
-        // if there is no token
-        // return an error
-        return res.status(403).send({
-            message: 'No token provided.'
-        });
-    }
-};
+exports.braintreeGateway = braintree.connect({
+    environment: braintree.Environment.Sandbox,
+    merchantId: config_1.config.merchantId,
+    publicKey: config_1.config.publicKey,
+    privateKey: config_1.config.privateKey
+});
 //# sourceMappingURL=helper.service.js.map
