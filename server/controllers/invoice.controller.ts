@@ -111,7 +111,10 @@ export class InvoiceController {
   public static async getAllInvoices(req: Request, res: Response) {
     try {
       logger.info("/invoice", "get", "getAllInvoices", req.params.userId);
-      const invoices = await Invoice.find({ isDeleted: false });
+      const invoices = await Invoice.find({
+        company: req.params.companyId,
+        isDeleted: false
+      });
       return res.status(200).json(invoices);
     } catch (error) {
       logger.error("falied to get all invoices, reason:- ", error);
@@ -197,7 +200,7 @@ const createInvoce = async (
   invoiceType: string
 ) => {
   try {
-    const basePath = path.join(__dirname, "../");
+    const basePath = path.join(__dirname, "../", "../");
     const normalFont = `${basePath}/fonts/XeroxSansSerifWide.ttf`;
     const boldFont = `${basePath}/fonts/XeroxSansSerifWideBold.ttf`;
     const lightColor = "#6D6D6D";
@@ -217,7 +220,10 @@ const createInvoce = async (
     if (req["file"]) {
       file = req["file"].buffer;
     } else if (invoice.company && invoice.company.logoUrl) {
-      file = `${basePath}../${invoice.company.logoUrl}`;
+      // file = fs.existsSync(`${basePath}${invoice.company.logoUrl}`)
+      //   ? `${basePath}${invoice.company.logoUrl}`
+      //   : null;
+        file = null;
     }
     if (file) {
       lheight += 70;
@@ -349,6 +355,7 @@ const createInvoce = async (
         .text(`${invoice.receiver}`, ml30, lheight, {
           align: "left"
         });
+      lheight += 60;
     }
     lheight += 30;
     // line items header

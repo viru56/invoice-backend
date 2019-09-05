@@ -10,6 +10,7 @@ const environments = {
 environments.development = {
   httpPort: 3000,
   httpsPort: 3001,
+  hostName: "http://127.0.0.1",
   envName: "development",
   secret: "thisisasecret",
   mongoUrl:
@@ -17,13 +18,14 @@ environments.development = {
   merchantId: "7s2bnfjgqrdggdcx",
   publicKey: "p76jxg6vjhq6d3zc",
   privateKey: "cfb3d3b5fa010dbadac8f07f7d53ffb1",
-  tokenizationKeys:'sandbox_zjwttp83_7s2bnfjgqrdggdcx'
+  tokenizationKeys: "sandbox_zjwttp83_7s2bnfjgqrdggdcx"
 };
 
 // production environment
 environments.production = {
-  httpPort: 5000,
-  httpsPort: 5001,
+  httpPort: 3000,
+  httpsPort: 3001,
+  hostName: "http://127.0.0.1",
   envName: "production",
   secret: "thisisasecret",
   mongoUrl:
@@ -31,13 +33,14 @@ environments.production = {
   merchantId: "7s2bnfjgqrdggdcx",
   publicKey: "p76jxg6vjhq6d3zc",
   privateKey: "cfb3d3b5fa010dbadac8f07f7d53ffb1",
-  tokenizationKeys:'sandbox_zjwttp83_7s2bnfjgqrdggdcx'
+  tokenizationKeys: "sandbox_zjwttp83_7s2bnfjgqrdggdcx"
 };
 
 // testing environment
 environments.testing = {
   httpPort: 1000,
   httpsPort: 1001,
+  hostName: "http://127.0.0.1",
   envName: "testing",
   secret: "thisistestingsecret",
   mongoUrl:
@@ -45,12 +48,14 @@ environments.testing = {
   merchantId: "7s2bnfjgqrdggdcx",
   publicKey: "p76jxg6vjhq6d3zc",
   privateKey: "cfb3d3b5fa010dbadac8f07f7d53ffb1",
-  tokenizationKeys:'sandbox_zjwttp83_7s2bnfjgqrdggdcx'
+  tokenizationKeys: "sandbox_zjwttp83_7s2bnfjgqrdggdcx"
 };
 
 // determine which environment was passed as a command-line argument
 const currentEnvironment =
-  typeof process.env.NODE_ENV == "string" ? process.env.NODE_ENV : "";
+  typeof process.env.NODE_ENV == "string" && process.env.NODE_ENV.trim() !== ""
+    ? process.env.NODE_ENV
+    : "development";
 
 //chech that the current environment is one of the environments above, if not, default to development
 // export the module
@@ -61,7 +66,7 @@ export const config =
 
 export const applicationData = {
   accountCreation: {
-    link: `http://localhost:4200/#/accountactivation/?token=`,
+    link: `${environments[currentEnvironment].hostName}:${environments[currentEnvironment].httpPort}/#/accountactivation/?token=`,
     linkDescription: "Click here to set password",
     subject: "Welcome to Indi-Invoice",
     text1: "Welcome to Indi-Invoice! We are happy to have you on board.",
@@ -71,7 +76,7 @@ export const applicationData = {
     template: "general-mail.ejs"
   },
   accountActivation: {
-    link: `http://localhost:4200/#/accountactivation/?token=`,
+    link: `${environments[currentEnvironment].hostName}:${environments[currentEnvironment].httpPort}/#/accountactivation/?token=`,
     linkDescription: "Click here to activate your account",
     subject: "Account Activation",
     text1:
@@ -81,7 +86,7 @@ export const applicationData = {
     template: "general-mail.ejs"
   },
   forgotPassword: {
-    link: "http://localhost:4200/#/resetpassword/?token=",
+    link: `${environments[currentEnvironment].hostName}:${environments[currentEnvironment].httpPort}/#/resetpassword/?token=`,
     linkDescription: "Click here to reset your password",
     subject: "Reset Password",
     text1:

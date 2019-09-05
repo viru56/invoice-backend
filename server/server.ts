@@ -8,8 +8,8 @@ import * as cluster from 'cluster';
 import {config} from './config/config';
 import {logger} from './services';
 const httpsOptions = {
-    key: fs.readFileSync(path.join(__dirname + '/config/' + 'key.pem')),
-    cert: fs.readFileSync(path.join(__dirname + '/config/' + 'cert.pem'))
+    key: fs.readFileSync(path.join(__dirname, '../', 'key.pem')),
+    cert: fs.readFileSync(path.join(__dirname, '../', 'cert.pem'))
 };
 
 const init = () => {

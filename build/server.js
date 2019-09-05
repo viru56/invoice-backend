@@ -10,8 +10,8 @@ const cluster = require("cluster");
 const config_1 = require("./config/config");
 const services_1 = require("./services");
 const httpsOptions = {
-    key: fs.readFileSync(path.join(__dirname + '/config/' + 'key.pem')),
-    cert: fs.readFileSync(path.join(__dirname + '/config/' + 'cert.pem'))
+    key: fs.readFileSync(path.join(__dirname, '../', 'key.pem')),
+    cert: fs.readFileSync(path.join(__dirname, '../', 'cert.pem'))
 };
 const init = () => {
     http.createServer(app_1.default).listen(config_1.config.httpPort, () => {
