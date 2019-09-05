@@ -10,7 +10,7 @@ const environments = {
 environments.development = {
   httpPort: 3000,
   httpsPort: 3001,
-  hostName: "http://127.0.0.1",
+  hostName: "http://127.0.0.1:4200",
   envName: "development",
   secret: "thisisasecret",
   mongoUrl:
@@ -25,7 +25,7 @@ environments.development = {
 environments.production = {
   httpPort: 3000,
   httpsPort: 3001,
-  hostName: "http://127.0.0.1",
+  hostName: "http://127.0.0.1:3000",
   envName: "production",
   secret: "thisisasecret",
   mongoUrl:
@@ -40,7 +40,7 @@ environments.production = {
 environments.testing = {
   httpPort: 1000,
   httpsPort: 1001,
-  hostName: "http://127.0.0.1",
+  hostName: "http://127.0.0.1:1000",
   envName: "testing",
   secret: "thisistestingsecret",
   mongoUrl:
@@ -66,7 +66,7 @@ export const config =
 
 export const applicationData = {
   accountCreation: {
-    link: `${environments[currentEnvironment].hostName}:${environments[currentEnvironment].httpPort}/#/accountactivation/?token=`,
+    link: `${environments[currentEnvironment].hostName}/#/accountactivation/?token=`,
     linkDescription: "Click here to set password",
     subject: "Welcome to Indi-Invoice",
     text1: "Welcome to Indi-Invoice! We are happy to have you on board.",
@@ -76,7 +76,7 @@ export const applicationData = {
     template: "general-mail.ejs"
   },
   accountActivation: {
-    link: `${environments[currentEnvironment].hostName}:${environments[currentEnvironment].httpPort}/#/accountactivation/?token=`,
+    link: `${environments[currentEnvironment].hostName}/#/accountactivation/?token=`,
     linkDescription: "Click here to activate your account",
     subject: "Account Activation",
     text1:
@@ -86,7 +86,7 @@ export const applicationData = {
     template: "general-mail.ejs"
   },
   forgotPassword: {
-    link: `${environments[currentEnvironment].hostName}:${environments[currentEnvironment].httpPort}/#/resetpassword/?token=`,
+    link: `${environments[currentEnvironment].hostName}/#/resetpassword/?token=`,
     linkDescription: "Click here to reset your password",
     subject: "Reset Password",
     text1:

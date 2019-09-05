@@ -220,10 +220,9 @@ const createInvoce = async (
     if (req["file"]) {
       file = req["file"].buffer;
     } else if (invoice.company && invoice.company.logoUrl) {
-      // file = fs.existsSync(`${basePath}${invoice.company.logoUrl}`)
-      //   ? `${basePath}${invoice.company.logoUrl}`
-      //   : null;
-        file = null;
+      file = fs.existsSync(`${basePath}${invoice.company.logoUrl}`)
+        ? `${basePath}${invoice.company.logoUrl}`
+        : null;
     }
     if (file) {
       lheight += 70;
@@ -581,7 +580,7 @@ const createInvoce = async (
           text2: applicationData.invoiceDemo.text2,
           text3: `${applicationData.invoiceDemo.text3} ${
             invoice.company ? invoice.company.name : invoice.mail.from
-          } via indi-invoice.com`,
+          } via https://indi-invoice.herokuapp.com/`,
           template: applicationData.invoiceDemo.template,
           link: null,
           linkDescription: null,
