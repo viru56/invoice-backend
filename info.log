@@ -4392,3 +4392,5 @@
 {"message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Wed Sep 04 2019 18:49:46 GMT+0530 (India Standard Time)","level":"info"}
 {"message":"The HTTP server is running on port 3000 - development- Thu Sep 05 2019 08:22:49 GMT+0530 (India Standard Time)","level":"info"}
 {"message":"connected to mongodb...:)- Thu Sep 05 2019 08:22:51 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"The HTTP server is running on port 3000 - development- Thu Sep 05 2019 10:50:35 GMT+0530 (India Standard Time)","level":"info"}
+{"message":"connected to mongodb...:)- Thu Sep 05 2019 10:50:37 GMT+0530 (India Standard Time)","level":"info"}

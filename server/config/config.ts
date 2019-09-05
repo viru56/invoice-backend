@@ -25,7 +25,7 @@ environments.development = {
 environments.production = {
   httpPort: 3000,
   httpsPort: 3001,
-  hostName: "http://127.0.0.1:3000",
+  hostName: "https://indi-invoice.herokuapp.com",
   envName: "production",
   secret: "thisisasecret",
   mongoUrl:
