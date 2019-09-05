@@ -73,7 +73,8 @@ export const applicationData = {
     text2:
       "Invoiced takes the work out of billing so you can get back to doing what you do best. By joining Indi-Invoice you have just made an important step towards taking control of your accounts receivable.",
     text3: "Click on the below link to set a new password for your account.",
-    template: "general-mail.ejs"
+    template: "general-mail.ejs",
+    hostName:environments[currentEnvironment].hostName
   },
   accountActivation: {
     link: `${environments[currentEnvironment].hostName}/#/accountactivation/?token=`,
@@ -83,7 +84,8 @@ export const applicationData = {
       "Welcome to indi-invoice, You account is created as a team member for indi-invoice.",
     text2: "Click on the below link to set a new password for your account.",
     text3: "",
-    template: "general-mail.ejs"
+    template: "general-mail.ejs",
+    hostName:environments[currentEnvironment].hostName
   },
   forgotPassword: {
     link: `${environments[currentEnvironment].hostName}/#/resetpassword/?token=`,
@@ -94,15 +96,17 @@ export const applicationData = {
     text2:
       "If you have not requested for your password reset, you can safely ignore this email. Rest assured your customer account is safe.",
     text3: "",
-    template: "general-mail.ejs"
+    template: "general-mail.ejs",
+    hostName:environments[currentEnvironment].hostName
   },
-  invoiceDemo: {
+  invoice: {
     subject: "Invoice from ",
     text1:
       "A new invoice has been created on your account. You may find a PDF of your invoice attached.",
     text2: "Thank you for your business!",
     text3: "This invoice was sent to ",
-    template: "general-mail.ejs"
+    template: "general-mail.ejs",
+    hostName:environments[currentEnvironment].hostName
   },
   responseMessages: {
     accountCreation: {

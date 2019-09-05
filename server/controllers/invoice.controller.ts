@@ -574,14 +574,15 @@ const createInvoce = async (
           bcc: invoice.mail.bcc,
           subject:
             invoice.mail.subject ||
-            `${applicationData.invoiceDemo.subject} ${invoice.sender ||
+            `${applicationData.invoice.subject} ${invoice.sender ||
               invoice.company.name} ${invoice.number}`,
-          text1: invoice.mail.message || applicationData.invoiceDemo.text1,
-          text2: applicationData.invoiceDemo.text2,
-          text3: `${applicationData.invoiceDemo.text3} ${
+          text1: invoice.mail.message || applicationData.invoice.text1,
+          text2: applicationData.invoice.text2,
+          text3: `${applicationData.invoice.text3} ${
             invoice.company ? invoice.company.name : invoice.mail.from
           } via https://indi-invoice.herokuapp.com/`,
-          template: applicationData.invoiceDemo.template,
+          template: applicationData.invoice.template,
+          hostName:applicationData.invoice.hostName,
           link: null,
           linkDescription: null,
           filename: "invoice.pdf"

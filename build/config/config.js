@@ -10,40 +10,45 @@ const environments = {
 environments.development = {
     httpPort: 3000,
     httpsPort: 3001,
+    hostName: "http://127.0.0.1:4200",
     envName: "development",
     secret: "thisisasecret",
     mongoUrl: "mongodb+srv://viru:viru@cluster0-gqhiq.mongodb.net/test?retryWrites=true&w=majority",
     merchantId: "7s2bnfjgqrdggdcx",
     publicKey: "p76jxg6vjhq6d3zc",
     privateKey: "cfb3d3b5fa010dbadac8f07f7d53ffb1",
-    tokenizationKeys: 'sandbox_zjwttp83_7s2bnfjgqrdggdcx'
+    tokenizationKeys: "sandbox_zjwttp83_7s2bnfjgqrdggdcx"
 };
 // production environment
 environments.production = {
     httpPort: 3000,
     httpsPort: 3001,
+    hostName: "https://indi-invoice.herokuapp.com",
     envName: "production",
     secret: "thisisasecret",
     mongoUrl: "mongodb+srv://viru:viru@cluster0-gqhiq.mongodb.net/test?retryWrites=true&w=majority",
     merchantId: "7s2bnfjgqrdggdcx",
     publicKey: "p76jxg6vjhq6d3zc",
     privateKey: "cfb3d3b5fa010dbadac8f07f7d53ffb1",
-    tokenizationKeys: 'sandbox_zjwttp83_7s2bnfjgqrdggdcx'
+    tokenizationKeys: "sandbox_zjwttp83_7s2bnfjgqrdggdcx"
 };
 // testing environment
 environments.testing = {
     httpPort: 1000,
     httpsPort: 1001,
+    hostName: "http://127.0.0.1:1000",
     envName: "testing",
     secret: "thisistestingsecret",
     mongoUrl: "mongodb+srv://viru:viru@cluster0-gqhiq.mongodb.net/test?retryWrites=true&w=majority",
     merchantId: "7s2bnfjgqrdggdcx",
     publicKey: "p76jxg6vjhq6d3zc",
     privateKey: "cfb3d3b5fa010dbadac8f07f7d53ffb1",
-    tokenizationKeys: 'sandbox_zjwttp83_7s2bnfjgqrdggdcx'
+    tokenizationKeys: "sandbox_zjwttp83_7s2bnfjgqrdggdcx"
 };
 // determine which environment was passed as a command-line argument
-const currentEnvironment = typeof process.env.NODE_ENV == "string" ? process.env.NODE_ENV : "";
+const currentEnvironment = typeof process.env.NODE_ENV == "string" && process.env.NODE_ENV.trim() !== ""
+    ? process.env.NODE_ENV
+    : "development";
 //chech that the current environment is one of the environments above, if not, default to development
 // export the module
 exports.config = typeof environments[currentEnvironment] == "object"
@@ -51,38 +56,42 @@ exports.config = typeof environments[currentEnvironment] == "object"
     : environments.development;
 exports.applicationData = {
     accountCreation: {
-        link: `http://localhost:3000/#/accountactivation/?token=`,
+        link: `${environments[currentEnvironment].hostName}/#/accountactivation/?token=`,
         linkDescription: "Click here to set password",
         subject: "Welcome to Indi-Invoice",
         text1: "Welcome to Indi-Invoice! We are happy to have you on board.",
         text2: "Invoiced takes the work out of billing so you can get back to doing what you do best. By joining Indi-Invoice you have just made an important step towards taking control of your accounts receivable.",
         text3: "Click on the below link to set a new password for your account.",
-        template: "general-mail.ejs"
+        template: "general-mail.ejs",
+        hostName: environments[currentEnvironment].hostName
     },
     accountActivation: {
-        link: `http://localhost:3000/#/accountactivation/?token=`,
+        link: `${environments[currentEnvironment].hostName}/#/accountactivation/?token=`,
         linkDescription: "Click here to activate your account",
         subject: "Account Activation",
         text1: "Welcome to indi-invoice, You account is created as a team member for indi-invoice.",
         text2: "Click on the below link to set a new password for your account.",
         text3: "",
-        template: "general-mail.ejs"
+        template: "general-mail.ejs",
+        hostName: environments[currentEnvironment].hostName
     },
     forgotPassword: {
-        link: "http://localhost:3000/#/resetpassword/?token=",
+        link: `${environments[currentEnvironment].hostName}/#/resetpassword/?token=`,
         linkDescription: "Click here to reset your password",
         subject: "Reset Password",
         text1: "We have received the request to reset your password associated with this e-mail address and have created the reset password link.",
         text2: "If you have not requested for your password reset, you can safely ignore this email. Rest assured your customer account is safe.",
         text3: "",
-        template: "general-mail.ejs"
+        template: "general-mail.ejs",
+        hostName: environments[currentEnvironment].hostName
     },
-    invoiceDemo: {
+    invoice: {
         subject: "Invoice from ",
         text1: "A new invoice has been created on your account. You may find a PDF of your invoice attached.",
         text2: "Thank you for your business!",
         text3: "This invoice was sent to ",
-        template: "general-mail.ejs"
+        template: "general-mail.ejs",
+        hostName: environments[currentEnvironment].hostName
     },
     responseMessages: {
         accountCreation: {

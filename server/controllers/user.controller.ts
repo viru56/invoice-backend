@@ -46,7 +46,10 @@ export class UserController {
           : applicationData.accountActivation.text3,
         template: req.body.company
           ? applicationData.accountCreation.template
-          : applicationData.accountActivation.template
+          : applicationData.accountActivation.template,
+        hostName: req.body.company
+          ? applicationData.accountCreation.hostName
+          : applicationData.accountActivation.hostName
       };
       mailService(mailOptions);
       const result = req.params.companyId
@@ -325,7 +328,8 @@ export class UserController {
           text1: applicationData.forgotPassword.text1,
           text2: applicationData.forgotPassword.text2,
           text3: applicationData.forgotPassword.text3,
-          template: applicationData.forgotPassword.template
+          template: applicationData.forgotPassword.template,
+          hostName: applicationData.forgotPassword.hostName
         };
         logger.log("forgot password mail options", mailOptions);
         mailService(mailOptions, info => logger.log("mail response", info));
