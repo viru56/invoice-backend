@@ -13,14 +13,14 @@ const httpsOptions = {
 };
 
 const init = () => {
-    http.createServer(app).listen(config.httpPort, () => {
+    http.createServer(app).listen(process.env.port || config.httpPort, () => {
         logger.log('The HTTP server is running on port ' + config.httpPort + ' - ' +config.envName);
     });
-    if(process.env.NODE_ENV==="production"){
-        https.createServer(httpsOptions, app).listen(config.httpsPort, () => {
-            console.log('\x1b[36m%s\x1b[0m', 'The HTTPS server is running on port ' + config.httpsPort + ' - ' +config.envName);
-        });
-    }
+    // if(process.env.NODE_ENV==="production"){
+    //     https.createServer(httpsOptions, app).listen(config.httpsPort, () => {
+    //         console.log('\x1b[36m%s\x1b[0m', 'The HTTPS server is running on port ' + config.httpsPort + ' - ' +config.envName);
+    //     });
+    // }
 };
 
 if (cluster.isMaster && process.env.START_WITH_CLUSTER) {
