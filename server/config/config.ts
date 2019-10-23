@@ -13,7 +13,7 @@ environments.development = {
   envName: "development",
   secret: "thisisasecret",
   mongoUrl:
-    "mongodb+srv://viru:viru@cluster0-gqhiq.mongodb.net/test?retryWrites=true&w=majority"
+    "mongodb://localhost:27017/test"
 };
 
 // production environment
@@ -23,7 +23,7 @@ environments.production = {
   envName: "production",
   secret: "thisisasecret",
   mongoUrl:
-    "mongodb+srv://viru:viru@cluster0-gqhiq.mongodb.net/test?retryWrites=true&w=majority"
+    "mongodb://localhost:27017/test"
 };
 
 // testing environment
@@ -33,7 +33,7 @@ environments.testing = {
   envName: "testing",
   secret: "thisistestingsecret",
   mongoUrl:
-    "mongodb+srv://viru:viru@cluster0-gqhiq.mongodb.net/test?retryWrites=true&w=majority"
+    "mongodb://localhost:27017/test"
 };
 
 // determine which environment was passed as a command-line argument
