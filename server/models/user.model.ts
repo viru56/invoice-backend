@@ -29,7 +29,7 @@ const UserSchema = new Schema(
       trim: true
     },
     company: {
-      type: Schema.ObjectId,
+      type: 'ObjectId',
       ref: "Company"
     },
     password: String,
@@ -56,11 +56,11 @@ const UserSchema = new Schema(
       default: Date.now
     },
     createdBy: {
-      type: Schema.ObjectId,
+      type: 'ObjectId',
       ref: "User"
     },
     updatedBy: {
-      type: Schema.ObjectId,
+      type: 'ObjectId',
       ref: "User"
     }
   },
@@ -75,7 +75,7 @@ const UserSchema = new Schema(
 );
 
 UserSchema.pre("validate", function() {
-  this.password = this.password ? hashPassword(this.password) : null;
+  this.password = hashPassword(this.password);
 });
 
 export const User = mongoose.model("User", UserSchema);

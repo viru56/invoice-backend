@@ -3,24 +3,28 @@ import * as PDFDocument from "pdfkit";
 import * as fs from "fs";
 import * as path from "path";
 import * as moment from "moment";
-import { applicationData } from "../config";
+import { applicationData, config } from "../config";
 import { mailService, logger } from "../services";
 import { Invoice } from "../models";
 export class InvoiceController {
-  public static async sendInvocie(req: Request, res: Response) {
+  public static async sendInvoice(req: Request, res: Response) {
     try {
       // authorized user
       if (req.body.id) {
         const invoice = await Invoice.findOne({ _id: req.body.id })
           .populate("customer")
-          .populate("company");
+          .populate("company").lean();
         // send mail to customer
         await Invoice.updateOne({ _id: req.body.id }, { status: "Sent" });
-        invoice.mail = req.body;
-        return createInvoce(req, res, invoice, "mail");
+        // invoice.mail = req.body;
+        const invoiceData = {
+          ...invoice,
+          mail: req.body
+        };
+        return createInvoice(req, res, invoiceData, "mail");
       } // unauthorized user
       else {
-        return createInvoce(req, res, JSON.parse(req.body.invoice), "mail");
+        return createInvoice(req, res, JSON.parse(req.body.invoice), "mail");
       }
     } catch (error) {
       logger.error("falied to send invoice, reason:- ", error);
@@ -35,10 +39,10 @@ export class InvoiceController {
           .populate("customer")
           .populate("company");
         // send invoice to customer
-        return createInvoce(req, res, invoice, "download");
+        return createInvoice(req, res, invoice, "download");
       } // unauthorized user
       else {
-        return createInvoce(req, res, JSON.parse(req.body.invoice), "download");
+        return createInvoice(req, res, JSON.parse(req.body.invoice), "download");
       }
     } catch (error) {
       console.log(error);
@@ -189,7 +193,7 @@ export class InvoiceController {
   }
 }
 
-const createInvoce = async (
+const createInvoice = async (
   req: Request,
   res: Response,
   invoice: any,
@@ -197,6 +201,7 @@ const createInvoce = async (
 ) => {
   try {
     const basePath = path.join(__dirname, "../");
+    console.log('🚀 ~ basePath:', basePath)
     const normalFont = `${basePath}/fonts/XeroxSansSerifWide.ttf`;
     const boldFont = `${basePath}/fonts/XeroxSansSerifWideBold.ttf`;
     const lightColor = "#6D6D6D";
@@ -227,8 +232,11 @@ const createInvoce = async (
         valign: "top"
       });
     }
+    console.log('####### createInvoice #######');
     // name of company and address
     if (invoice.company) {
+      console.log('🚀 ~ invoice.company:', invoice.company)
+      
       doc.fillColor(darkColor).text(invoice.company.name, ml30, lheight + 25);
       lheight += 40;
       if (invoice.company.address) {
@@ -261,10 +269,12 @@ const createInvoce = async (
         });
       }
     } else if (invoice.sender) {
+      console.log('🚀 ~ invoice.sender:', invoice.sender)
       doc.fillColor(darkColor).text(invoice.sender, ml30, lheight + 25);
       lheight += 40;
     }
     //invoice name
+    console.log('####### createInvoice invoice.name #######', invoice.name);
     doc
       .fontSize(32)
       .font(boldFont)
@@ -555,6 +565,7 @@ const createInvoce = async (
     }
 
     // Pipe its output somewhere, like to a file or HTTP response
+    console.log('mailing invoice');
     if (invoiceType === "mail") {
       //save pdf file
       const docStream = doc.pipe(fs.createWriteStream("invoice.pdf"));
@@ -571,7 +582,7 @@ const createInvoce = async (
           text2: applicationData.invoiceDemo.text2,
           text3: `${applicationData.invoiceDemo.text3} ${
             invoice.company ? invoice.company.name : invoice.mail.from
-          } via indi-invoice.com`,
+          } via ${config.webUrl}`,
           template: applicationData.invoiceDemo.template,
           link: null,
           linkDescription: null,
@@ -589,7 +600,7 @@ const createInvoce = async (
     // Finalize PDF file
     doc.end();
   } catch (err) {
-    console.log(err);
+    console.log('error',err);
     return res.status(400).json(err);
   }
 };

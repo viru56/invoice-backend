@@ -6,24 +6,35 @@ class UserRoutes {
     constructor() {
         this.userController = new controllers_1.UserController();
     }
-    routes(app) {
-        app.route('/user')
+    static routes(app) {
+        app
+            .route("/user")
             //get all users
-            .get(services_1.validateToken, this.userController.getUsers)
+            .get(services_1.validateToken, controllers_1.UserController.getUser)
             //create new user
-            .post(this.userController.addNewUser)
+            .post(services_1.validateToken, controllers_1.UserController.addNewUser)
             // update a specific user
-            .put(services_1.validateToken, this.userController.updateUser)
-            // delete specific user
-            .delete(services_1.validateToken, this.userController.deleteUser);
-        app.route('/user/userdetails')
-            //get specific user details
-            .get(services_1.validateToken, this.userController.getUser);
-        app.route('/user/forgotPassword').put(services_1.validateForgotPasswordToken, this.userController.userForgotPassword);
-        app.route('/user/resetPassword').put(services_1.validateToken, this.userController.userResetPassword);
-        app.route('/user/accountActivation').put(services_1.validateActivationToken, this.userController.accountActivation);
+            .put(services_1.validateToken, controllers_1.UserController.updateUser);
+        //get specific user details
+        app.route("/user/all").get(services_1.validateToken, controllers_1.UserController.getUsers);
+        app
+            .route("/user/forgotpassword")
+            .put(services_1.validateForgotPasswordToken, controllers_1.UserController.userForgotPassword);
+        app
+            .route("/user/resetpassword")
+            .put(services_1.validateToken, controllers_1.UserController.userResetPassword);
+        app
+            .route("/user/accountactivation")
+            .put(services_1.validateActivationToken, controllers_1.UserController.accountActivation);
+        // update user role
+        app
+            .route("/user/role")
+            .put(services_1.validateAdminToken, controllers_1.UserController.userRoleUpdate);
+        // delete specific user
+        app
+            .route("/user/:id")
+            .delete(services_1.validateAdminToken, controllers_1.UserController.deleteUser);
     }
 }
 exports.UserRoutes = UserRoutes;
-;
 //# sourceMappingURL=user.route.js.map

@@ -28,7 +28,7 @@ export const CustomerSchema = new Schema(
     },
     taxId: String,
     company: {
-      type: Schema.ObjectId,
+      type: 'ObjectId',
       ref: "Company",
       required: [true, "Company is required"]
     },
@@ -54,11 +54,11 @@ export const CustomerSchema = new Schema(
       default: Date.now
     },
     createdBy: {
-      type: Schema.ObjectId,
+      type: 'ObjectId',
       ref: "User"
     },
     updatedBy: {
-      type: Schema.ObjectId,
+      type: 'ObjectId',
       ref: "User"
     }
   },

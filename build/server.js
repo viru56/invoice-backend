@@ -39,7 +39,4 @@ else {
     init();
 }
 ;
-// app.listen(PORT, () => {
-//     console.log("\x1b[32m%s\x1b[0m", 'server is listening on prot: '+ httpPort);
-// });
 //# sourceMappingURL=server.js.map

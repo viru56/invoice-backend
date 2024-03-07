@@ -10,8 +10,8 @@ export async function mailService(mailOptions, callback?) {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "no.reply.onestopyoga",
-        pass: "aA@121234"
+        user: process.env.NODEMAILER_USERNAME,
+        pass: process.env.NODEMAILER_PASSWORD
       }
     });
 
@@ -33,8 +33,9 @@ export async function mailService(mailOptions, callback?) {
       ];
     }
     const info = await transporter.sendMail(mailOptions);
+    console.log('🚀 ~ info:', info)
     if (callback) callback(info);
-    else logger.error("mail info", info);
+    else logger.log("mail info", info);
   } catch (error) {
     if (callback) callback(error);
     else logger.error("mail error", error);

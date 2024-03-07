@@ -2,6 +2,7 @@ import * as express from "express";
 import * as bodyParser from "body-parser";
 import * as mongoose from "mongoose";
 import * as path from "path";
+import 'dotenv/config';
 import { Routes } from "./routes";
 import { config } from "./config";
 import { logger } from "./services";
@@ -20,7 +21,6 @@ class App {
     this.app.use(bodyParser.json());
     //support application/x-www-form-urlencoded post data
     this.app.use(bodyParser.urlencoded({ extended: false, limit: "50mb" }));
-
     // support for html
     const options = {
       dotfiles: "ignore",
@@ -29,7 +29,7 @@ class App {
       index: false,
       maxAge: "1d",
       redirect: false,
-      setHeaders: function(res, path, stat) {
+      setHeaders: function(res) {
         res.set("x-timestamp", Date.now());
       }
     };
@@ -38,16 +38,15 @@ class App {
     // for images
     this.app.use(
       "/uploads",
-      express.static(path.join(__dirname, "../uploads"))
+      express.static(__dirname + "/uploads")
     );
   }
   private async mongoSetup(): Promise<void> {
     try {
       // mongoose.Promise = global.Promise;
-      await mongoose.connect(this.mongoUrl, {
-        useNewUrlParser: true
-      });
-      logger.log("connected to mongodb...:)");
+      mongoose.set('strictQuery', true)
+      await mongoose.connect(this.mongoUrl);
+      logger.log("connected to mongodb...");
     } catch (error) {
       logger.error("mongo connection error, reason:- ", error.toString());
     }

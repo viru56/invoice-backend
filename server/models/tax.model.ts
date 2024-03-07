@@ -34,15 +34,15 @@ const TaxSchema = new Schema(
       default: Date.now
     },
     createdBy: {
-      type: Schema.ObjectId,
+      type: 'ObjectId',
       ref: "User"
     },
     updatedBy: {
-      type: Schema.ObjectId,
+      type: 'ObjectId',
       ref: "User"
     },
     company: {
-      type: Schema.ObjectId,
+      type: 'ObjectId',
       ref: "Company",
       required: [true, "Company is required"]
     },

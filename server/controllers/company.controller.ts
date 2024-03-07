@@ -76,6 +76,7 @@ export class CompanyController {
       company.updatedBy = req.params.userId;
       company.updatedAt = new Date();
       if (req["file"]) company.logoUrl = req["file"].path;
+      console.log('🚀 ~ req["file"]:', req["file"])
       const result = await Company.updateOne(
         { _id: req.params.companyId },
         company,

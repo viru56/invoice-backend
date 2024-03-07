@@ -7,7 +7,7 @@ export const hashPassword = (password: string) => {
       .update(password)
       .digest("hex");
   } else {
-    return false;
+    return '';
   }
 };
 

@@ -20,13 +20,13 @@ export class InvoiceRoutes {
       .route("/invoice/:id")
       .delete(validateToken, InvoiceController.deleteInvoice);
     //sent new invoice over mail
-    app.route("/invoice/mail").post(upload, InvoiceController.sendInvocie);
+    app.route("/invoice/mail").post(upload, InvoiceController.sendInvoice);
     //download new invoice
     app
       .route("/invoice/download")
       .post(upload, InvoiceController.downloadInvoice);
     // send invoice 
-    app.route("/invoice/mail").put(validateToken, InvoiceController.sendInvocie);
+    app.route("/invoice/mail").put(validateToken, InvoiceController.sendInvoice);
     //download invoice
     app.route("/invoice/download/:id").get(validateToken, InvoiceController.downloadInvoice);
   }

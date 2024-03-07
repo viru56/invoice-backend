@@ -41,21 +41,21 @@ const InvoiceSchema = new Schema(
       default: Date.now
     },
     createdBy: {
-      type: Schema.ObjectId,
+      type: 'ObjectId',
       ref: "User",
       required: [true, "CreatedBy is required"]
     },
     updatedBy: {
-      type: Schema.ObjectId,
+      type: 'ObjectId',
       ref: "User"
     },
     company: {
-      type: Schema.ObjectId,
+      type: 'ObjectId',
       ref: "Company",
       required: [true, "Company is required"]
     },
     customer: {
-      type: Schema.ObjectId,
+      type: 'ObjectId',
       ref: "Customer",
       required: [true, "Customer is required"]
     },

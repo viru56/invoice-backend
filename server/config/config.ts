@@ -8,21 +8,23 @@ const environments = {
 
 // development environment (default)
 environments.development = {
-  httpPort: 3000,
-  httpsPort: 3001,
+  httpPort: process.env.PORT || 3000,
+  httpsPort: process.env.PORT || 3001,
   envName: "development",
-  secret: "thisisasecret",
-  mongoUrl:
+  secret: process.env.JWT_SECRET || "thisisasecret",
+  webUrl: process.env.WEB_URL || "http://localhost:3000",
+  mongoUrl: process.env.MONGO_URI ||
     "mongodb://localhost:27017/test"
 };
 
 // production environment
 environments.production = {
-  httpPort: 5000,
-  httpsPort: 5001,
+  httpPort: process.env.PORT || 5000,
+  httpsPort:process.env.PORT || 5001,
+  webUrl: process.env.WEB_URL || "http://localhost:5000",
   envName: "production",
-  secret: "thisisasecret",
-  mongoUrl:
+  secret: process.env.JWT_SECRET || "thisisasecret",
+  mongoUrl: process.env.MONGO_URI ||
     "mongodb://localhost:27017/test"
 };
 
@@ -32,6 +34,7 @@ environments.testing = {
   httpsPort: 1001,
   envName: "testing",
   secret: "thisistestingsecret",
+  webUrl: "http://localhost:1000",
   mongoUrl:
     "mongodb://localhost:27017/test"
 };
@@ -49,7 +52,7 @@ export const config =
 
 export const applicationData = {
   accountCreation: {
-    link: `http://localhost:4200/#/accountactivation/?token=`,
+    link: `${config.webUrl}/#/accountactivation/?token=`,
     linkDescription: "Click here to set password",
     subject: "Welcome to Indi-Invoice",
     text1: "Welcome to Indi-Invoice! We are happy to have you on board.",
@@ -59,7 +62,7 @@ export const applicationData = {
     template:'general-mail.ejs'
   },
   accountActivation: {
-    link: `http://localhost:4200/#/accountactivation/?token=`,
+    link: `${config.webUrl}/#/accountactivation/?token=`,
     linkDescription: "Click here to activate your account",
     subject: "Account Activation",
     text1:
@@ -69,7 +72,7 @@ export const applicationData = {
     template:'general-mail.ejs'
   },
   forgotPassword: {
-    link: "http://localhost:4200/#/resetpassword/?token=",
+    link: `${config.webUrl}/#/resetpassword/?token=`,
     linkDescription: "Click here to reset your password",
     subject: "Reset Password",
     text1:

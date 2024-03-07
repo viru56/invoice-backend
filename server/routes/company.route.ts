@@ -2,13 +2,16 @@ import * as multer from "multer";
 import { CompanyController } from "../controllers";
 import { validateToken } from "../services";
 
-const upload = multer({
-  dest: "uploads/",
-  filename: function(req, file, cb) {
-    cb(null, file.originalname);
+var storage = multer.diskStorage({
+  destination: function (req, file, callback) {
+      callback(null, 'uploads/');
+  },
+  filename: function (req, file, callback) {
+      callback(null, Date.now()+file.originalname);
   }
-}).single("logo");
+});
 
+const upload = multer({ storage: storage }).single('logo');
 export class CompanyRoutes {
   public static routes(app): void {
     //get all companies

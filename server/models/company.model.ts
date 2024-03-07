@@ -61,7 +61,7 @@ const CompanySchema = new Schema(
       default: Date.now
     },
     updatedBy: {
-      type: Schema.ObjectId,
+      type: 'ObjectId',
       ref: "User"
     },
     status: {
