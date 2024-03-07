@@ -13,7 +13,7 @@ import {logger} from './services';
 // };
 
 const init = () => {
-    http.createServer(app).listen(config.httpPort, () => {
+    http.createServer(app).listen(process.env.port || config.httpPort, () => {
         logger.log('The HTTP server is running on port ' + config.httpPort + ' - ' +config.envName);
     });
     // if(process.env.NODE_ENV==="production"){

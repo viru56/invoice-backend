@@ -67,7 +67,7 @@ export class InvoiceController {
         }
       }
       req.body.subtotal = taxableAmount + nonTaxableAmount;
-      if (req.body.taxItems && req.body.taxItems.length > 0) {
+      if (taxableAmount && req.body.taxItems && req.body.taxItems.length > 0) {
         for (let tax of req.body.taxItems) {
           if (tax.taxMode === "Exclusive") {
             exclusiveTax += Number(
@@ -115,7 +115,10 @@ export class InvoiceController {
   public static async getAllInvoices(req: Request, res: Response) {
     try {
       logger.info("/invoice", "get", "getAllInvoices", req.params.userId);
-      const invoices = await Invoice.find({ isDeleted: false });
+      const invoices = await Invoice.find({
+        company: req.params.companyId,
+        isDeleted: false
+      });
       return res.status(200).json(invoices);
     } catch (error) {
       logger.error("falied to get all invoices, reason:- ", error);
@@ -131,15 +134,17 @@ export class InvoiceController {
       req.body.total = 0;
       let exclusiveTax = 0;
       let inclusiveTax = 0;
-      for (let item of req.body.lineItems) {
-        if (item.taxable) {
-          taxableAmount += item.amount;
-        } else {
-          nonTaxableAmount += item.amount;
+      if (req.body.lineItems && req.body.lineItems.length > 0) {
+        for (let item of req.body.lineItems) {
+          if (item.taxable) {
+            taxableAmount += item.amount;
+          } else {
+            nonTaxableAmount += item.amount;
+          }
         }
+        req.body.subtotal = taxableAmount + nonTaxableAmount;
       }
-      req.body.subtotal = taxableAmount + nonTaxableAmount;
-      if (req.body.taxItems && req.body.taxItems.length > 0) {
+      if (taxableAmount && req.body.taxItems && req.body.taxItems.length > 0) {
         for (let tax of req.body.taxItems) {
           if (tax.taxMode === "Exclusive") {
             exclusiveTax += Number(
@@ -169,7 +174,6 @@ export class InvoiceController {
       if (req.body.balanceDue === 0) req.body.status = "Paid";
       req.body.company = req.params.companyId;
       req.body.updatedBy = req.params.userId;
-      req.body.status = "Draft";
       req.body.updatedAt = new Date();
       const result = await Invoice.updateOne({ _id: req.body.id }, req.body, {
         runValidators: true
@@ -200,8 +204,7 @@ const createInvoice = async (
   invoiceType: string
 ) => {
   try {
-    const basePath = path.join(__dirname, "../");
-    console.log('🚀 ~ basePath:', basePath)
+    const basePath = path.join(__dirname, "../", "../");
     const normalFont = `${basePath}/fonts/XeroxSansSerifWide.ttf`;
     const boldFont = `${basePath}/fonts/XeroxSansSerifWideBold.ttf`;
     const lightColor = "#6D6D6D";
@@ -221,7 +224,9 @@ const createInvoice = async (
     if (req["file"]) {
       file = req["file"].buffer;
     } else if (invoice.company && invoice.company.logoUrl) {
-      file = `${basePath}../${invoice.company.logoUrl}`;
+      file = fs.existsSync(`${basePath}${invoice.company.logoUrl}`)
+        ? `${basePath}${invoice.company.logoUrl}`
+        : null;
     }
     if (file) {
       lheight += 70;
@@ -254,9 +259,7 @@ const createInvoice = async (
       ) {
         lheight += 10;
         doc.text(
-          `${invoice.company.city}, ${invoice.company.state} ${
-            invoice.company.postalCode
-          }`,
+          `${invoice.company.city}, ${invoice.company.state} ${invoice.company.postalCode}`,
           ml30,
           lheight,
           { align: "left" }
@@ -340,9 +343,7 @@ const createInvoice = async (
       ) {
         lheight += 10;
         doc.text(
-          `${invoice.customer.city}, ${invoice.customer.state} ${
-            invoice.customer.postalCode
-          }`,
+          `${invoice.customer.city}, ${invoice.customer.state} ${invoice.customer.postalCode}`,
           ml30,
           lheight,
           { align: "left" }
@@ -362,6 +363,7 @@ const createInvoice = async (
         .text(`${invoice.receiver}`, ml30, lheight, {
           align: "left"
         });
+      lheight += 60;
     }
     lheight += 30;
     // line items header
@@ -455,38 +457,44 @@ const createInvoice = async (
         { align: "right" }
       );
     // tax
-    for (let tax of invoice.taxItems) {
-      if (tax) {
-        rheight += 25;
-        doc
-          .fillColor(lightColor)
-          .text(`${tax.name}(${tax.amount}%) ${tax.taxMode}`, ml330, rheight);
-        if (tax.taxMode === "Exclusive") {
+    if (invoice.taxItems && invoice.taxItems.length > 0) {
+      for (let tax of invoice.taxItems) {
+        if (tax) {
+          rheight += 25;
           doc
-            .fillColor(darkColor)
-            .text(
-              "Rs " + ((tax.amount * taxableAmount) / 100).toFixed(2),
-              mr10,
-              rheight,
-              {
-                align: "right"
-              }
-            );
-        } else {
-          doc
-            .fillColor(darkColor)
-            .text(
-              "Rs " +
-                (
-                  (100 / (taxableAmount + (taxableAmount * tax.amount) / 100)) *
-                  taxableAmount
-                ).toFixed(2),
-              mr10,
-              rheight,
-              {
-                align: "right"
-              }
-            );
+            .fillColor(lightColor)
+            .text(`${tax.name}(${tax.amount}%) ${tax.taxMode}`, ml330, rheight);
+          if (tax.taxMode === "Exclusive") {
+            doc
+              .fillColor(darkColor)
+              .text(
+                "Rs " + taxableAmount
+                  ? ((tax.amount * taxableAmount) / 100).toFixed(2)
+                  : 0,
+                mr10,
+                rheight,
+                {
+                  align: "right"
+                }
+              );
+          } else {
+            doc
+              .fillColor(darkColor)
+              .text(
+                "Rs " + taxableAmount
+                  ? (
+                      (100 /
+                        (taxableAmount + (taxableAmount * tax.amount) / 100)) *
+                      taxableAmount
+                    ).toFixed(2)
+                  : 0,
+                mr10,
+                rheight,
+                {
+                  align: "right"
+                }
+              );
+          }
         }
       }
     }
@@ -576,14 +584,15 @@ const createInvoice = async (
           bcc: invoice.mail.bcc,
           subject:
             invoice.mail.subject ||
-            `${applicationData.invoiceDemo.subject} ${invoice.sender ||
+            `${applicationData.invoice.subject} ${invoice.sender ||
               invoice.company.name} ${invoice.number}`,
-          text1: invoice.mail.message || applicationData.invoiceDemo.text1,
-          text2: applicationData.invoiceDemo.text2,
-          text3: `${applicationData.invoiceDemo.text3} ${
+          text1: invoice.mail.message || applicationData.invoice.text1,
+          text2: applicationData.invoice.text2,
+          text3: `${applicationData.invoice.text3} ${
             invoice.company ? invoice.company.name : invoice.mail.from
-          } via ${config.webUrl}`,
-          template: applicationData.invoiceDemo.template,
+          } via ${config.hostName}`,
+          template: applicationData.invoice.template,
+          hostName:applicationData.invoice.hostName,
           link: null,
           linkDescription: null,
           filename: "invoice.pdf"

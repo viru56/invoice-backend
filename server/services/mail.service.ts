@@ -18,6 +18,7 @@ export async function mailService(mailOptions, callback?) {
     const ejsFilePath = path.join(
       __dirname,
       "../",
+      "../",
       "views",
       mailOptions.template || "general-mail.ejs"
     );
