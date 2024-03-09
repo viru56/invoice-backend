@@ -155,3 +155,5 @@
 {"Date":"2024-03-09T11:47:00.199Z","err":{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"nehra.virender@icloud.com"}},"level":"error","message":"falied to create new company, reason:- "}
 {"level":"info","message":"/company, post, addNewCompany, bigstep,Sat Mar 09 2024 17:17:04 GMT+0530 (India Standard Time)"}
 {"Date":"2024-03-09T11:47:04.938Z","err":{"code":11000,"index":0,"keyPattern":{"name":1},"keyValue":{"name":"bigstep"}},"level":"error","message":"falied to create new company, reason:- "}
+{"level":"info","message":"The HTTP server is running on port 3000 - production- Sat Mar 09 2024 18:03:15 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"connected to mongodb...- Sat Mar 09 2024 18:03:20 GMT+0530 (India Standard Time)"}
