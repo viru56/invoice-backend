@@ -34,7 +34,6 @@ export async function mailService(mailOptions, callback?) {
       ];
     }
     const info = await transporter.sendMail(mailOptions);
-    console.log('🚀 ~ info:', info)
     if (callback) callback(info);
     else logger.log("mail info", info);
   } catch (error) {

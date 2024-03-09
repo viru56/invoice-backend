@@ -128,7 +128,6 @@ export class PaymentController {
         return res.status(400).json(result.errors.deepErrors());
       }
     } catch (error) {
-      console.log(error);
       logger.error("falied to checkout, reason:- ", error);
       return res.status(400).json(error);
     }

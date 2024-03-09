@@ -76,7 +76,6 @@ export class CompanyController {
       company.updatedBy = req.params.userId;
       company.updatedAt = new Date();
       if (req["file"]) company.logoUrl = req["file"].path;
-      console.log('🚀 ~ req["file"]:', req["file"])
       const result = await Company.updateOne(
         { _id: req.params.companyId },
         company,
@@ -86,7 +85,6 @@ export class CompanyController {
       );
       return res.status(200).json({ result, logo: company.logoUrl });
     } catch (error) {
-      console.log(error);
       logger.error("falied to update company, reason:- ", error);
       return res.status(400).json(error);
     }

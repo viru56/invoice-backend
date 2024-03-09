@@ -45,7 +45,6 @@ export class InvoiceController {
         return createInvoice(req, res, JSON.parse(req.body.invoice), "download");
       }
     } catch (error) {
-      console.log(error);
       logger.error("falied to download invoice, reason:- ", error);
       return res.status(400).json(error);
     }
@@ -237,10 +236,8 @@ const createInvoice = async (
         valign: "top"
       });
     }
-    console.log('####### createInvoice #######');
     // name of company and address
     if (invoice.company) {
-      console.log('🚀 ~ invoice.company:', invoice.company)
       
       doc.fillColor(darkColor).text(invoice.company.name, ml30, lheight + 25);
       lheight += 40;
@@ -272,12 +269,10 @@ const createInvoice = async (
         });
       }
     } else if (invoice.sender) {
-      console.log('🚀 ~ invoice.sender:', invoice.sender)
       doc.fillColor(darkColor).text(invoice.sender, ml30, lheight + 25);
       lheight += 40;
     }
     //invoice name
-    console.log('####### createInvoice invoice.name #######', invoice.name);
     doc
       .fontSize(32)
       .font(boldFont)
@@ -573,7 +568,6 @@ const createInvoice = async (
     }
 
     // Pipe its output somewhere, like to a file or HTTP response
-    console.log('mailing invoice');
     if (invoiceType === "mail") {
       //save pdf file
       const docStream = doc.pipe(fs.createWriteStream("invoice.pdf"));

@@ -55,3 +55,39 @@
 {"level":"info","message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 12:57:09 GMT+0530 (India Standard Time)"}
 {"level":"info","message":"The HTTP server is running on port 3000 - production- Sat Mar 09 2024 12:57:23 GMT+0530 (India Standard Time)"}
 {"level":"info","message":"connected to mongodb...- Sat Mar 09 2024 12:57:23 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"The HTTP server is running on port 3000 - production- Sat Mar 09 2024 13:45:05 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"connected to mongodb...- Sat Mar 09 2024 13:45:06 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 13:45:08 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 13:45:08 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 13:45:09 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 13:45:11 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/payment/checkout, post, checkout, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 13:45:41 GMT+0530 (India Standard Time)"}
+{"Date":"2024-03-09T08:15:42.353Z","err":{"name":"authenticationError","type":"authenticationError"},"level":"error","message":"falied to checkout, reason:- "}
+{"level":"info","message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:00:46 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:00:46 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:00:46 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:00:49 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/payment/checkout, post, checkout, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:01:08 GMT+0530 (India Standard Time)"}
+{"Date":"2024-03-09T08:31:09.601Z","err":{"name":"authenticationError","type":"authenticationError"},"level":"error","message":"falied to checkout, reason:- "}
+{"level":"info","message":"/payment/checkout, post, checkout, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:03:48 GMT+0530 (India Standard Time)"}
+{"Date":"2024-03-09T08:33:49.671Z","err":{"name":"authenticationError","type":"authenticationError"},"level":"error","message":"falied to checkout, reason:- "}
+{"level":"info","message":"The HTTP server is running on port 3000 - production- Sat Mar 09 2024 14:09:04 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"connected to mongodb...- Sat Mar 09 2024 14:09:05 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"The HTTP server is running on port 3000 - production- Sat Mar 09 2024 14:09:32 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"connected to mongodb...- Sat Mar 09 2024 14:09:33 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/payment/checkout, post, checkout, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:09:48 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/payment, post, addPayment, 5d398471f4800b0d76529dd3,Sat Mar 09 2024 14:09:50 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/payment/checkout, post, checkout, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:09:50 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:09:51 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:09:51 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:09:51 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"The HTTP server is running on port 3000 - production- Sat Mar 09 2024 14:11:44 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"connected to mongodb...- Sat Mar 09 2024 14:11:46 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:12:56 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:12:56 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:12:57 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/payment/checkout, post, checkout, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:15:09 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/payment, post, addPayment, 5d398471f4800b0d76529dd3,Sat Mar 09 2024 14:15:11 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:15:11 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:15:11 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:15:11 GMT+0530 (India Standard Time)"}

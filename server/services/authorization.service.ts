@@ -64,7 +64,6 @@ export const jwtToken = payload => {
       // verifies secret and checks exp
       jwt.verify(token, config.secret, function(err, decoded) {
         if (err) {
-          console.log(err);
           if ((err.name = "TokenExpiredError")) {
             return res.status(401).json({ message: "Token is expired" });
           }
