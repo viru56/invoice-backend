@@ -590,7 +590,6 @@ const createInvoice = async (
           link: null,
           linkDescription: null,
           filename: "invoice.pdf"
-          // userId:`http://localhost:3000/${invoice.invoiceNumber}/tracker.png`
         };
         mailService(mailOptions, info => console.log(info));
         res.status(200).json({ message: "invoice mailed" });

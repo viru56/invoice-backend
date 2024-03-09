@@ -62,9 +62,8 @@ export class UserController {
     } catch (error) {
       logger.error("falied to create new user, reason:- ", error);
       logger.log("delete company - : ", req.body.companyName);
-      Company.deleteOne({ _id: req.body.company }, (err, info) =>
-        logger.log(`deleting company - ${req.body.company}`, { err, info })
-      );
+      Company.deleteOne({ _id: req.body.company });
+      logger.log(`deleting company - ${req.body.company}`);
       return res.status(400).json(error);
     }
   }

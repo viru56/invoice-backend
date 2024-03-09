@@ -91,3 +91,67 @@
 {"level":"info","message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:15:11 GMT+0530 (India Standard Time)"}
 {"level":"info","message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:15:11 GMT+0530 (India Standard Time)"}
 {"level":"info","message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:15:11 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"The HTTP server is running on port 3000 - production- Sat Mar 09 2024 14:23:12 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"connected to mongodb...- Sat Mar 09 2024 14:23:15 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:23:16 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:23:16 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:23:16 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"The HTTP server is running on port 3000 - production- Sat Mar 09 2024 14:24:34 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"connected to mongodb...- Sat Mar 09 2024 14:24:35 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/payment/checkout, post, checkout, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:24:58 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/payment, post, addPayment, 5d398471f4800b0d76529dd3,Sat Mar 09 2024 14:25:00 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"The HTTP server is running on port 3000 - production- Sat Mar 09 2024 14:27:29 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"connected to mongodb...- Sat Mar 09 2024 14:27:30 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"The HTTP server is running on port 3000 - production- Sat Mar 09 2024 14:27:38 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"connected to mongodb...- Sat Mar 09 2024 14:27:39 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/payment/checkout, post, checkout, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:28:12 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/payment/checkout, post, checkout, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:28:13 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/payment, post, addPayment, 5d398471f4800b0d76529dd3,Sat Mar 09 2024 14:28:14 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/customer, get, getAllCustomer, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:28:32 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"The HTTP server is running on port 3000 - production- Sat Mar 09 2024 14:46:06 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"connected to mongodb...- Sat Mar 09 2024 14:46:08 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:46:25 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/invoice, get, getAllInvoices, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:46:25 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/user, get, getUser, 5d398472f4800b0d76529dd4,Sat Mar 09 2024 14:46:26 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/company, post, addNewCompany, SAP Labs,Sat Mar 09 2024 14:46:39 GMT+0530 (India Standard Time)"}
+{"Date":"2024-03-09T09:16:39.017Z","data":{"companyName":"SAP Labs","email":"nehra.virender@icloud.com","fullName":"Virender Nehra"},"level":"info","message":"body"}
+{"Date":"2024-03-09T09:16:39.123Z","err":{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"nehra.virender@icloud.com"}},"level":"error","message":"falied to create new company, reason:- "}
+{"level":"info","message":"/company, post, addNewCompany, SAP Labs,Sat Mar 09 2024 14:47:34 GMT+0530 (India Standard Time)"}
+{"Date":"2024-03-09T09:17:34.980Z","data":{"companyName":"SAP Labs","email":"nehra.virender@icloud.com","fullName":"Virender Nehra"},"level":"info","message":"body"}
+{"Date":"2024-03-09T09:17:35.034Z","err":{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"nehra.virender@icloud.com"}},"level":"error","message":"falied to create new company, reason:- "}
+{"level":"info","message":"The HTTP server is running on port 3000 - production- Sat Mar 09 2024 14:49:01 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"connected to mongodb...- Sat Mar 09 2024 14:49:02 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"The HTTP server is running on port 3000 - production- Sat Mar 09 2024 14:50:23 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"connected to mongodb...- Sat Mar 09 2024 14:50:26 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/company, post, addNewCompany, SAP Labs,Sat Mar 09 2024 14:50:35 GMT+0530 (India Standard Time)"}
+{"Date":"2024-03-09T09:20:35.328Z","err":{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"nehra.virender@icloud.com"}},"level":"error","message":"falied to create new company, reason:- "}
+{"level":"info","message":"The HTTP server is running on port 3000 - production- Sat Mar 09 2024 14:54:15 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"connected to mongodb...- Sat Mar 09 2024 14:54:17 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/company, post, addNewCompany, bigstep,Sat Mar 09 2024 14:56:08 GMT+0530 (India Standard Time)"}
+{"Date":"2024-03-09T09:26:08.439Z","err":"E11000 duplicate key error collection: test.companies index: email_1 dup key: { email: \"nehra.virender@icloud.com\" }","level":"error","message":"falied to create new company, reason:- "}
+{"level":"info","message":"The HTTP server is running on port 3000 - production- Sat Mar 09 2024 14:57:07 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"connected to mongodb...- Sat Mar 09 2024 14:57:08 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"The HTTP server is running on port 3000 - production- Sat Mar 09 2024 14:57:42 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"connected to mongodb...- Sat Mar 09 2024 14:57:43 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/company, post, addNewCompany, bigstep,Sat Mar 09 2024 14:57:45 GMT+0530 (India Standard Time)"}
+{"Date":"2024-03-09T09:27:45.421Z","err":{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"nehra.virender@icloud.com"}},"level":"error","message":"falied to create new company, reason:- "}
+{"level":"info","message":"/company, post, addNewCompany, bigstep,Sat Mar 09 2024 14:58:40 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/user, post, addNewUser, nehra.virender@icloud.com,Sat Mar 09 2024 14:58:41 GMT+0530 (India Standard Time)"}
+{"Date":"2024-03-09T09:28:41.009Z","data":{"company":"65ec2bc89e0f01aaa67d3989","companyName":"bigstep","email":"nehra.virender@icloud.com","fullName":"Virender Nehra"},"level":"info","message":"body"}
+{"Date":"2024-03-09T09:28:41.114Z","err":{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"nehra.virender@icloud.com"}},"level":"error","message":"falied to create new user, reason:- "}
+{"level":"info","message":"The HTTP server is running on port 3000 - production- Sat Mar 09 2024 14:59:38 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"connected to mongodb...- Sat Mar 09 2024 14:59:39 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"The HTTP server is running on port 3000 - production- Sat Mar 09 2024 14:59:48 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"connected to mongodb...- Sat Mar 09 2024 14:59:49 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"The HTTP server is running on port 3000 - production- Sat Mar 09 2024 17:13:50 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"connected to mongodb...- Sat Mar 09 2024 17:13:52 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/company, post, addNewCompany, bigstep,Sat Mar 09 2024 17:14:44 GMT+0530 (India Standard Time)"}
+{"Date":"2024-03-09T11:44:45.021Z","err":{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"nehra.virender@icloud.com"}},"level":"error","message":"falied to create new company, reason:- "}
+{"level":"info","message":"/company, post, addNewCompany, bigstep,Sat Mar 09 2024 17:15:54 GMT+0530 (India Standard Time)"}
+{"level":"info","message":"/user, post, addNewUser, nehra.virender@icloud.com,Sat Mar 09 2024 17:15:54 GMT+0530 (India Standard Time)"}
+{"Date":"2024-03-09T11:45:54.638Z","data":{"company":"65ec4bf2d1f68ead1d6220fd","companyName":"bigstep","email":"nehra.virender@icloud.com","fullName":"Virender Nehra"},"level":"info","message":"body"}
+{"Date":"2024-03-09T11:45:58.387Z","data":{"accepted":["nehra.virender@icloud.com"],"ehlo":["SIZE 35882577","8BITMIME","AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH","ENHANCEDSTATUSCODES","PIPELINING","CHUNKING","SMTPUTF8"],"envelope":{"from":"","to":["nehra.virender@icloud.com"]},"envelopeTime":911,"messageId":"<15b41f5d-b863-fe7d-8b65-8fa4c27fcb8e@localhost>","messageSize":1989,"messageTime":757,"rejected":[],"response":"250 2.0.0 OK  1709984758 sl3-20020a17090b2e0300b00296fd5e0de1sm4458302pjb.34 - gsmtp"},"level":"info","message":"mail info"}
+{"level":"info","message":"/company, post, addNewCompany, bigstep,Sat Mar 09 2024 17:17:00 GMT+0530 (India Standard Time)"}
+{"Date":"2024-03-09T11:47:00.199Z","err":{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"nehra.virender@icloud.com"}},"level":"error","message":"falied to create new company, reason:- "}
+{"level":"info","message":"/company, post, addNewCompany, bigstep,Sat Mar 09 2024 17:17:04 GMT+0530 (India Standard Time)"}
+{"Date":"2024-03-09T11:47:04.938Z","err":{"code":11000,"index":0,"keyPattern":{"name":1},"keyValue":{"name":"bigstep"}},"level":"error","message":"falied to create new company, reason:- "}

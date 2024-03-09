@@ -8,7 +8,7 @@ export const jwtToken = payload => {
       aud: payload.aud,
       org:payload.org,
       role: payload.role || "readOnly",
-      iss: "http:localhost:3000",
+      iss: config.hostName,
       type: payload.type || "login",
       email: payload.email || "Unknown"
     };

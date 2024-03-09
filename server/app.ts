@@ -8,7 +8,6 @@ import { config } from "./config";
 import { logger } from "./services";
 class App {
   public app: express.Application;
-  //public mongoUrl: string = 'mongodb://localhost:27017/yoga';
   public mongoUrl: string = config.mongoUrl;
   constructor() {
     this.app = express();
