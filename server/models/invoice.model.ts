@@ -1,5 +1,4 @@
-import * as mongoose from "mongoose";
-const Schema = mongoose.Schema;
+import { Schema, model} from "mongoose";
 
 const InvoiceSchema = new Schema(
   {
@@ -41,21 +40,21 @@ const InvoiceSchema = new Schema(
       default: Date.now
     },
     createdBy: {
-      type: 'ObjectId',
+      type: Schema.Types.ObjectId,
       ref: "User",
       required: [true, "CreatedBy is required"]
     },
     updatedBy: {
-      type: 'ObjectId',
+      type: Schema.Types.ObjectId,
       ref: "User"
     },
     company: {
-      type: 'ObjectId',
+      type: Schema.Types.ObjectId,
       ref: "Company",
       required: [true, "Company is required"]
     },
     customer: {
-      type: 'ObjectId',
+      type: Schema.Types.ObjectId,
       ref: "Customer",
       required: [true, "Customer is required"]
     },
@@ -75,4 +74,4 @@ const InvoiceSchema = new Schema(
   }
 );
 
-export const Invoice = mongoose.model("Invoice", InvoiceSchema);
+export const Invoice = model("Invoice", InvoiceSchema);

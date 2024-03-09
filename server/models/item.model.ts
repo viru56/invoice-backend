@@ -1,5 +1,4 @@
-import * as mongoose from "mongoose";
-const Schema = mongoose.Schema;
+import  { Schema, model} from "mongoose";
 
 const ItemSchema = new Schema(
   {
@@ -40,13 +39,13 @@ const ItemSchema = new Schema(
       default: Date.now
     },
     createdBy:{
-        type: 'ObjectId', ref: 'User'
+        type: Schema.Types.ObjectId, ref: 'User'
     },
     updatedBy:{
-      type: 'ObjectId', ref: 'User'
+      type: Schema.Types.ObjectId, ref: 'User'
   },
   company: {
-    type: 'ObjectId',
+    type: Schema.Types.ObjectId,
     ref: "Company",
     required: [true, "Company is required"]
   },
@@ -61,4 +60,4 @@ const ItemSchema = new Schema(
   }
 );
 
-export const Item = mongoose.model("Item", ItemSchema);
+export const Item = model("Item", ItemSchema);

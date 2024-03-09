@@ -1,8 +1,8 @@
 import { Request, Response } from "express";
-import * as PDFDocument from "pdfkit";
-import * as fs from "fs";
-import * as path from "path";
-import * as moment from "moment";
+import PDFDocument from "pdfkit";
+import fs from "fs";
+import path from "path";
+import moment from "moment";
 import { applicationData, config } from "../config";
 import { mailService, logger } from "../services";
 import { Invoice } from "../models";

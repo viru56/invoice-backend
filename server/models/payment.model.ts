@@ -1,5 +1,4 @@
-import * as mongoose from "mongoose";
-const Schema = mongoose.Schema;
+import { Schema, model} from "mongoose";
 
 const PaymentSchema = new Schema(
   {
@@ -20,7 +19,7 @@ const PaymentSchema = new Schema(
       default: Date.now
     },
     createdBy: {
-      type: Schema.ObjectId,
+      type: Schema.Types.ObjectId,
       ref: "User"
     },
     receiveDate:{
@@ -28,19 +27,19 @@ const PaymentSchema = new Schema(
       default: Date.now
     },
     updatedBy: {
-      type: Schema.ObjectId,
+      type: Schema.Types.ObjectId,
       ref: "User"
     },
     company: {
-      type: Schema.ObjectId,
+      type: Schema.Types.ObjectId,
       ref: "Company"
     },
     invoice: {
-      type: Schema.ObjectId,
+      type: Schema.Types.ObjectId,
       ref: "Invoice"
     },
     customer: {
-      type: Schema.ObjectId,
+      type: Schema.Types.ObjectId,
       ref: "Customer"
     },
     txnid: {
@@ -69,4 +68,4 @@ const PaymentSchema = new Schema(
   }
 );
 
-export const Payment = mongoose.model("Payment", PaymentSchema);
+export const Payment = model("Payment", PaymentSchema);

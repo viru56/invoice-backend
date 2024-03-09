@@ -1,16 +1,17 @@
 import app from './app';
-// import * as https from 'https';
-import * as http from 'http';
-// import * as fs from 'fs';
-// import * as path from 'path';
-import * as os  from 'os'
-import * as cluster from 'cluster';
-import {config} from './config/config';
+// import https from 'https';
+import http from 'node:http';
+// import fs from 'fs';
+// import path from 'path';
+import {availableParallelism}  from 'os'
+import cluster from 'cluster';
+import { config } from './config/config';
 import {logger} from './services';
 // const httpsOptions = {
 //     key: fs.readFileSync(path.join(__dirname + '/config/' + 'key.pem')),
 //     cert: fs.readFileSync(path.join(__dirname + '/config/' + 'cert.pem'))
 // };
+const numCPUs = availableParallelism();
 
 const init = () => {
     http.createServer(app).listen(process.env.port || config.httpPort, () => {
@@ -23,16 +24,14 @@ const init = () => {
     // }
 };
 
-if (cluster.isMaster && process.env.START_WITH_CLUSTER) {
+if (cluster.isPrimary  && process.env.START_WITH_CLUSTER) {
     // Fork workers.
-    for (let i = 0; i < os.cpus().length; i++) {
+    for (let i = 0; i < numCPUs; i++) {
         cluster.fork();
     }
 
     cluster.on('exit', (worker, code, signal) => {
         console.log('Worker ' + worker.process.pid + ' died with code: ' + code + ', and signal: ' + signal);
-        console.log('starting a new cluster');
-        cluster.fork();
     });
 } else {
     //start the sever

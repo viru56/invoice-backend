@@ -1,5 +1,4 @@
-import * as mongoose from "mongoose";
-const Schema = mongoose.Schema;
+import {Schema, model} from "mongoose";
 
 const CompanySchema = new Schema(
   {
@@ -61,7 +60,7 @@ const CompanySchema = new Schema(
       default: Date.now
     },
     updatedBy: {
-      type: 'ObjectId',
+      type: Schema.Types.ObjectId,
       ref: "User"
     },
     status: {
@@ -80,4 +79,4 @@ const CompanySchema = new Schema(
   }
 );
 
-export const Company = mongoose.model("Company", CompanySchema);
+export const Company = model("Company", CompanySchema);

@@ -1,6 +1,6 @@
-import * as crypto from "crypto";
+import crypto from "crypto";
 import { config } from "../config";
-import * as braintree from "braintree";
+import braintree from "braintree";
 export const hashPassword = (password: string) => {
   if (password && password.match(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/)) {
     return crypto
@@ -61,7 +61,7 @@ export const parseCustomer = (customer: any) => {
     country: customer.country
   };
 };
-export const  braintreeGateway = braintree.connect({
+export const  braintreeGateway = new braintree.BraintreeGateway({
   environment: braintree.Environment.Sandbox,
   merchantId: config.merchantId,
   publicKey: config.publicKey,

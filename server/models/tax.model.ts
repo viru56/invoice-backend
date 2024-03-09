@@ -1,5 +1,4 @@
-import * as mongoose from "mongoose";
-const Schema = mongoose.Schema;
+import { Schema, model} from "mongoose";
 
 const TaxSchema = new Schema(
   {
@@ -34,15 +33,15 @@ const TaxSchema = new Schema(
       default: Date.now
     },
     createdBy: {
-      type: 'ObjectId',
+      type: Schema.Types.ObjectId,
       ref: "User"
     },
     updatedBy: {
-      type: 'ObjectId',
+      type: Schema.Types.ObjectId,
       ref: "User"
     },
     company: {
-      type: 'ObjectId',
+      type: Schema.Types.ObjectId,
       ref: "Company",
       required: [true, "Company is required"]
     },
@@ -57,4 +56,4 @@ const TaxSchema = new Schema(
   }
 );
 
-export const Tax = mongoose.model("Tax", TaxSchema);
+export const Tax = model("Tax", TaxSchema);

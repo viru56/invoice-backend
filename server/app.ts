@@ -1,7 +1,7 @@
-import * as express from "express";
-import * as bodyParser from "body-parser";
-import * as mongoose from "mongoose";
-import * as path from "path";
+import express from "express";
+import bodyParser from "body-parser";
+import mongoose from "mongoose";
+import path from "path";
 import 'dotenv/config';
 import { Routes } from "./routes";
 import { config } from "./config";
@@ -36,10 +36,7 @@ class App {
     // for css files
     this.app.use(express.static(path.join(__dirname, "../client"), options));
     // for images
-    this.app.use(
-      "/uploads",
-      express.static(__dirname + "/uploads")
-    );
+    this.app.use("/uploads",express.static(path.join(__dirname, "../uploads")));
   }
   private async mongoSetup(): Promise<void> {
     try {

@@ -8,6 +8,7 @@ import {
   parseUser
 } from "../services";
 import { applicationData } from "../config";
+import { Types } from "mongoose";
 export class UserController {
   public static async addNewUser(req: Request, res: Response) {
     try {
@@ -15,7 +16,7 @@ export class UserController {
       logger.log("body", req.body);
       const newUser = new User(req.body);
       newUser.company = req.body.company || req.params.companyId;
-      newUser.createdBy = req.params.userId;
+      newUser.createdBy =req.params.userId as unknown as Types.ObjectId;
       const user = await newUser.save();
       logger.log("new user added");
       const token = jwtToken({
@@ -227,17 +228,11 @@ export class UserController {
         });
         user.password = req.body.password;
         user.status = "active";
-        user.save((err, user) => {
-          if (!err && user) {
-            res.status(200).json({
-              message:
-                applicationData.responseMessages.forgotPassword.passwordChanged
-            });
-            logger.log("password updated");
-          } else {
-            res.status(400).json({ message: "error in update password", err });
-            logger.error("error in update password", err);
-          }
+        await user.save();
+        logger.log("password updated");
+        return res.status(200).json({
+          message:
+            applicationData.responseMessages.forgotPassword.passwordChanged
         });
       } else {
         res.status(400).json({ message: "missing required filed - password" });

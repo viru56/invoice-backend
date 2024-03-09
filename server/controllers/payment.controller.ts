@@ -3,7 +3,7 @@ import { logger, parseItem } from "../services";
 import { Payment, Invoice, Company } from "../models";
 import { braintreeGateway } from "../services";
 import { config } from "../config";
-import * as moment from "moment";
+import moment from "moment";
 export class PaymentController {
   public static async addPayment(req: Request, res: Response) {
     try {
@@ -35,8 +35,8 @@ export class PaymentController {
         });
         company.subscriptionEndDate =
           req.body.subscription.toLowerCase() === "monthly"
-            ? moment(company.subscriptionEndDate).add(1, "M")
-            : moment(company.subscriptionEndDate).add(1, "y");
+            ? moment(company.subscriptionEndDate).add(1, "M").toDate()
+            : moment(company.subscriptionEndDate).add(1, "y").toDate()
         await company.save();
         return res
           .status(200)

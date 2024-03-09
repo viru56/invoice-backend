@@ -1,8 +1,8 @@
 import { Request, Response, NextFunction } from "express";
 import { UserRoutes, CompanyRoutes, InvoiceRoutes, ItemRoutes,TaxRoutes, CustomerRoutes,PaymentRoutes } from "./";
 import { UserController } from "../controllers";
- import * as cors from 'cors';
-import * as path from "path";
+ import cors from 'cors';
+import path from "path";
 export class Routes {
   public static routes(app): void {
      app.use(cors()) // allow request from all origions

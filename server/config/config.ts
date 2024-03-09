@@ -15,10 +15,10 @@ environments.development = {
   hostName: process.env.WEB_URL || "http://localhost:3000",
   mongoUrl: process.env.MONGO_URI ||
     "mongodb://localhost:27017/test",
-    merchantId: "7s2bnfjgqrdggdcx",
-    publicKey: "p76jxg6vjhq6d3zc",
-    privateKey: "cfb3d3b5fa010dbadac8f07f7d53ffb1",
-    tokenizationKeys: "sandbox_zjwttp83_7s2bnfjgqrdggdcx"
+    merchantId: process.env.BRAINTREE_MERCHANT_ID,
+    publicKey: process.env.BRAINTREE_PUBLIC_KEY,
+    privateKey: process.env.BRAINTREE_PRIVATE_KEY,
+    tokenizationKeys: process.env.BRAINTREE_TOKENIZATION_KEY
 };
 
 // production environment
@@ -29,10 +29,10 @@ environments.production = {
   envName: "production",
   secret: process.env.JWT_SECRET || "thisisasecret",
   mongoUrl: process.env.MONGO_URI,
-  merchantId: "7s2bnfjgqrdggdcx",
-  publicKey: "p76jxg6vjhq6d3zc",
-  privateKey: "cfb3d3b5fa010dbadac8f07f7d53ffb1",
-  tokenizationKeys: "sandbox_zjwttp83_7s2bnfjgqrdggdcx"
+  merchantId: process.env.BRAINTREE_MERCHANT_ID,
+  publicKey: process.env.BRAINTREE_PUBLIC_KEY,
+  privateKey: process.env.BRAINTREE_PRIVATE_KEY,
+  tokenizationKeys: process.env.BRAINTREE_TOKENIZATION_KEY
 };
 
 // testing environment
@@ -42,7 +42,6 @@ environments.testing = {
   hostName: "http://127.0.0.1:1000",
   envName: "testing",
   secret: "thisistestingsecret",
-  hostName: "http://localhost:1000",
   mongoUrl:
     "mongodb://localhost:27017/test"
 };

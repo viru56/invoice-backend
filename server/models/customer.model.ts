@@ -1,6 +1,5 @@
-import * as mongoose from "mongoose";
+import {Schema, model} from "mongoose";
 
-const Schema = mongoose.Schema;
 export const CustomerSchema = new Schema(
   {
     fullName: {
@@ -28,7 +27,7 @@ export const CustomerSchema = new Schema(
     },
     taxId: String,
     company: {
-      type: 'ObjectId',
+      type: Schema.Types.ObjectId,
       ref: "Company",
       required: [true, "Company is required"]
     },
@@ -54,11 +53,11 @@ export const CustomerSchema = new Schema(
       default: Date.now
     },
     createdBy: {
-      type: 'ObjectId',
+      type: Schema.Types.ObjectId,
       ref: "User"
     },
     updatedBy: {
-      type: 'ObjectId',
+      type: Schema.Types.ObjectId,
       ref: "User"
     }
   },
@@ -71,4 +70,4 @@ export const CustomerSchema = new Schema(
     }
   }
 );
-export const Customer = mongoose.model("Customer", CustomerSchema);
+export const Customer = model("Customer", CustomerSchema);

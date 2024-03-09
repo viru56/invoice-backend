@@ -1,11 +1,9 @@
-import * as mongoose from 'mongoose';
-
-const Schema = mongoose.Schema;
+import {Schema, model} from 'mongoose';
 
 const TokenSchema = new Schema({
 
     expirationTime: {
-        type: Date,
+        type: Number,
         default: Date.now
     },
     createdAt: {
@@ -18,4 +16,4 @@ TokenSchema.pre('validate', function () {
     this.expirationTime = new Date().getTime() + 86400000; // one day valid token
 }
 );
-export const Token = mongoose.model('Token', TokenSchema);
+export const Token = model('Token', TokenSchema);

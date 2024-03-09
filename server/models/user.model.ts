@@ -1,7 +1,5 @@
-import * as mongoose from "mongoose";
+import { Schema, model} from "mongoose";
 import { hashPassword } from "../services";
-
-const Schema = mongoose.Schema;
 
 const UserSchema = new Schema(
   {
@@ -29,7 +27,7 @@ const UserSchema = new Schema(
       trim: true
     },
     company: {
-      type: 'ObjectId',
+      type:Schema.Types.ObjectId,
       ref: "Company"
     },
     password: String,
@@ -56,11 +54,11 @@ const UserSchema = new Schema(
       default: Date.now
     },
     createdBy: {
-      type: 'ObjectId',
+      type: Schema.Types.ObjectId,
       ref: "User"
     },
     updatedBy: {
-      type: 'ObjectId',
+      type:Schema.Types.ObjectId,
       ref: "User"
     }
   },
@@ -78,4 +76,4 @@ UserSchema.pre("validate", function() {
   this.password = hashPassword(this.password);
 });
 
-export const User = mongoose.model("User", UserSchema);
+export const User = model("User", UserSchema);

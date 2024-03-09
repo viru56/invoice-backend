@@ -1,4 +1,4 @@
-import * as multer from "multer";
+import multer from "multer";
 import { CompanyController } from "../controllers";
 import { validateToken } from "../services";
 

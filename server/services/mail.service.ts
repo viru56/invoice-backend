@@ -1,8 +1,8 @@
 "use strict";
-import * as nodemailer from "nodemailer";
-import * as ejs from "ejs";
-import * as path from "path";
-import * as fs from "fs";
+import nodemailer from "nodemailer";
+import ejs from "ejs";
+import path from "path";
+import fs from "fs";
 import { logger } from "./logger.service";
 
 export async function mailService(mailOptions, callback?) {

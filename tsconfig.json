@@ -6,7 +6,8 @@
         "sourceMap": true,
         "target": "es6",
         "outDir": "./build",
-        "baseUrl": "./server"
+        "baseUrl": "./server",
+        "esModuleInterop" : true,
     },
     "include": [
         "./server/**/*.ts",
